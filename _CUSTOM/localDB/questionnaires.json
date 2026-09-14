@@ -1,0 +1,79 @@
+[
+  {
+    "title": "회원 교육 수요 조사 문항",
+    "description": "",
+    "isAnonymous": false,
+    "id": "1001",
+    "createdAt": "2026-09-02T09:18:08.842Z"
+  },
+  {
+    "title": "춘계학술대회 만족도 조사 문항",
+    "description": "",
+    "isAnonymous": false,
+    "id": "1002",
+    "createdAt": "2026-09-02T09:18:08.843Z"
+  },
+  {
+    "title": "2026 학회 활동 사전 설문 문항",
+    "description": "",
+    "isAnonymous": false,
+    "id": "1003",
+    "createdAt": "2026-09-02T09:18:08.843Z"
+  },
+  {
+    "title": "기초 통계 이해도 진단 문항",
+    "description": "",
+    "isAnonymous": false,
+    "id": "1004",
+    "createdAt": "2026-09-02T09:18:08.843Z"
+  },
+  {
+    "title": "연구윤리 기본 과정 평가 문항",
+    "description": "",
+    "isAnonymous": false,
+    "id": "1005",
+    "createdAt": "2026-09-02T09:18:08.843Z"
+  },
+  {
+    "title": "추계학술대회 개최지 선호도 문항",
+    "description": "",
+    "isAnonymous": false,
+    "id": "1006",
+    "createdAt": "2026-09-02T09:18:08.843Z"
+  },
+  {
+    "title": "2027년 차기 회장 선출 문항",
+    "description": "",
+    "isAnonymous": true,
+    "id": "1007",
+    "createdAt": "2026-09-02T09:18:08.843Z"
+  },
+  {
+    "title": "학술논문 작성 실습 문항",
+    "description": "",
+    "isAnonymous": false,
+    "id": "1008",
+    "createdAt": "2026-09-02T09:18:08.843Z"
+  },
+  {
+    "title": "연구방법론 입문 문항",
+    "description": "",
+    "isAnonymous": false,
+    "id": "1009",
+    "createdAt": "2026-09-02T09:18:08.843Z"
+  },
+  {
+    "title": "신입회원 오리엔테이션 문항",
+    "description": "",
+    "isAnonymous": false,
+    "id": "1010",
+    "createdAt": "2026-09-02T09:18:08.843Z"
+  },
+  {
+    "title": "2026 춘계학술대회 문항",
+    "description": "",
+    "isAnonymous": false,
+    "id": "1011",
+    "createdAt": "2026-09-02T09:18:08.843Z"
+  }
+]

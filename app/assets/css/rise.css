@@ -1,0 +1,37 @@
+/*
+ * 칸 등장 — `useRise` 가 붙이는 두 클래스. 부품마다 scoped 로 복사해 두던 것을 한 벌로 모았다.
+ * 조각마다 `--rise-delay` 로 시차를 준다.
+ */
+.rise-prep {
+  opacity: 0;
+  transform: translate3d(0, 3.5rem, 0) scale(0.97);
+}
+
+.rise-enter {
+  animation: rise 0.78s cubic-bezier(0.22, 1, 0.32, 1) both;
+  animation-delay: var(--rise-delay, 0ms);
+}
+
+@keyframes rise {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 3.5rem, 0) scale(0.97);
+  }
+  72% {
+    opacity: 1;
+    transform: translate3d(0, -0.2rem, 0) scale(1);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rise-prep,
+  .rise-enter {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+}

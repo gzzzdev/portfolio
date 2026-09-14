@@ -1,0 +1,37 @@
+[
+  {
+    "email": "admin@local.dev",
+    "memberId": "1001",
+    "authId": null,
+    "id": "1001",
+    "createdAt": "2026-09-14T19:20:08.729Z"
+  },
+  {
+    "email": "admin_manager@local.dev",
+    "memberId": "1002",
+    "authId": null,
+    "id": "1002",
+    "createdAt": "2026-09-14T19:20:08.729Z"
+  },
+  {
+    "email": "manager@local.dev",
+    "memberId": "1003",
+    "authId": null,
+    "id": "1003",
+    "createdAt": "2026-09-14T19:20:08.729Z"
+  },
+  {
+    "email": "learner@local.dev",
+    "memberId": "1004",
+    "authId": null,
+    "id": "1004",
+    "createdAt": "2026-09-14T19:20:08.729Z"
+  },
+  {
+    "email": "associate@local.dev",
+    "memberId": "1005",
+    "authId": null,
+    "id": "1005",
+    "createdAt": "2026-09-14T19:20:08.729Z"
+  }
+]

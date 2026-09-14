@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-label="수업">
+  <rect width="800" height="450" fill="#86868b" fill-opacity=".09"/>
+  <g fill="none" stroke="#86868b" stroke-width="22" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M400 118 210 196l190 78 190-78z"/>
+    <path d="M296 232v72c0 30 47 52 104 52s104-22 104-52v-72"/>
+    <path d="M590 196v82"/>
+  </g>
+  <circle cx="590" cy="312" r="15" fill="#86868b"/>
+</svg>

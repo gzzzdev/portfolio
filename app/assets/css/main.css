@@ -1,0 +1,44 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@import "./mTheme.css";
+@import "./layout-soft-dashboard-bg.css";
+@import "./rise.css";
+
+@source "../../**/*.{vue,js,ts}";
+@source "../../../_CUSTOM/**/*.{vue,js,ts}";
+
+:root {
+    /*
+     * **본문 자.** 헤더 바(`lHeader` → `UContainer`)와 본문 셸(`mBox반응형`)과 페이지 컨테이너가
+     * 전부 이 한 값을 읽는다 — 어느 한 쪽만 다른 리터럴을 적으면 상단 바 양 끝이 아래 카드
+     * 모서리보다 안으로/밖으로 들어가서 두 줄이 어긋나 보인다(그렇게 어긋나 있었다).
+     *
+     * 80rem(1280) 인 이유: 13.3" 레티나(=CSS 1433px)에서 네이버 첫 화면 그리드를 재면 1279px 다.
+     * `--container-8xl`(90rem=1440) 을 쓰던 때보다 160px 좁다.
+     * Nuxt UI 기본값과 같은 값이지만 **일부러 적어 둔다** — 여기가 그 손잡이다.
+     */
+    --ui-container: var(--container-7xl);
+
+    
+
+    /* l/Header.vue 가 런타임에 설정: #top 배너 + 내비 합산(px). 없으면 theme --ui-header-height 로 폴백 */
+    /* --ui-layout-header-offset: set in Header.vue */
+
+    /* --ui-header-height: 400px; */
+    /* --ui-header-height: --spacing(24); */
+    /* --ui-header-height: --spacing(30); */
+    /* --ui-header-height: 100px; */
+    /* --ui-header-margin-bottom: 100px; */
+}
+
+body {
+    font-weight: var(--font-weight-sans-body);
+
+    /*
+     * 바닥(desk). Nuxt UI 는 여기에 `bg-default`(=종이)를 깐다(`.nuxt/ui.css` 의 `@layer base`).
+     * 종이와 바닥은 다른 층이라 갈라 놓는다 — 토큰 정의와 근거는 `mTheme.css` 의 「면(surface)」 블록.
+     * 레이어 밖이라 `@layer base` 를 이긴다. 레이아웃은 이제 바닥을 안 칠한다.
+     */
+    background-color: var(--ui-bg-page);
+}

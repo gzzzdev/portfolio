@@ -1,0 +1,32 @@
+[
+  {
+    "name": "부동산 폭등기",
+    "kind": "ECONOMY",
+    "startYear": 2017,
+    "endYear": 2021,
+    "desc": "영끌·벼락거지 같은 말이 생겨난 때",
+    "photo": null,
+    "id": "1001",
+    "createdAt": "2026-09-11T15:19:48.880Z"
+  },
+  {
+    "name": "벤처 붐",
+    "kind": "TECH",
+    "startYear": 1999,
+    "endYear": 2001,
+    "desc": "초고속 인터넷과 PC방이 퍼지고 코스닥 대박 얘기가 돌던 때",
+    "photo": null,
+    "id": "1002",
+    "createdAt": "2026-09-11T15:19:48.880Z"
+  },
+  {
+    "name": "카드대란",
+    "kind": "ECONOMY",
+    "startYear": 2002,
+    "endYear": 2004,
+    "desc": "빚이 쉽게 생기고 쉽게 사람을 무너뜨린 때",
+    "photo": null,
+    "id": "1003",
+    "createdAt": "2026-09-11T15:19:48.880Z"
+  }
+]

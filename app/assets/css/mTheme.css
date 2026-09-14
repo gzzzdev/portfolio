@@ -1,0 +1,572 @@
+
+/* Pretendard · Gowun · A2z · 눈누 번들(Escoredream·SUIT·잘난·표진·Paperozi): @nuxt/fonts — nuxt.config.ts `fonts` */
+
+/* Datatype */
+@font-face {
+  font-family: 'Datatype';
+  font-style: normal;
+  font-weight: 100 900;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/datatype/v3/K2FvfZJQl-tDUlBEHaTYKmJIlpH1cGuNRqcoP65lhjvOoA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Herr Von Muellerhoff */
+@font-face {
+  font-family: 'Herr Von Muellerhoff';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/herrvonmuellerhoff/v23/WBL6rFjRZkREW8WqmCWYLgCkQKXb4CAft0c99KN63hPR.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* League Script */
+@font-face {
+  font-family: 'League Script';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/leaguescript/v30/CSR54zpSlumSWj9CGVsoBZdeWNReuc4nG2o.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+
+  
+@font-face {
+    font-family: 'Shilla';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/Shilla_CultureM-Medium.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'SolmoeKimDaegeon';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/kdg_Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'ChosunIlboMyungjo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
+}
+
+@theme {
+  --container-8xl: 90rem;
+
+  /*
+   * `shadow-*` 유틸리티 전체를 **그림자 축 위로 올린다.** `shadow-lg` 가 고정값이 아니라 층 3이 된다.
+   *
+   * 왜 필요한가 — 이름표(`.m-층-*`)는 우리 호출부만 덮는다. **Nuxt UI 내부는 못 덮는다:**
+   * 모달·팝오버·드롭다운·툴팁·토스트·스위치 썸이 자기 슬롯에 `shadow-lg`·`shadow-sm` 을 박아
+   * 내보내고(`.nuxt/ui/*.ts`), 그건 호출부가 손댈 자리가 아니다. `app.config` 로 슬롯 문자열을
+   * 덮어쓸 수는 있지만 버전마다 깨지는 데다, 클래스를 **더하는** 방식이라 원래 `shadow-lg` 가
+   * 유틸리티 레이어에서 이겨 버린다 (이름표는 컴포넌트 레이어라 순서상 진다).
+   *
+   * 그래서 반대로 간다 — 클래스를 바꾸는 대신 **그 클래스의 뜻을 바꾼다.** Tailwind v4 의
+   * 그림자 유틸리티는 이 `--shadow-*` 를 그대로 물고 컴파일되므로, 여기 한 번 꽂으면
+   * 남의 코드까지 축을 따른다. 재질이 `appConfig.defaultVariants` 한 곳으로 전역을 가른 것과
+   * 같은 자리다.
+   *
+   * 층 대응은 크기 순서 그대로 — xs·sm = 카드, md = 떠있음, lg = 드롭다운, xl·2xl = 모달.
+   * (Nuxt UI 가 실제로 쓰는 값과도 맞는다: 툴팁 sm, 팝오버·모달 lg, 탭 인디케이터 xs)
+   *
+   * **그래도 호출부는 `.m-층-*` 을 적는다.** `shadow-lg` 는 이제 축을 안 깨지만 여전히
+   * "몇 번 층인지"를 말하지 않는다 — 크기를 적는 것과 역할을 적는 것의 차이고, 진하기에서
+   * `text-neutral-700` 대신 `text-muted` 를 적는 이유와 같다.
+   */
+  --shadow-xs: var(--m-depth-1, 0 1px 2px rgb(0 0 0 / 0.06));
+  --shadow-sm: var(--m-depth-1, 0 1px 3px rgb(0 0 0 / 0.07));
+  --shadow-md: var(--m-depth-2, 0 4px 10px rgb(0 0 0 / 0.08));
+  --shadow-lg: var(--m-depth-3, 0 10px 24px rgb(0 0 0 / 0.10));
+  --shadow-xl: var(--m-depth-4, 0 20px 48px rgb(0 0 0 / 0.16));
+  --shadow-2xl: var(--m-depth-4, 0 20px 48px rgb(0 0 0 / 0.16));
+
+
+  /* 임의의 값을 넣어줘 초기화해주는듯.  */
+
+  /*
+   * 색조 단계(`--color-primary-50` …)는 여기서 다시 선언하지 않는다.
+   * Nuxt UI 가 `@theme default inline` 로 깔아둔 덕에 유틸리티가 `var(--ui-color-primary-600)` 을
+   * 직접 물고 컴파일되기 때문이다. 테마 축도 그래서 `--ui-color-*` 쪽에 쓴다 (`축s.aliasVars`).
+   *
+   * 아래 두 줄만 non-inline 으로 남겨둔다 — `bg-primary` 를 `var(--color-primary)` 로 컴파일시켜
+   * raw CSS 에서 `var(--color-primary)` 를 읽는 곳(차트·소프트배경)과 값이 갈리지 않게 하려는 것.
+   */
+  --color-primary: var(--ui-primary);
+  --color-secondary: var(--ui-secondary);
+
+  /*
+   * 바닥(desk) — `bg-page` 유틸리티가 여기서 난다. 값은 아래 「면(surface)」 블록이 모드별로 정한다.
+   * 종이(`--ui-bg` → `bg-default`)와 왜 다른 토큰인지도 그 주석에 있다.
+   */
+  --color-page: var(--ui-bg-page);
+
+  /*
+   * `--color-success` 는 여기서 덮지 않는다. 예전엔 `var(--ui-color-green-500)` 을 넣었는데
+   * **그 변수는 어디에도 정의돼 있지 않다** — Nuxt UI 의 colors 플러그인은
+   * `--ui-color-{별칭}-{단계}` 만 만든다 (별칭 = primary·secondary·success·info·warning·error·neutral).
+   * 그래서 `bg-success` 가 통째로 무효가 돼 성공 버튼·뱃지가 배경 없이 흰 글씨만 남았다.
+   * (예전 색 격자에서 success 열만 비어 보이던 게 이것 — 그 격자는 걷었고,
+   *  지금 확인하는 자리는 `/decisions/theme/neutral` 의 「표시」 신호 배지 줄이다)
+   * 지우면 Nuxt UI 의 `--color-success: var(--ui-success)` 가 그대로 산다.
+   *
+   * 같은 이유로 아래 `--color-neutral: var(--ui-color-neutral)` 도 정의 없는 이름이지만,
+   * 테마 축의 `neutralScale` 이 런타임에 `--color-neutral` 을 직접 덮어써서 가려져 있다.
+   */
+  --color-neutral: var(--ui-color-neutral);
+
+  /* --ui-neutral: var(--ui-color-neutral);
+  --ui-neutral-100: var(--ui-color-neutral-100); */
+
+  --color-neutral-50: var(--ui-color-neutral-50);
+  --color-neutral-100: var(--ui-color-neutral-100);
+  --color-neutral-200: var(--ui-color-neutral-200);
+  --color-neutral-300: var(--ui-color-neutral-300);
+  --color-neutral-400: var(--ui-color-neutral-400);
+  --color-neutral-500: var(--ui-color-neutral-500);
+  --color-neutral-600: var(--ui-color-neutral-600);
+  --color-neutral-700: var(--ui-color-neutral-700);
+  --color-neutral-800: var(--ui-color-neutral-800);
+  --color-neutral-900: var(--ui-color-neutral-900);
+  --color-neutral-950: var(--ui-color-neutral-950);
+
+
+  /*--color-neutral-50: var(--ui-color-red-50);
+  --color-neutral-100: var(--ui-color-red-100);
+  --color-neutral-200: var(--ui-color-red-200);
+  --color-neutral-300: var(--ui-color-red-300);
+  --color-neutral-400: var(--ui-color-red-400);
+  --color-neutral-500: var(--ui-color-red-500);
+  --color-neutral-600: var(--ui-color-red-600);
+  --color-neutral-700: var(--ui-color-red-700);
+  --color-neutral-800: var(--ui-color-red-800);
+  --color-neutral-900: var(--ui-color-red-900);
+  --color-neutral-950: var(--ui-color-red-950);*/
+
+  --radius-xs: var(--ui-radius-xs);
+  --radius-sm: var(--ui-radius-sm);
+  --radius-md: var(--ui-radius-md);
+  --radius-lg: var(--ui-radius-lg);
+  --radius-xl: var(--ui-radius-xl);
+  --radius-2xl: var(--ui-radius-2xl);
+  --radius-3xl: var(--ui-radius-3xl);
+  --radius-4xl: var(--ui-radius-4xl);
+
+
+
+  /* --shadow-2xs: 0 1px rgb(0 0 0 / 0.05);
+  --shadow-xs: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --shadow-2xl: 0 25px 50px -12px rgb(0 0 0 / 0.25); */
+
+
+
+  /* --color-accent-500: #002a51;
+  --color-success-500: #002a51;
+  --color-primary-500: #002a51; */
+
+
+
+  /* --color-accent-500: #b3005b;
+  --color-success-500: #b3005b; */
+
+  /* --color-primary-500: #b3005b; */
+
+
+  
+
+
+
+
+  /*
+   * 스택 정의 순서 ≈ 시각적 획 굵기(얇고 단정 → 두껍고 유연)
+   * 근거: 세리프/본문체·UI고딕·번들 파일명(Thin~Black)·잘난고딕 단일 woff(표시용 초굵음) 등
+   */
+  --font-stack-mixed:  "Pretendard", "A2z", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-stack-gowun-batang: "Gowun Batang", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-stack-suit: "SUIT", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-stack-pretendard: "Pretendard", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-stack-pyeojin-gothic: "PyeojinGothic", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-stack-gowun-dodum: "Gowun Dodum", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-stack-escoredream: "Escoredream", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-stack-paperozi: "Paperozi", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-stack-a2z: "A2z", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-stack-yeogi-jalnan: "YeogiOttaeJalnanGothic", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-stack-shilla: "Shilla", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-stack-solmoe: "SolmoeKimDaegeon", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-stack-chosun: "ChosunIlboMyungjo", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-stack-league-script: "League Script", cursive;
+  --font-stack-herr-von: "Herr Von Muellerhoff", cursive;
+
+  /* certificate용 */
+
+
+  /*  */
+
+
+
+  --font-sans-active: var(--font-stack-mixed);
+  --font-sans: var(--font-sans-active);
+  /* 테마 축 → documentElement 에 덮어씀 — main.css body 에서 사용 */
+  --font-weight-sans-body: 400;
+
+  --font-gowun-batang: var(--font-stack-gowun-batang);
+  --font-suit: var(--font-stack-suit);
+  --font-pretendard: var(--font-stack-pretendard);
+  --font-pyeojin-gothic: var(--font-stack-pyeojin-gothic);
+  --font-gowun-dodum: var(--font-stack-gowun-dodum);
+  --font-escoredream: var(--font-stack-escoredream);
+  --font-paperozi: var(--font-stack-paperozi);
+  --font-a2z: var(--font-stack-a2z);
+  --font-yeogi-jalnan: var(--font-stack-yeogi-jalnan);
+  --font-shilla: var(--font-stack-shilla);
+  --font-solmoe: var(--font-stack-solmoe);
+  --font-chosun: var(--font-stack-chosun);
+  --font-league-script: var(--font-stack-league-script);
+  --font-herr-von: var(--font-stack-herr-von);
+
+  --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+}
+
+
+/* ─────────────────────────────────────────────────────────────────────────
+ * 면(surface) — 바닥 · 종이 · 파임.  **이 블록이 면 규칙의 정본이다.**
+ * (CLAUDE.md 는 호출부 규칙 한 줄만 들고 여기를 가리킨다)
+ *
+ * **"배경"이라고 한 덩어리로 부르지 않는다.** 한 덩어리면 규칙이 안 선다. 넷으로 쪼갠다:
+ *
+ *   바닥(desk)   페이지 그라운드. 제일 넓고 아무것도 아닌 자리    `bg-page`
+ *   종이(paper)  콘텐츠가 실제로 앉는 면 — 카드·표·패널·모달·도크  `bg-default`
+ *   파임(inset)  종이에 눌러 판 자리 — 표 헤더·툴바·웰·빈 상태    `bg-muted` · `bg-elevated`
+ *   부품(part)   컨트롤 자신의 면 — 버튼·배지·태그·알럿          **사다리 밖. 재질 축이 정한다**
+ *
+ * 부품을 사다리에서 빼는 게 첫 결정이다. 구조의 면(중립 사다리)과 부품의 면(재질 축의
+ * `soft`·`subtle`)은 다른 사다리고, 섞으면 배지 하나가 표 헤더와 같은 층으로 읽힌다.
+ *
+ * **바닥과 종이는 다른 것이다.** 책상 위의 종이다. Nuxt UI 는 이 둘을 `--ui-bg` 하나로 두고 `body` 에까지
+ * `bg-default` 를 깐다(`.nuxt/ui.css`). 한 토큰이면 반드시 하나가 틀어진다 —
+ * 바닥을 종이에 맞추면 화면이 붕 뜨고, 종이를 바닥에 맞추면 모달이 배경에 묻힌다.
+ * 그래서 바닥 토큰(`--ui-bg-page`)을 따로 낸다. 칠하는 곳은 `main.css` 의 `body` 하나다.
+ *
+ * **두 모드 다 종이가 제일 끝이고 바닥이 한 칸 안쪽이다** (2026-09-14). 라이트는 종이가 흰색,
+ * 바닥이 옅은 회색이다. 다크는 종이가 제일 어둡고 바닥이 한 칸 밝다 — 라이트와 같은 모양이다.
+ *   - 그 전에는 라이트 바닥이 `#fff` 라 종이와 픽셀로 같아서 그림자로만 갈렸고, 본문이 바닥에 바로 앉은
+ *     읽기 화면(`resources/[id]`)에서 어디까지가 글인지 안 보였다.
+ *   - 다크는 반대로 종이가 바닥보다 밝았다. 「검은 겹이 다크에서 일을 못 하니 종이를 밝게 띄운다」가
+ *     논거였는데, 층은 이제 흰 후광(`~utils/theme/css` 의 `DARK_RECIPE`)과 선이 나른다.
+ *     뒤집어도 층이 읽히는지는 `/decisions/theme/desk-paper` 에서 셋(지금 · 뒤집고 검정 · 뒤집기만)을
+ *     나란히 보고 **뒤집기만**(후광 그대로)으로 골랐다.
+ *   - 값을 여기서 바꾸는 이유: 종이는 `bg-default` 를 적은 모든 것(카드·표·모달·드롭다운·도크)이다.
+ *     레이아웃에서 덮으면 `body` 로 텔레포트되는 모달·드롭다운이 옛 값에 남는다.
+ *     **어디에 종이를 까느냐는 구조라 여기 일이 아니다** — 그건 `mBox종이` 가 진다.
+ *
+ * **종이만 무채다 — 바닥은 색온도를 탄다** (2026-09-14). 무채 규칙의 논거는 **남의 흰 것**
+ * (사진·첨부·프린트뷰·흰 로고)이 앉는 면이 물들면 그것들이 전부 튄다는 것이었다. 그 자리는 이제 종이다 —
+ * 본문을 종이(`mBox종이`)에 얹으면서 바닥에는 여백만 남았다. 그래서 종이는 고정값(chroma 0)으로 두고,
+ * 바닥은 `var(--ui-color-neutral-*)` 로 적어 색온도 축이 물들이게 둔다.
+ *   - 예전엔 바닥도 무채였다. 라이트 바닥이 `#fff` 라 물들 게 없어서 안 보였을 뿐인데, 옅은 회색이 되자
+ *     「색온도를 돌려도 바닥만 안 바뀐다」로 드러났다.
+ *   - 종이의 고정값은 Tailwind `neutral` 의 chroma 0 짝이다(다크 950 = 0.145). 라이트 종이는 Nuxt UI 의 `#fff`.
+ * 파임(`muted`·`elevated`)·선·글자는 원래 중립색 램프를 탄다.
+ *
+ * **파임 두 칸이 다크에서 겹쳐 있었다.** Nuxt UI 다크 기본값은 muted·elevated 가 둘 다
+ * `neutral-800` 이라 사다리가 3칸이 아니라 2칸이다. elevated 를 700 으로 한 칸 올린다.
+ * 라이트는 이미 50/100 으로 갈려 있어 안 건드린다.
+ *   라이트 L: 종이 1 → 파임1 0.985(50) → 바닥 0.97 = 파임2(100)
+ *   다크 L:   종이 0.145 → 바닥 0.205 → 파임1 0.279(800) → 파임2 0.372(700)
+ * **파임이 바닥보다 바깥에 있는 칸이 생겼다**(라이트 파임1, 다크 파임 둘). 파임은 종이에 판 자리라
+ * 종이 안에서만 서고 바닥과 맞닿을 일이 없어서 둔다. 바닥에 파임을 바로 얹은 화면이 보이면
+ * 그쪽이 종이를 빠뜨린 것이다.
+ * 파임2 가 너무 밝게 읽히면 램프 밖 반 칸으로 내린다:
+ *   `color-mix(in oklab, var(--ui-color-neutral-700) 50%, var(--ui-color-neutral-800))`
+ *
+ * ⚠️ **이 칸들을 옮기면 글자 사다리가 따라 움직인다.** 글자 5칸은 종이(다크 900 — 뒤집기 전 값) 하나를
+ * 바닥으로 잡고 계산돼 있어서, 종이에서 멀어진 면 위에서는 대비를 잃는다 — 다크 파임2 에서 −42% 다.
+ * 그래서 `테마/진하기.ts` 의 **면 보정**이 `bg-elevated` 위에서만 사다리를 한 단계 올린다
+ * (되돌림은 `bg-page`·`bg-default`·`bg-muted` 가 맡아, 카드 안의 카드가 저절로 풀린다).
+ * 실측표·왜 두 칸만 고치면 안 되는지·부품 사다리는 왜 안 올리는지는 전부 그 파일 주석이 정본이다.
+ * **여기 다시 적지 말 것.** 위 L 값을 고쳤으면 그 보정도 같이 재야 한다.
+ * — **2026-09-14 에 종이가 950 으로 내려간 뒤로 그 보정은 다시 재지 않았다.** 종이 위 대비는 늘었고
+ *   종이와 파임의 거리는 벌어졌다.
+ *
+ * **면은 층을 뜻하지 않는다. 층은 그림자와 선이 맡는다.** 라이트에서 종이는 흰색이 천장이라
+ * 위로 갈 칸이 없다. 면으로 띄우려면 회색으로 띄워야 하는데 그건 물러나 보인다. 그러니 채널을
+ * 나눈다 — 면 = 파임, 그림자+선 = 층. 다크에서 검은 겹이 안 보이는 건 흰 후광이 대신하고
+ * (`DARK_RECIPE`), 호출부는 모드를 모른 채 `bg-default` 만 적는다.
+ *
+ * **사다리의 원점은 바닥이 아니라 종이다.** `bg-muted`·`bg-elevated` 는 "종이에서 멀어진 칸"이고
+ * 방향은 모드가 정한다 — 라이트는 아래로, 다크는 위로. 어두운 영역은 같은 밝기 차가 덜 보여서
+ * 다크의 칸 간격이 더 커야 한다 (위 L 값 참고).
+ *
+ * **바닥은 0이다 — 한 색·무텍스처·안 움직인다.** (색온도로 물드는 건 화면 전체가 같이 물드는 것이라
+ * 기준점이 안 흔들린다.) 모든 층이 자기 위치를 재는 기준점이라, 기준점이
+ * 위치마다 다르면 사다리가 없는 것과 같다. 면 사다리의 칸 간격은 1~2% 인데 배경 워시의 진폭은
+ * 11% 였다 — 같은 카드가 화면 위/아래에서 다른 층으로 읽힌다. 예외는 비교할 층이 없는 화면뿐
+ * (지금은 `view/영수증.vue` 하나).
+ *
+ * **칸은 3, 겹은 2.** 넘으면 면이 아니라 선과 여백으로 나눈다. 4번째 칸은 인접 대비가 1~2% 라
+ * 안 보이고, 벌리려고 사다리를 늘리면 라이트 하단이 회색으로 내려앉아 화면 전체가 어두워진다.
+ *
+ * **상태는 정수 칸을 안 쓴다 — 알파로 반 칸.** 구조가 `bg-muted` 인데 hover 도 `bg-muted` 면
+ * hover 된 행이 헤더 띠로 읽힌다. 구조는 정수, 상태(hover·선택·드래그오버)는 `/40`~`/60`.
+ *
+ * **강조색은 면에 안 산다.** 컨트롤이 `neutral` 로 내려온 이상 바닥·구조면의 primary 는 이중
+ * 도포다 (워시 채도를 18 → 6 으로 내린 그 논거 그대로 — `워시.ts`). primary 면이 허용되는
+ * 곳은 셋 — solid 부품(강조·켜짐), 상태 알림(soft 알럿), 선택 표시(10% 이하 알파 또는 왼쪽 선).
+ * 나머지 강조는 글자와 선으로.
+ *
+ * 첫째 칸은 2026-09-05 에 실제로 붙었다 — `역할="강조"` 가 solid **primary** 다
+ * (`m/테마/재질.ts` 의 `colorFor`). 그 전까지는 이 규칙만 있고 코드는 neutral 이었다.
+ * **`켜짐` 은 아직 중립이다** — 허용은 되지만 탭·칩이라 한 화면에 여럿이라서.
+ *
+ * **불변식 둘.**
+ *   1. 면 색을 전부 지워도 화면이 읽혀야 한다. 면은 위계의 보조 채널이다 — 선·여백·글자 위계만으로
+ *      안 읽히는 화면은 칠해도 안 읽힌다.
+ *   2. 호출부는 모드를 모른다. 구조의 면에 적을 수 있는 건 위 넷과 아무것도 안 적기뿐이고,
+ *      `bg-white`·`bg-black`·`bg-neutral-*`·`bg-gray-*` 와 그 `dark:` 짝은 위반이다.
+ *      (강조색의 `dark:bg-primary/15` 같은 농도 조정은 별개다.)
+ *
+ * **사다리 밖 — 여기선 raw 가 맞다.** 2026-09-04에 221곳을 쓸어 72곳 남겼고, 남은 건 전부 이 다섯
+ * 이다. 면이 아니라서 남았다:
+ *   - 스크림·딤 — 모달·시트 뒷막 `bg-black/70 backdrop-blur-sm`(`UModal`·`USlideover`·`UDrawer`, `app.config.ts`),
+ *     카드 미리보기 hover 막 `bg-black/45`(`useModal/modal렌더`), `mPopup` 의 `bg-neutral-900/30`.
+ *     뒤를 가리는 막이지 층이 아니다. 모드가 바뀌어도 "어둡게"는 어둡게다.
+ *   - 미디어 위 — `m/Youtube/*`, `l/LayoutHero`, 이미지 위 배지. 바닥이 영상·사진이라 모드와 무관.
+ *   - 덧칠(alpha lift) — `dark:bg-white/8` 계열(`m/Box/유리`).
+ *     고정색으로 띄우면 조상 색이 다른 자리에서 어긋난다는 실측 근거가 각 파일 주석에 있다.
+ *     `m/Box/유리`(옛 `2.vue`)는 통째로 예외다 — 자기 자신을 중첩하며 알파를 쌓는 게 그 컴포넌트의 설계다.
+ *     **목록 카드의 선택 표시(`m/List/_/Item`·`decisions/theme/selection`)는 여기서 빠졌다.**
+ *     덧칠은 조상 밝기에 얹히는 값이라 같은 목록이 바닥 위와 도크(종이) 안에서 다른 대비로 읽혔다.
+ *     지금은 사다리 안 두 칸(종이·파임1)으로 하고, **고른 것이 늘 밝은 쪽**이다 — 라이트는 나머지가
+ *     파임으로 내려앉고(종이가 흰색이라 위로 갈 칸이 없다), 다크는 고른 것이 파임으로 떠오른다
+ *     (비선택을 더 내리면 바닥인데, 바닥은 층을 재는 기준점이라 카드가 앉을 자리가 아니다).
+ *     이게 이 블록의 "방향은 모드가 정한다"를 실제로 쓴 첫 자리다. 같은 날 그게 축이 됐고
+ *     (`m/테마/선택표시.ts`), 두 칸은 축의 **면 쪽 세 칸이 공유하는 바닥**으로 남았다.
+ *     축의 지금 기본값은 그 바닥을 안 쓰는 `윤곽`(테두리 한 겹)이다 — 모드마다 움직이는 쪽이
+ *     반대라는 것 자체를 다시 보는 중이라, 면 두 칸은 손잡이 뒤에 있지 기본 화면에는 없다.
+ *   - 부품의 손잡이 — `m/Slider` 썸. 어두운 트랙 위라 두 모드 다 흰색이다.
+ *     (`m/Colorpicker2` 도 같은 값을 쓰지만 **지금 아무 화면도 안 쓴다** — 2026-09-07 확인.
+ *      쓰게 되면 이 줄에 다시 올릴 것.)
+ *   - 주석 — 옛 값 기록. 지우지 않았다.
+ *
+ * **바꿀 때 대조표** (2026-09-04 쓸이에서 실제로 쓴 짝):
+ *   페이지 루트   `bg-gray-50 dark:bg-gray-950`      → `bg-page`
+ *   카드          `bg-white dark:bg-gray-900`        → `bg-default`
+ *   웰·툴바       `bg-gray-50 dark:bg-gray-800`      → `bg-muted`
+ *   이미지 자리표시 `bg-gray-100 dark:bg-gray-800`   → `bg-elevated`
+ *   선택된 행     `bg-neutral-200 dark:bg-neutral-800` → `bg-elevated/60`  (상태는 알파)
+ *   플로팅 버튼   `bg-neutral-600 dark:bg-neutral-400` → `bg-inverted`
+ *
+ * **레이어 밖인 이유** — 아래 focus 블록과 같다. Nuxt UI 의 모드별 토큰이 최종 번들에서
+ * 레이어 밖으로 나오는 게 실측으로 확인돼서, 레이어 안에 두면 명시도를 올려도 진다.
+ * `:root` 와 `.dark` 는 명시도가 같으니(둘 다 0,1,0) **`.dark` 를 뒤에 둔다.**
+ * ───────────────────────────────────────────────────────────────────────── */
+:root {
+  --ui-bg-page: var(--ui-color-neutral-100);
+}
+
+.dark {
+  --ui-bg-page: var(--ui-color-neutral-900);
+  --ui-bg: oklch(0.145 0 0);
+  --ui-bg-elevated: var(--ui-color-neutral-700);
+}
+
+
+/* @layer theme {
+
+  * {
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    @variant dark {
+      --color-primary: var(--color-white);
+      --color-accent: var(--color-yellow-500);
+
+    }
+  }
+} */
+
+/* ─────────────────────────────────────────────────────────────────────────
+ * 강조 채움(`--ui-bg-inverted` · `--ui-border-inverted`) — **여기 없다.**
+ *
+ * `테마/진하기.ts` 의 진하기 축이 이 자리를 가져갔다. 실측값(라이트 700 = 10.4:1,
+ * 다크 200 = 14.2:1, 안전선 라이트 600 / 다크 300, 라이트 500 은 하한)도 전부 그 파일 주석에 있다.
+ * 값을 바꾸려면 거기 `LIGHT_PARTS`/`DARK_PARTS` 표를 고친다.
+ *
+ * **여기 다시 적지 말 것.** 같은 변수를 두 곳에서 레이어 밖으로 선언하면 명시도가 같아 문서 순서로
+ * 승부가 갈리는데, 축이 심는 `<style>` 은 dev/SSR/하이드레이션에서 위치가 달라진다.
+ *
+ * ─── 레이어 밖이어야 하는 이유 (브라우저 실측. 아래 focus 블록·면 블록이 이 근거를 참조한다) ───
+ * 같은 규칙을 셋 다 마지막에 얹어 재보면:
+ *   `@layer base { .dark {…} }` → 짐 (여전히 #fff)  ·  `.dark {…}` (레이어 밖) → 이김
+ * CSS 는 **명시도보다 레이어를 먼저 따지고, 레이어 밖 선언이 모든 레이어를 이긴다.**
+ * Nuxt UI 의 모드별 토큰이 최종 번들에서 레이어 밖으로 나오기 때문에, 레이어 안에 두면
+ * 명시도를 아무리 올려도 진다.
+ * ───────────────────────────────────────────────────────────────────────── */
+
+/* ─────────────────────────────────────────────────────────────────────────
+ * focus 에만 색을 쓴다 — 컨트롤 기본색을 `neutral` 로 내린 것(`app/app.config.ts`)의 짝.
+ *
+ * **Nuxt UI 에는 focus 전용 토큰이 없다.** `--ui-text-*`·`--ui-bg-*`·`--ui-border-*`·
+ * `--ui-radius` 뿐이고 `--ui-focus` 같은 건 없다. focus 링은 언제나 그 컴포넌트 **자기 색**이다
+ * (`focus-visible:ring-{color}`, 색깔별로 7세트). 그래서 `neutral` 로 내리면 링도 같이
+ * 흑백이 된다 — `ring-inverted` · `outline-inverted/25`.
+ *
+ * 둘 다 `--ui-border-inverted` **한 개**로 해결된다. `.nuxt/ui.css` 의 `@theme default inline`
+ * 에서 `--ring-color-inverted`·`--outline-color-inverted`·`--border-color-inverted` 가 전부
+ * 그 변수를 가리키고, `inline` 이라 유틸리티에 그 이름이 박힌 채 컴파일되기 때문이다.
+ *
+ * 그래서 컴포넌트 33개에 `compoundVariants` 를 덮어쓰는 대신 **포커스된 요소 위에서만 그 변수를
+ * 갈아끼운다.** 규칙 하나로 끝나고, Nuxt UI 를 올려 컴포넌트가 늘어도 자동으로 따라온다.
+ *
+ * `:has(> :focus-visible)` 이 붙은 이유 — UChatPrompt 처럼 자식 textarea 의 포커스를
+ * `has-[textarea:focus-visible]:ring-inverted` 로 받는 래퍼가 있다. 그 래퍼 자신은
+ * `:focus-visible` 이 아니라 첫 선택자로는 안 잡힌다. **직계 부모까지만** 넓혔다 —
+ * `:has(:focus-visible)` 로 넓히면 body 까지 올라가 화면 전체의 `*-inverted` 가 물든다.
+ *
+ * 레이어 밖에 둔 이유 — 위 강조 농도 블록과 같다. Nuxt UI 의 토큰 선언이 최종 번들에서
+ * 레이어 밖으로 나오는 게 실측으로 확인돼서, 레이어 안에 두면 언제 뒤집힐지 모른다.
+ * (이 규칙 자체는 상속값을 이기는 거라 레이어 안에서도 동작했지만, 근거를 같은 것으로 맞췄다)
+ *
+ * `--ui-primary` 는 테마 축이 쓰고(`aliasVars`), 테마가 붙기 전에는 Nuxt UI 의 colors 플러그인이
+ * `var(--ui-color-primary-500)`(다크는 400)로 채워 둔다. 폴백을 적어 둔 건 그 둘 다 없는
+ * 찰나에 링 색이 통째로 무효가 되지 않게 하려는 것.
+ * ───────────────────────────────────────────────────────────────────────── */
+:focus-visible,
+:has(> :focus-visible) {
+  --ui-border-inverted: var(--ui-primary, var(--ui-color-primary-500));
+}
+
+
+/* ─────────────────────────────────────────────────────────────────────────
+ * 점선 자리 두 종류 — 같은 클래스 문자열이 7개 파일에 복붙돼 있던 걸 한 군데로 모았다.
+ *
+ * 원래는 둘 다 강조색이었다:
+ *   `border-2 border-dashed border-primary/40 bg-primary/5 text-primary
+ *    hover:border-primary/70 hover:bg-primary/10`
+ * 드롭존은 focus 도 긍정/부정 신호도 아니라 회색조로 내렸다 (`app/app.config.ts` 참고).
+ * 누를 수 있다는 신호는 색이 아니라 **hover 시 테두리가 또렷해지는 것**이 진다.
+ *
+ * **레이아웃은 안 든다.** `w-full`·`h-full`·`flex-col`·padding 은 자리마다 달라서 호출부에
+ * 그대로 남긴다 — 여기 든 건 생김새(테두리·바탕·글자색·전이)뿐이다.
+ *
+ * 쓰는 곳:
+ *   .m-빈자리   List `_/row·portrait·landscape`, PrintTemplate/목록 — "여기에 추가" 버튼
+ *   .m-자리표시 캘린더2 `_view월·_view주·_view일` — 아직 안 채워진 영역 (누를 수 없음)
+ * ───────────────────────────────────────────────────────────────────────── */
+/* ─────────────────────────────────────────────────────────────────────────
+ * 그림자(depth) — **층 이름표 넷.** 값은 `m/테마/그림자.ts` 의 그림자 축이 정한다.
+ *
+ * 면 블록이 선언해 둔 걸 여기서 실행한다 — *"면은 층을 뜻하지 않는다. 층은 그림자와 선이
+ * 맡는다."* 그 채널에 손잡이가 없어서 앱 전체가 `shadow-sm`·`shadow-[0_8px_30px…]` 를 손으로
+ * 적고 있었고, 그래서 그림자 축이 화면에 안 닿았다. 이름표 넷이 그 고리다.
+ *
+ * **호출부는 몇 번 층인지만 적는다** — 몇 px 인지는 축이 정하고, 모드에 따라 채널도 바뀐다
+ * (라이트=검은 그림자, 다크=흰 후광 — 색만 뒤집히고 방향은 같다). 그래서 `dark:` 짝도 적지 않는다.
+ *
+ *   (안 적음)        층 0. 바닥에 붙어 있는 것 — 표·구획·인라인·글의 흐름
+ *   .m-층-카드       콘텐츠 카드·목록 아이템·헤더. 가장 많이 쓴다
+ *   .m-층-떠있음     같은 층 위에 잠깐 뜬 것 — 선택된 카드·툴바·팝오버 트리거
+ *   .m-층-드롭다운   메뉴·팝오버·툴팁. 내용 위를 덮는다
+ *   .m-층-모달       모달·시트. 화면 전체를 덮는다
+ *
+ * ⚠️ **층 0 을 「종이」라고 부르지 않는다.** 2026-09-05까지 첫 줄이 그 말이었고, 「면(surface)」
+ * 블록의 종이(`bg-default`)는 *카드가 앉는 면*이라 정의에 카드를 품고 있다. 두 말이 겹치면
+ * "카드는 종이 = 카드는 층 0" 이라는 없는 규칙이 나온다 (실제로 한 번 나왔다). **면과 층은
+ * 직교다** — 카드는 면으로는 종이(`bg-default`)고 층으로는 1(`.m-층-카드`)이다. 면 블록이
+ * *"면은 층을 뜻하지 않는다"* 라고 한 그 말의 반대 방향도 참이다: **층도 면을 뜻하지 않는다.**
+ *
+ * **이 사다리는 「어디에 있는지」를 안 묻는다.** 본문(mdc·prose) 안이라고 층이 내려가지 않는다 —
+ * 카드면 카드고 액자면 액자다. 본문에 그림자가 적은 건 규칙이 막아서가 아니라 Nuxt UI 의 Prose
+ * 테마가 원래 평평해서(`.nuxt/ui/prose/*` 전체에 `shadow` 가 1건) 이름표를 붙일 자리가 우리
+ * 래퍼밖에 없기 때문이다. 붙일지 말지는 **글로 읽히느냐 물건으로 얹혔느냐**로 가른다.
+ *
+ * **`shadow-*` 를 직접 적는 건 위반이다** — 손잡이를 돌려도 혼자 안 움직인다. 예외는 **축을 안
+ * 타는 그림자**뿐: 안쪽 그림자(`shadow-[inset…]` — 슬라이더 트랙·색 고르개), 인쇄 미리보기의
+ * 종이(모드와 무관하게 늘 같은 그림자여야 한다).
+ * ───────────────────────────────────────────────────────────────────────── */
+@layer components {
+  /*
+   * ⚠️ **`box-shadow` 를 직접 쓰면 안 된다 — `ring-*` 에게 진다.** (2026-09-05 실측)
+   *
+   * Tailwind v4 의 레이어 순서는 `theme, base, components, utilities` 라 **utilities 가 이긴다.**
+   * `.ring-1` 은 색만 바꾸는 게 아니라 `box-shadow` 를 통째로 다시 쓴다:
+   *
+   *   .ring-1 { box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow),
+   *                         var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow) }
+   *
+   * 그래서 `ring-1 ring-default m-층-카드` 는 **그림자가 0** 이 된다. 이름표 45곳 중 12곳이
+   * 그 조합이었고 거기에 목록 카드 세 벌(`m/List/_/{landscape,portrait,row}`)이 전부 들어 있었다 —
+   * 사다리에서 "가장 많이 쓴다"고 적어둔 층이 정작 화면에 하나도 안 닿고 있었다.
+   * 위 66행이 Nuxt UI 내부에 대해 예언한 그 패배가 **우리 호출부에서도** 일어난 것이다.
+   *
+   * **그래서 이기려 들지 않고 그 식에 올라탄다.** 값을 `--tw-shadow` 로 넣으면 `ring-*` 이
+   * 이겨도 그 식이 우리 값을 물고 간다 — 링과 그림자가 같이 나온다. `ring` 이 없는 자리를 위해
+   * 같은 식을 여기서도 한 번 편다(전부 `initial-value: 0 0 #0000` 이라 홀로 써도 안전하다).
+   *
+   * 그래서 **값이 `none` 이면 안 된다** — 쉼표 목록 안의 `none` 은 문법 오류라 링까지 같이
+   * 죽는다. 그림자 축의 `없음` 칸이 `0 0 #0000` 을 내보내는 이유다(`그림자.ts` 의 `depthShadow`).
+   */
+  .m-층-카드 { --tw-shadow: var(--m-depth-1, 0 0 #0000); }
+  .m-층-떠있음 { --tw-shadow: var(--m-depth-2, 0 0 #0000); }
+  .m-층-드롭다운 { --tw-shadow: var(--m-depth-3, 0 0 #0000); }
+  .m-층-모달 { --tw-shadow: var(--m-depth-4, 0 0 #0000); }
+
+  .m-층-카드,
+  .m-층-떠있음,
+  .m-층-드롭다운,
+  .m-층-모달 {
+    box-shadow:
+      var(--tw-inset-shadow), var(--tw-inset-ring-shadow),
+      var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+}
+
+
+@layer components {
+  .m-빈자리 {
+    @apply border-2 border-dashed border-accented bg-elevated/40 text-dimmed transition-colors;
+  }
+
+  .m-빈자리:hover {
+    @apply border-inverted bg-elevated text-default;
+  }
+
+  .m-자리표시 {
+    @apply border border-dashed border-accented bg-elevated/40;
+  }
+}
+
+
+/* ─────────────────────────────────────────────────────────────────────────
+ * 본문(mdc·prose)의 **글자 크기 한 자리** — 편집판과 읽기판이 같이 문다.
+ *
+ * 왜 클래스냐, 왜 `ui.prose.p` 가 아니냐 — Nuxt UI 의 prose 테마는 문단(`p`)·목록(`li`)·
+ * 인용에 **크기를 안 적는다.** 안 적은 건 빠뜨린 게 아니라 *"담은 자리에서 물려받아라"* 는
+ * 뜻이고, 그 자리가 여기다. 자기 크기를 적어 둔 것들(표칸·알림 `text-sm`, 코드 `text-sm`,
+ * 카드 설명 `text-[15px]`, 제목 넷)은 이 값을 안 탄다 — 그게 맞다.
+ *
+ * **`ui.prose.p` 에 크기를 적으면 안 되는 이유가 그것이다.** 편집판(ProseMirror)은 커서가 서려면
+ * 표칸·알림 안에도 `<p>` 를 만드는데, 읽기판은 그 자리에서 문단을 벗긴다(`m/Editor/Editor.vue` 머리말).
+ * `p` 가 자기 크기를 지고 있으면 **편집판의 표칸·알림만 글자가 커진다** — 둘이 픽셀로 같아야
+ * 한다는 전제가 거기서 깨진다. 물려받게 두면 양쪽이 똑같이 `text-sm` 을 문다.
+ *
+ * 값은 15px. 사이트 손잡이는 `text-sm`(14px)인데 본문은 「누르는 것」이 아니라 「글」이라 한 칸
+ * 위에 선다. 물려받은 16px 은 **문서 사이트**의 값이라(페이지 하나에 글 하나) 화면의 한 칸으로
+ * 들어앉는 우리 본문에는 컸다 — 화면 면적의 대부분이 문단이라 여기가 「전반적으로 크다」의 몸통이다.
+ * **rem 이어야 한다** — px 로 박으면 테마의 글자 크기 배율(`m/테마/글꼴.ts` 의 `fontScale`)이 안 붙는다.
+ *
+ * 쓰는 곳: `m/Editor/Editor.vue`(편집판), `pages/official/enrolls/[id].vue`(읽기판 `<MDC>`).
+ * **`<MDC>` 를 새로 세우면 여기도 같이 붙인다** — 안 붙이면 그 화면만 16px 로 남는다.
+ * ───────────────────────────────────────────────────────────────────────── */
+@layer components {
+  .m-본문 { font-size: 0.9375rem; }
+}

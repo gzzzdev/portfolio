@@ -1,0 +1,119 @@
+[
+  {
+    "name": "마음",
+    "id": "1001",
+    "createdAt": "2026-08-06T07:31:53.824Z",
+    "icon": "i-ph:head-circuit-light",
+    "order": 0,
+    "childIds": [
+      "1013"
+    ]
+  },
+  {
+    "name": "몸",
+    "id": "1002",
+    "createdAt": "2026-08-06T07:31:55.060Z",
+    "icon": "i-healthicons:body-outline",
+    "order": 1,
+    "childIds": [
+      "1006",
+      "1005"
+    ]
+  },
+  {
+    "name": "일",
+    "id": "1003",
+    "createdAt": "2026-08-06T07:32:05.997Z",
+    "icon": "i-ph:building-light",
+    "order": 3,
+    "childIds": [
+      "1012"
+    ]
+  },
+  {
+    "name": "사람",
+    "id": "1004",
+    "createdAt": "2026-08-06T07:32:10.192Z",
+    "icon": "i-fluent:people-team-48-regular",
+    "order": 2,
+    "childIds": []
+  },
+  {
+    "name": "개발(s/w)",
+    "icon": "i-lucide-code-xml",
+    "id": "1007",
+    "createdAt": "2026-08-06T11:04:00.000Z",
+    "order": 5,
+    "childIds": []
+  },
+  {
+    "name": "개발(h/w)",
+    "icon": "i-lucide-cpu",
+    "id": "1008",
+    "createdAt": "2026-08-06T11:04:00.000Z",
+    "order": 4,
+    "childIds": []
+  },
+  {
+    "name": "홍보",
+    "icon": "i-lucide-megaphone",
+    "id": "1009",
+    "createdAt": "2026-08-06T11:04:00.000Z",
+    "order": 12,
+    "childIds": []
+  },
+  {
+    "name": "영업",
+    "icon": "i-lucide-handshake",
+    "id": "1010",
+    "createdAt": "2026-08-06T11:04:00.000Z",
+    "order": 9,
+    "childIds": []
+  },
+  {
+    "name": "정부지원",
+    "icon": "i-lucide-landmark",
+    "id": "1011",
+    "createdAt": "2026-08-06T11:04:00.000Z",
+    "order": 11,
+    "childIds": []
+  },
+  {
+    "name": "마장터",
+    "icon": "i-lineicons:mountains-2",
+    "id": "1012",
+    "createdAt": "2026-08-06T11:04:00.000Z",
+    "order": 7,
+    "childIds": [
+      "1011",
+      "1009",
+      "1007",
+      "1008",
+      "1010"
+    ]
+  },
+  {
+    "name": "루틴",
+    "icon": "i-cil:loop",
+    "id": "1005",
+    "createdAt": "2026-08-06T16:39:01.133Z",
+    "order": 6,
+    "childIds": []
+  },
+  {
+    "name": "스텔스",
+    "icon": "i-carbon:van",
+    "id": "1006",
+    "createdAt": "2026-08-06T16:39:19.107Z",
+    "order": 8,
+    "childIds": []
+  },
+  {
+    "name": "classified",
+    "icon": "i-lucide-tag",
+    "id": "1013",
+    "createdAt": "2026-08-06T18:17:47.400Z",
+    "order": 10,
+    "childIds": []
+  }
+]

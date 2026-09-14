@@ -1,0 +1,162 @@
+[
+  {
+    "kind": "표식",
+    "url": "/img/seed/seals/seal01.png",
+    "prompt": "",
+    "ratio": null,
+    "id": "1003",
+    "createdAt": "2026-08-31T09:38:44.599Z"
+  },
+  {
+    "kind": "표식",
+    "url": "/img/seed/seals/seal02.png",
+    "prompt": "",
+    "ratio": null,
+    "id": "1004",
+    "createdAt": "2026-08-31T09:39:13.367Z"
+  },
+  {
+    "kind": "표식",
+    "url": "/img/seed/seals/seal03.png",
+    "prompt": "",
+    "ratio": null,
+    "id": "1005",
+    "createdAt": "2026-08-31T09:39:14.940Z"
+  },
+  {
+    "kind": "배경",
+    "url": "/img/seed/paper/paper03.jpg",
+    "prompt": "학술대회 포스터용 짙은 배경",
+    "ratio": 0.7070707070707071,
+    "id": "1006",
+    "createdAt": "2026-08-31T09:42:58.592Z"
+  },
+  {
+    "kind": "배경",
+    "url": "/img/seed/paper/paper04.jpg",
+    "prompt": "학술대회 포스터용 짙은 배경",
+    "ratio": 0.7070707070707071,
+    "id": "1007",
+    "createdAt": "2026-08-31T09:42:59.800Z"
+  },
+  {
+    "kind": "배경",
+    "url": "/img/seed/paper/paper05.jpg",
+    "prompt": "심플",
+    "ratio": 1.8,
+    "id": "1010",
+    "createdAt": "2026-08-31T10:49:47.337Z"
+  },
+  {
+    "kind": "배경",
+    "url": "/img/seed/paper/paper06.jpg",
+    "prompt": "심플",
+    "ratio": 1.8,
+    "id": "1011",
+    "createdAt": "2026-08-31T10:49:48.454Z"
+  },
+  {
+    "kind": "배경",
+    "url": "/img/seed/paper/paper07.jpg",
+    "prompt": "Empty minimalist yoga studio at dawn, single rolled mat on pale oak floor,\nsoft diffused light through tall linen-curtained windows, warm beige and\nsand tones, volumetric morning haze, large empty upper space for text,\nshallow depth of field, editorial photography, shot on 35mm, muted natural\ncolor grading, calm academic mood --ar 3:4",
+    "ratio": 0.7070707070707071,
+    "id": "1016",
+    "createdAt": "2026-08-31T11:21:48.229Z"
+  },
+  {
+    "kind": "배경",
+    "url": "/img/seed/paper/paper08.jpg",
+    "prompt": "Empty minimalist yoga studio at dawn, single rolled mat on pale oak floor,\nsoft diffused light through tall linen-curtained windows, warm beige and\nsand tones, volumetric morning haze, large empty upper space for text,\nshallow depth of field, editorial photography, shot on 35mm, muted natural\ncolor grading, calm academic mood --ar 3:4",
+    "ratio": 0.7070707070707071,
+    "id": "1017",
+    "createdAt": "2026-08-31T11:21:50.496Z"
+  },
+  {
+    "kind": "배경",
+    "url": "/img/seed/paper/paper10.jpg",
+    "prompt": "Stock: aged parchment. Uneven skin grain and fine follicle pitting, thickness varying so light takes differently from place to place.\nOrnament: no border at all — only the marks of age: pale tide rings left by water, ink that bled and dried, spots where candle wax fell. The colour scorches steadily darker toward the edges of the frame.\nTone: warm tan to tobacco, paling to buff toward the middle. Low saturation, no sheen.",
+    "ratio": 0.7070707070707071,
+    "id": "1019",
+    "createdAt": "2026-08-31T11:29:05.967Z"
+  },
+  {
+    "kind": "배경",
+    "url": "/img/seed/paper/paper11.jpg",
+    "prompt": "Design: a slender engraved border — thin acanthus scrollwork gathering into one scrolled corner piece at each of the four corners, thinning to a plain double rule along the middle of every side, with a second finer rule set well inside it enclosing a large empty field.\nGround: plain pale cream, uniform and untextured.\nInk: pale antique gold, one ink only. Lines thin, dry and sparse like intaglio; ink coverage low, contrast low.",
+    "ratio": 0.7070707070707071,
+    "id": "1015",
+    "createdAt": "2026-09-01T07:02:22.573Z"
+  },
+  {
+    "kind": "배경",
+    "url": "/img/seed/paper/paper02.jpg",
+    "prompt": "Stock: heavy cream cotton rag, made to feel like parchment. A fine irregular tooth runs over the whole surface, short pale fibres are pressed into it here and there, and the tone drifts in faint clouds from where the pulp settled unevenly.\nLight: flat and diffuse over the whole frame, raking just enough that the tooth and the fibres stay visible as texture.",
+    "ratio": 0.7070707070707071,
+    "id": "1008",
+    "createdAt": "2026-09-01T08:11:24.662Z"
+  },
+  {
+    "kind": "배경",
+    "url": "/img/seed/paper/paper01.jpg",
+    "prompt": "Stock: heavy cream cotton rag, made to feel like parchment. A fine irregular tooth runs over the whole surface, short pale fibres are pressed into it here and there, and the tone drifts in faint clouds from where the pulp settled unevenly.\nLight: flat and diffuse over the whole frame, raking just enough that the tooth and the fibres stay visible as texture.",
+    "ratio": 0.7070707070707071,
+    "id": "1009",
+    "createdAt": "2026-09-01T08:11:24.871Z"
+  },
+  {
+    "kind": "표식",
+    "url": "/img/seed/seals/seal04.png",
+    "prompt": "모서리 리본",
+    "ratio": null,
+    "id": "1012",
+    "createdAt": "2026-09-01T08:17:35.894Z"
+  },
+  {
+    "kind": "표식",
+    "url": "/img/seed/seals/seal05.png",
+    "prompt": "모서리 리본",
+    "ratio": null,
+    "id": "1013",
+    "createdAt": "2026-09-01T08:17:37.241Z"
+  },
+  {
+    "kind": "표식",
+    "url": "/img/seed/seals/seal06.png",
+    "prompt": "A ribbon banner running diagonally across the TOP-RIGHT corner of the frame at 45 degrees, both of its cut ends reaching the very edges of the frame; the rest of the frame is empty white.\nA folded fabric sash, a small V notch cut into each end, one narrow keyline running along its length.\nDeep crimson with a thin gold keyline.",
+    "ratio": null,
+    "id": "1020",
+    "createdAt": "2026-09-01T08:23:32.981Z"
+  },
+  {
+    "kind": "표식",
+    "url": "/img/seed/seals/seal07.png",
+    "prompt": "A ribbon banner running diagonally across the TOP-RIGHT corner of the frame at 45 degrees, both of its cut ends reaching the very edges of the frame; the rest of the frame is empty white.\nA folded fabric sash, a small V notch cut into each end, one narrow keyline running along its length.\nDeep crimson with a thin gold keyline.",
+    "ratio": null,
+    "id": "1021",
+    "createdAt": "2026-09-01T08:23:34.257Z"
+  },
+  {
+    "kind": "표식",
+    "url": "/img/seed/seals/seal08.png",
+    "prompt": "A blob of sealing wax centred in the frame, pressed with a die: thick irregular edges, a symmetric star-and-scroll impression sunk into the middle.\nThe relief catches a little light on its raised edges and darkens in the sunk parts.\nDeep burgundy wax.",
+    "ratio": null,
+    "id": "1014",
+    "createdAt": "2026-09-01T08:24:51.016Z"
+  },
+  {
+    "kind": "표식",
+    "url": "/img/seed/seals/seal09.png",
+    "prompt": "산모양 로고\n\n---\n\nA square hand-pressed chop centred in the frame: a dense abstract lattice of thick strokes inside a heavy square frame.\nThe ink coverage is slightly uneven where the stone lifted, and the frame is worn at the corners.\nVermilion red cinnabar paste.",
+    "ratio": null,
+    "id": "1001",
+    "createdAt": "2026-09-02T06:39:54.514Z"
+  },
+  {
+    "kind": "표식",
+    "url": "/img/seed/seals/seal10.png",
+    "prompt": "산모양 로고\n\n---\n\nA single flat emblem centred in the frame: one bold silhouette — a shield, a laurel ring or an interlocking monogram shape — drawn with clean even-width strokes.\nFlat solid ink with no gradient, no relief and no lighting, so it stays readable when laid faintly over paper.\nOne dark ink colour — charcoal or deep navy.",
+    "ratio": null,
+    "id": "1002",
+    "createdAt": "2026-09-02T06:40:25.117Z"
+  }
+]

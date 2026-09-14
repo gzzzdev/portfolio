@@ -1,0 +1,267 @@
+[
+  {
+    "applicationId": "1001",
+    "questionId": "1013",
+    "attempt": 1,
+    "values": [
+      "연구노트 작성"
+    ],
+    "submittedAt": "2026-09-02T09:19:37.477Z",
+    "id": "1001",
+    "createdAt": "2026-09-02T09:19:37.480Z"
+  },
+  {
+    "applicationId": "1001",
+    "questionId": "1014",
+    "attempt": 1,
+    "values": [
+      "O"
+    ],
+    "submittedAt": "2026-09-02T09:19:37.478Z",
+    "id": "1002",
+    "createdAt": "2026-09-02T09:19:37.480Z"
+  },
+  {
+    "applicationId": "1001",
+    "questionId": "1015",
+    "attempt": 1,
+    "values": [
+      "X"
+    ],
+    "submittedAt": "2026-09-02T09:19:37.478Z",
+    "id": "1003",
+    "createdAt": "2026-09-02T09:19:37.480Z"
+  },
+  {
+    "applicationId": "1001",
+    "questionId": "1016",
+    "attempt": 1,
+    "values": [
+      "인간 대상 설문"
+    ],
+    "submittedAt": "2026-09-02T09:19:37.478Z",
+    "id": "1004",
+    "createdAt": "2026-09-02T09:19:37.480Z"
+  },
+  {
+    "applicationId": "1001",
+    "questionId": "1013",
+    "attempt": 2,
+    "values": [
+      "연구노트 작성"
+    ],
+    "submittedAt": "2026-09-02T09:20:48.483Z",
+    "id": "1005",
+    "createdAt": "2026-09-02T09:20:48.486Z"
+  },
+  {
+    "applicationId": "1001",
+    "questionId": "1014",
+    "attempt": 2,
+    "values": [
+      "O"
+    ],
+    "submittedAt": "2026-09-02T09:20:48.483Z",
+    "id": "1006",
+    "createdAt": "2026-09-02T09:20:48.486Z"
+  },
+  {
+    "applicationId": "1001",
+    "questionId": "1015",
+    "attempt": 2,
+    "values": [
+      "X"
+    ],
+    "submittedAt": "2026-09-02T09:20:48.483Z",
+    "id": "1007",
+    "createdAt": "2026-09-02T09:20:48.486Z"
+  },
+  {
+    "applicationId": "1001",
+    "questionId": "1016",
+    "attempt": 2,
+    "values": [
+      "인간 대상 설문",
+      "인터뷰 연구"
+    ],
+    "submittedAt": "2026-09-02T09:20:48.484Z",
+    "id": "1008",
+    "createdAt": "2026-09-02T09:20:48.486Z"
+  },
+  {
+    "applicationId": "1002",
+    "questionId": "1011",
+    "attempt": 1,
+    "values": [
+      "분포의 치우침"
+    ],
+    "submittedAt": "2026-09-02T10:27:48.807Z",
+    "id": "1009",
+    "createdAt": "2026-09-02T10:27:48.827Z"
+  },
+  {
+    "applicationId": "1002",
+    "questionId": "1012",
+    "attempt": 1,
+    "values": [
+      "O"
+    ],
+    "submittedAt": "2026-09-02T10:27:48.811Z",
+    "id": "1010",
+    "createdAt": "2026-09-02T10:27:48.827Z"
+  },
+  {
+    "applicationId": "1003",
+    "questionId": "1003",
+    "attempt": 1,
+    "values": [
+      "그렇다"
+    ],
+    "submittedAt": "2026-09-02T10:28:03.935Z",
+    "id": "1011",
+    "createdAt": "2026-09-02T10:28:03.957Z"
+  },
+  {
+    "applicationId": "1003",
+    "questionId": "1004",
+    "attempt": 1,
+    "values": [
+      "보통"
+    ],
+    "submittedAt": "2026-09-02T10:28:03.940Z",
+    "id": "1012",
+    "createdAt": "2026-09-02T10:28:03.957Z"
+  },
+  {
+    "applicationId": "1003",
+    "questionId": "1005",
+    "attempt": 1,
+    "values": [
+      "그렇다"
+    ],
+    "submittedAt": "2026-09-02T10:28:03.941Z",
+    "id": "1013",
+    "createdAt": "2026-09-02T10:28:03.957Z"
+  },
+  {
+    "applicationId": "1003",
+    "questionId": "1006",
+    "attempt": 1,
+    "values": [
+      "123123"
+    ],
+    "submittedAt": "2026-09-02T10:36:51.196Z",
+    "id": "1014",
+    "createdAt": "2026-09-02T10:28:03.957Z"
+  },
+  {
+    "applicationId": "1004",
+    "questionId": "1007",
+    "attempt": 1,
+    "values": [
+      "교육 과정 수강"
+    ],
+    "submittedAt": "2026-09-02T10:32:16.155Z",
+    "id": "1015",
+    "createdAt": "2026-09-02T10:32:16.159Z"
+  },
+  {
+    "applicationId": "1004",
+    "questionId": "1008",
+    "attempt": 1,
+    "values": [
+      "현장연구"
+    ],
+    "submittedAt": "2026-09-02T10:40:20.495Z",
+    "id": "1016",
+    "createdAt": "2026-09-02T10:32:16.159Z"
+  },
+  {
+    "applicationId": "1004",
+    "questionId": "1009",
+    "attempt": 1,
+    "values": [
+      "2"
+    ],
+    "submittedAt": "2026-09-02T10:40:20.496Z",
+    "id": "1017",
+    "createdAt": "2026-09-02T10:32:16.159Z"
+  },
+  {
+    "applicationId": "1004",
+    "questionId": "1010",
+    "attempt": 1,
+    "values": [
+      "32"
+    ],
+    "submittedAt": "2026-09-02T10:40:20.496Z",
+    "id": "1018",
+    "createdAt": "2026-09-02T10:32:16.159Z"
+  },
+  {
+    "applicationId": "1005",
+    "questionId": "1020",
+    "attempt": 1,
+    "values": [
+      "X"
+    ],
+    "submittedAt": "2026-09-02T14:07:18.811Z",
+    "id": "1019",
+    "createdAt": "2026-09-02T14:07:18.826Z"
+  },
+  {
+    "applicationId": "1005",
+    "questionId": "1021",
+    "attempt": 1,
+    "values": [
+      "2ㅈㅈㅈ"
+    ],
+    "submittedAt": "2026-09-02T14:07:18.812Z",
+    "id": "1020",
+    "createdAt": "2026-09-02T14:07:18.826Z"
+  },
+  {
+    "applicationId": "1006",
+    "questionId": "1017",
+    "attempt": 1,
+    "values": [
+      "대전"
+    ],
+    "submittedAt": "2026-09-02T14:07:42.514Z",
+    "id": "1021",
+    "createdAt": "2026-09-02T14:07:42.533Z"
+  },
+  {
+    "applicationId": "1006",
+    "questionId": "1018",
+    "attempt": 1,
+    "values": [
+      "123123"
+    ],
+    "submittedAt": "2026-09-02T14:07:42.518Z",
+    "id": "1022",
+    "createdAt": "2026-09-02T14:07:42.533Z"
+  },
+  {
+    "applicationId": "1007",
+    "questionId": "1011",
+    "attempt": 1,
+    "values": [
+      "표본 크기 부족"
+    ],
+    "submittedAt": "2026-09-05T06:33:08.446Z",
+    "id": "1023",
+    "createdAt": "2026-09-05T06:33:08.468Z"
+  },
+  {
+    "applicationId": "1007",
+    "questionId": "1012",
+    "attempt": 1,
+    "values": [
+      "X"
+    ],
+    "submittedAt": "2026-09-05T06:33:08.450Z",
+    "id": "1024",
+    "createdAt": "2026-09-05T06:33:08.468Z"
+  }
+]

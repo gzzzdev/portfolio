@@ -1,0 +1,6 @@
+export * from './model과일'
+export * from './model동물'
+export * from './model채소'
+export * from './model기록'
+export * from './model견본'
+export * from './model문서'

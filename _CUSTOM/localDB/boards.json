@@ -1,0 +1,50 @@
+[
+  {
+    "slug": "notice",
+    "title": "공지",
+    "icon": "i-fluent:megaphone-20-regular",
+    "description": "지원 협회 모집, 정기 모임 일정, 운영 규칙 변경을 공지로 정리합니다.",
+    "isPublished": true,
+    "viewMode": "LIST",
+    "writeAccess": "ADMIN",
+    "pageIntro": {
+      "eyebrow": "NOTICE",
+      "title": "모임 운영에 관한 안내를 모았습니다.",
+      "description": "지원 협회 모집, 정기 모임 일정, 운영 규칙 변경을 공지로 정리합니다."
+    },
+    "id": "1001",
+    "createdAt": "2026-09-14T19:19:36.101Z"
+  },
+  {
+    "slug": "qna",
+    "title": "Q&A",
+    "icon": "i-ph:chat-centered-dots-light",
+    "description": "지원 자격과 절차, 비용, 회원 가입, 회비에 관한 질문과 답을 모았습니다.",
+    "isPublished": true,
+    "viewMode": "FAQ",
+    "writeAccess": "ANYONE",
+    "pageIntro": {
+      "eyebrow": "Q&A",
+      "title": "궁금한 것을 묻고, 자주 묻는 답은 먼저 확인하세요.",
+      "description": "지원 자격과 절차, 비용, 회원 가입, 회비에 관한 질문과 답을 모았습니다."
+    },
+    "id": "1002",
+    "createdAt": "2026-09-14T19:19:36.101Z"
+  },
+  {
+    "slug": "news",
+    "title": "소식",
+    "icon": "i-fluent:news-20-regular",
+    "description": "지원 사례, 정기 모임 기록, 새로 시작하는 일을 카드 형태로 정리했습니다.",
+    "isPublished": true,
+    "viewMode": "CARD",
+    "writeAccess": "ADMIN",
+    "pageIntro": {
+      "eyebrow": "NEWS",
+      "title": "함께한 협회의 이야기와 모임 소식을 모았습니다.",
+      "description": "지원 사례, 정기 모임 기록, 새로 시작하는 일을 카드 형태로 정리했습니다."
+    },
+    "id": "1003",
+    "createdAt": "2026-09-14T19:19:36.101Z"
+  }
+]

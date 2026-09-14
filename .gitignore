@@ -1,0 +1,34 @@
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
+
+# Node dependencies
+node_modules
+
+# Logs
+logs
+*.log
+
+# Misc
+.DS_Store
+.fleet
+.idea
+
+# Local env files
+.env
+.env.*
+!.env.example
+
+# AI 생성 이미지 로컬 폴백 저장소
+_CUSTOM/public/uploads
+
+# Claude Code 개인 설정 (머신·세션 종속 권한 규칙)
+.claude/
+_supabase_backups/
+
+# 안 쓰는 AI 생성 이미지 보관소 (uploads 에서 옮긴 것 — 지운 게 아니라 밀어 둔 것)
+_아카이브/

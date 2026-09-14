@@ -1,0 +1,58 @@
+/**
+ * 배경 워시 — 강조색·보조색에서 파생한 두 색이 은은하게 섞이는 배경.
+ *
+ * **레이아웃 바닥이 아니다 (2026-09-04).** 바닥은 이제 `body` 가 `--ui-bg-page` 로 평평하게
+ * 든다(`mTheme.css` 의 「면(surface)」 블록). 면 사다리의 칸 간격은 1~2% 인데 이 워시의
+ * 진폭은 11% 라, 바닥에 깔면 **같은 카드가 화면 위쪽과 아래쪽에서 다른 층으로 읽힌다.**
+ * 사다리보다 노이즈가 크면 사다리가 없는 것과 같다.
+ *
+ * 남은 쓰임은 **비교할 층이 없는 화면 하나** — `view/영수증.vue`. 거기선 배경이 위계를
+ * 나르는 게 아니라 그 자체가 그림이라 예외로 둔다. `--layout-complement-*` 도 영수증이
+ * 인장·괘선 색으로 직접 읽는다. 레이아웃에 다시 붙이지 말 것.
+ *
+ * **회색조다.** `utils/theme/색.ts` 의 `WASH_MAX_SATURATION`(6)이 채도를 죄어서, 어떤 강조색을 골라도
+ * 여기 깔리는 건 팔레트의 차가움/따뜻함만 남은 회색이다. 컨트롤 기본색을 `neutral` 로
+ * 내려놓고(`app/app.config.ts`) 바닥만 강조색으로 물들이면 이중 도포가 되기 때문.
+ *
+ * 두 색은 `utils/theme/색.ts` 의 `washVars` 가 계산해 `themeColorCssVars` 를 통해
+ * `:root` 에 꽂는다 (SSR 첫 페인트·클라이언트 둘 다). 여기선 칠하기만 한다.
+ * 붙이는 쪽은 클래스만 달면 된다 — 인라인 스타일도, 컴포저블도 필요 없다.
+ */
+
+:root {
+  /* 워시 가 곧바로 덮어쓴다. 스토어에 색이 아직 없는 한순간용 값 — 계산 결과와 같은
+     회색조라야 그 한순간에 색이 번쩍하지 않는다 (WASH_LIGHTNESS 62/44 의 무채 짝). */
+  --layout-complement-1-rgb: 158 158 158;
+  --layout-complement-2-rgb: 112 112 112;
+  /* 어둡게 모드에서만 얹는 딤. 라이트에선 투명 레이어라 아무것도 안 한다. */
+  --layout-wash-dim: transparent;
+}
+
+.dark {
+  --layout-wash-dim: rgb(0 0 0 / 0.55);
+}
+
+.layout-soft-dashboard-bg {
+  background-color: color-mix(
+    in srgb,
+    var(--ui-bg-muted, var(--ui-bg)) 97%,
+    color-mix(in srgb, rgb(var(--layout-complement-1-rgb)) 50%, rgb(var(--layout-complement-2-rgb)) 50%) 3%
+  );
+  background-image:
+    linear-gradient(var(--layout-wash-dim), var(--layout-wash-dim)),
+    radial-gradient(circle at 10% 8%, rgb(var(--layout-complement-1-rgb) / 0.11) 0%, transparent 44%),
+    radial-gradient(circle at 90% 14%, rgb(var(--layout-complement-2-rgb) / 0.1) 0%, transparent 46%),
+    radial-gradient(circle at 18% 84%, rgb(var(--layout-complement-2-rgb) / 0.08) 0%, transparent 48%),
+    radial-gradient(circle at 78% 78%, rgb(var(--layout-complement-1-rgb) / 0.07) 0%, transparent 50%),
+    linear-gradient(
+      180deg,
+      color-mix(in srgb, var(--ui-bg, #fff) 98%, rgb(var(--layout-complement-1-rgb)) 2%) 0%,
+      color-mix(in srgb, var(--ui-bg-muted, var(--ui-bg, #fff)) 95%, rgb(var(--layout-complement-2-rgb)) 5%) 42%,
+      color-mix(
+        in srgb,
+        color-mix(in srgb, var(--ui-bg-elevated, var(--ui-bg, #fff)) 96%, rgb(var(--layout-complement-1-rgb)) 4%) 96%,
+        rgb(var(--layout-complement-2-rgb)) 4%
+      ) 100%
+    );
+  background-repeat: no-repeat;
+}

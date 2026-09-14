@@ -1,0 +1,63 @@
+[
+  {
+    "targetId": "vegetables:1002",
+    "date": "2026-09-02",
+    "msg": "가나다라마바사",
+    "id": "1001",
+    "createdAt": "2026-09-02T13:46:01.067Z"
+  },
+  {
+    "targetId": "vegetables:1001",
+    "date": "2026-09-02",
+    "msg": "3333",
+    "id": "1002",
+    "createdAt": "2026-09-02T13:51:49.507Z"
+  },
+  {
+    "targetId": "animals:1003",
+    "date": "2026-09-02",
+    "msg": "코끼리는 동물중 제일 크대",
+    "id": "1003",
+    "createdAt": "2026-09-02T14:25:27.336Z"
+  },
+  {
+    "targetId": "vegetables:1003",
+    "date": "2026-09-02",
+    "msg": "좋아요 2개",
+    "likes": 0,
+    "id": "1004",
+    "createdAt": "2026-09-02T14:29:56.482Z"
+  },
+  {
+    "targetId": "vegetables:1003",
+    "date": "2026-09-02",
+    "msg": "좋아요 2개",
+    "likes": 0,
+    "id": "1005",
+    "createdAt": "2026-09-02T14:30:56.506Z"
+  },
+  {
+    "targetId": "fruits:1001",
+    "date": "2026-09-03",
+    "msg": "3",
+    "likes": 0,
+    "id": "1006",
+    "createdAt": "2026-09-02T15:25:24.013Z"
+  },
+  {
+    "targetId": "fruits:1001",
+    "date": "2026-09-03",
+    "msg": "qweqwe",
+    "likes": 0,
+    "id": "1007",
+    "createdAt": "2026-09-02T15:25:27.019Z"
+  },
+  {
+    "targetId": "fruits:1006",
+    "date": "2026-09-04",
+    "msg": "오늘수확함",
+    "likes": 0,
+    "id": "1008",
+    "createdAt": "2026-09-04T13:56:48.135Z"
+  }
+]

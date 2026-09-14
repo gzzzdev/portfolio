@@ -1,0 +1,713 @@
+[
+  {
+    "memberId": "1001",
+    "roleId": "1001",
+    "startDate": "2026-09-14T19:19:39.092Z",
+    "endDate": null,
+    "reason": "초기데이터",
+    "id": "1001",
+    "createdAt": "2026-09-14T19:19:39.101Z"
+  },
+  {
+    "memberId": "1001",
+    "gradeId": "1001",
+    "startDate": "2026-09-14T19:19:39.307Z",
+    "endDate": null,
+    "reason": "회원 가입",
+    "id": "1002",
+    "createdAt": "2026-09-14T19:19:39.312Z"
+  },
+  {
+    "memberId": "1002",
+    "roleId": "1001",
+    "startDate": "2026-09-14T19:19:39.729Z",
+    "endDate": null,
+    "reason": "초기데이터",
+    "id": "1003",
+    "createdAt": "2026-09-14T19:19:39.735Z"
+  },
+  {
+    "memberId": "1002",
+    "roleId": "1002",
+    "startDate": "2026-09-14T19:19:39.730Z",
+    "endDate": null,
+    "reason": "초기데이터",
+    "id": "1004",
+    "createdAt": "2026-09-14T19:19:39.735Z"
+  },
+  {
+    "memberId": "1002",
+    "roleId": "1003",
+    "startDate": "2026-09-14T19:19:39.730Z",
+    "endDate": null,
+    "reason": "초기데이터",
+    "id": "1005",
+    "createdAt": "2026-09-14T19:19:39.735Z"
+  },
+  {
+    "memberId": "1002",
+    "roleId": "1004",
+    "startDate": "2026-09-14T19:19:39.730Z",
+    "endDate": null,
+    "reason": "초기데이터",
+    "id": "1006",
+    "createdAt": "2026-09-14T19:19:39.735Z"
+  },
+  {
+    "memberId": "1002",
+    "gradeId": "1001",
+    "startDate": "2026-09-14T19:19:39.943Z",
+    "endDate": null,
+    "reason": "회원 가입",
+    "id": "1007",
+    "createdAt": "2026-09-14T19:19:39.950Z"
+  },
+  {
+    "memberId": "1003",
+    "roleId": "1002",
+    "startDate": "2026-09-14T19:19:40.388Z",
+    "endDate": null,
+    "reason": "초기데이터",
+    "id": "1008",
+    "createdAt": "2026-09-14T19:19:40.407Z"
+  },
+  {
+    "memberId": "1003",
+    "gradeId": "1001",
+    "startDate": "2026-09-14T19:19:40.614Z",
+    "endDate": null,
+    "reason": "회원 가입",
+    "id": "1009",
+    "createdAt": "2026-09-14T19:19:40.620Z"
+  },
+  {
+    "memberId": "1004",
+    "roleId": "1003",
+    "startDate": "2026-09-14T19:19:41.036Z",
+    "endDate": null,
+    "reason": "초기데이터",
+    "id": "1010",
+    "createdAt": "2026-09-14T19:19:41.042Z"
+  },
+  {
+    "memberId": "1004",
+    "gradeId": "1001",
+    "startDate": "2026-09-14T19:19:41.247Z",
+    "endDate": null,
+    "reason": "회원 가입",
+    "id": "1011",
+    "createdAt": "2026-09-14T19:19:41.251Z"
+  },
+  {
+    "memberId": "1005",
+    "roleId": "1004",
+    "startDate": "2026-09-14T19:19:41.668Z",
+    "endDate": null,
+    "reason": "초기데이터",
+    "id": "1012",
+    "createdAt": "2026-09-14T19:19:41.673Z"
+  },
+  {
+    "memberId": "1005",
+    "gradeId": "1001",
+    "startDate": "2026-09-14T19:19:41.879Z",
+    "endDate": null,
+    "reason": "회원 가입",
+    "id": "1013",
+    "createdAt": "2026-09-14T19:19:41.926Z"
+  },
+  {
+    "memberId": "1006",
+    "roleId": "1002",
+    "startDate": "2026-09-14T19:19:42.343Z",
+    "endDate": null,
+    "reason": "초기데이터",
+    "id": "1014",
+    "createdAt": "2026-09-14T19:19:42.347Z"
+  },
+  {
+    "memberId": "1006",
+    "gradeId": "1001",
+    "startDate": "2026-09-14T19:19:42.553Z",
+    "endDate": null,
+    "reason": "회원 가입",
+    "id": "1015",
+    "createdAt": "2026-09-14T19:19:42.564Z"
+  },
+  {
+    "memberId": "1007",
+    "roleId": "1002",
+    "startDate": "2026-09-14T19:19:42.982Z",
+    "endDate": null,
+    "reason": "초기데이터",
+    "id": "1016",
+    "createdAt": "2026-09-14T19:19:42.986Z"
+  },
+  {
+    "memberId": "1007",
+    "gradeId": "1001",
+    "startDate": "2026-09-14T19:19:43.192Z",
+    "endDate": null,
+    "reason": "회원 가입",
+    "id": "1017",
+    "createdAt": "2026-09-14T19:19:43.196Z"
+  },
+  {
+    "memberId": "1008",
+    "roleId": "1002",
+    "startDate": "2026-09-14T19:19:43.613Z",
+    "endDate": null,
+    "reason": "초기데이터",
+    "id": "1018",
+    "createdAt": "2026-09-14T19:19:43.617Z"
+  },
+  {
+    "memberId": "1008",
+    "gradeId": "1001",
+    "startDate": "2026-09-14T19:19:43.823Z",
+    "endDate": null,
+    "reason": "회원 가입",
+    "id": "1019",
+    "createdAt": "2026-09-14T19:19:43.829Z"
+  },
+  {
+    "memberId": "1009",
+    "roleId": "1003",
+    "startDate": "2026-09-14T19:19:44.249Z",
+    "endDate": null,
+    "reason": "초기데이터",
+    "id": "1020",
+    "createdAt": "2026-09-14T19:19:44.255Z"
+  },
+  {
+    "memberId": "1009",
+    "gradeId": "1001",
+    "startDate": "2026-09-14T19:19:44.462Z",
+    "endDate": null,
+    "reason": "회원 가입",
+    "id": "1021",
+    "createdAt": "2026-09-14T19:19:44.467Z"
+  },
+  {
+    "memberId": "1010",
+    "roleId": "1003",
+    "startDate": "2026-09-14T19:19:44.885Z",
+    "endDate": null,
+    "reason": "초기데이터",
+    "id": "1022",
+    "createdAt": "2026-09-14T19:19:44.917Z"
+  },
+  {
+    "memberId": "1010",
+    "gradeId": "1001",
+    "startDate": "2026-09-14T19:19:45.123Z",
+    "endDate": null,
+    "reason": "회원 가입",
+    "id": "1023",
+    "createdAt": "2026-09-14T19:19:45.132Z"
+  },
+  {
+    "memberId": "1011",
+    "roleId": "1003",
+    "startDate": "2026-09-14T19:19:45.546Z",
+    "endDate": null,
+    "reason": "초기데이터",
+    "id": "1024",
+    "createdAt": "2026-09-14T19:19:45.555Z"
+  },
+  {
+    "memberId": "1011",
+    "gradeId": "1001",
+    "startDate": "2026-09-14T19:19:46.158Z",
+    "endDate": null,
+    "reason": "회원 가입",
+    "id": "1025",
+    "createdAt": "2026-09-14T19:19:46.256Z"
+  },
+  {
+    "memberId": "1012",
+    "roleId": "1003",
+    "startDate": "2026-09-14T19:19:46.917Z",
+    "endDate": null,
+    "reason": "초기데이터",
+    "id": "1026",
+    "createdAt": "2026-09-14T19:19:46.959Z"
+  },
+  {
+    "memberId": "1012",
+    "gradeId": "1001",
+    "startDate": "2026-09-14T19:19:47.230Z",
+    "endDate": null,
+    "reason": "회원 가입",
+    "id": "1027",
+    "createdAt": "2026-09-14T19:19:47.247Z"
+  },
+  {
+    "memberId": "1013",
+    "roleId": "1003",
+    "startDate": "2026-09-14T19:19:47.668Z",
+    "endDate": null,
+    "reason": "초기데이터",
+    "id": "1028",
+    "createdAt": "2026-09-14T19:19:47.673Z"
+  },
+  {
+    "memberId": "1013",
+    "gradeId": "1001",
+    "startDate": "2026-09-14T19:19:47.877Z",
+    "endDate": null,
+    "reason": "회원 가입",
+    "id": "1029",
+    "createdAt": "2026-09-14T19:19:47.882Z"
+  },
+  {
+    "memberId": "1014",
+    "roleId": "1003",
+    "startDate": "2026-09-14T19:19:48.350Z",
+    "endDate": null,
+    "reason": "초기데이터",
+    "id": "1030",
+    "createdAt": "2026-09-14T19:19:48.354Z"
+  },
+  {
+    "memberId": "1014",
+    "gradeId": "1001",
+    "startDate": "2026-09-14T19:19:48.560Z",
+    "endDate": null,
+    "reason": "회원 가입",
+    "id": "1031",
+    "createdAt": "2026-09-14T19:19:48.573Z"
+  },
+  {
+    "memberId": "1015",
+    "roleId": "1003",
+    "startDate": "2026-09-14T19:19:48.984Z",
+    "endDate": null,
+    "reason": "초기데이터",
+    "id": "1032",
+    "createdAt": "2026-09-14T19:19:48.989Z"
+  },
+  {
+    "memberId": "1015",
+    "gradeId": "1001",
+    "startDate": "2026-09-14T19:19:49.193Z",
+    "endDate": null,
+    "reason": "회원 가입",
+    "id": "1033",
+    "createdAt": "2026-09-14T19:19:49.197Z"
+  },
+  {
+    "memberId": "1016",
+    "roleId": "1003",
+    "startDate": "2026-09-14T19:19:49.617Z",
+    "endDate": null,
+    "reason": "초기데이터",
+    "id": "1034",
+    "createdAt": "2026-09-14T19:19:49.621Z"
+  },
+  {
+    "memberId": "1016",
+    "gradeId": "1001",
+    "startDate": "2026-09-14T19:19:49.831Z",
+    "endDate": null,
+    "reason": "회원 가입",
+    "id": "1035",
+    "createdAt": "2026-09-14T19:19:49.842Z"
+  },
+  {
+    "memberId": "1017",
+    "roleId": "1003",
+    "startDate": "2026-09-14T19:19:50.258Z",
+    "endDate": null,
+    "reason": "초기데이터",
+    "id": "1036",
+    "createdAt": "2026-09-14T19:19:50.263Z"
+  },
+  {
+    "memberId": "1017",
+    "gradeId": "1001",
+    "startDate": "2026-09-14T19:19:50.468Z",
+    "endDate": null,
+    "reason": "회원 가입",
+    "id": "1037",
+    "createdAt": "2026-09-14T19:19:50.471Z"
+  },
+  {
+    "memberId": "1018",
+    "roleId": "1003",
+    "startDate": "2026-09-14T19:19:50.887Z",
+    "endDate": null,
+    "reason": "초기데이터",
+    "id": "1038",
+    "createdAt": "2026-09-14T19:19:50.892Z"
+  },
+  {
+    "memberId": "1018",
+    "gradeId": "1001",
+    "startDate": "2026-09-14T19:19:51.099Z",
+    "endDate": null,
+    "reason": "회원 가입",
+    "id": "1039",
+    "createdAt": "2026-09-14T19:19:51.137Z"
+  },
+  {
+    "memberId": "1019",
+    "roleId": "1003",
+    "startDate": "2026-09-14T19:19:51.560Z",
+    "endDate": null,
+    "reason": "초기데이터",
+    "id": "1040",
+    "createdAt": "2026-09-14T19:19:51.564Z"
+  },
+  {
+    "memberId": "1019",
+    "gradeId": "1001",
+    "startDate": "2026-09-14T19:19:51.769Z",
+    "endDate": null,
+    "reason": "회원 가입",
+    "id": "1041",
+    "createdAt": "2026-09-14T19:19:51.774Z"
+  },
+  {
+    "memberId": "1020",
+    "roleId": "1003",
+    "startDate": "2026-09-14T19:19:52.193Z",
+    "endDate": null,
+    "reason": "초기데이터",
+    "id": "1042",
+    "createdAt": "2026-09-14T19:19:52.197Z"
+  },
+  {
+    "memberId": "1020",
+    "gradeId": "1001",
+    "startDate": "2026-09-14T19:19:52.402Z",
+    "endDate": null,
+    "reason": "회원 가입",
+    "id": "1043",
+    "createdAt": "2026-09-14T19:19:52.405Z"
+  },
+  {
+    "memberId": "1021",
+    "roleId": "1003",
+    "startDate": "2026-09-14T19:19:52.830Z",
+    "endDate": null,
+    "reason": "초기데이터",
+    "id": "1044",
+    "createdAt": "2026-09-14T19:19:52.834Z"
+  },
+  {
+    "memberId": "1021",
+    "gradeId": "1001",
+    "startDate": "2026-09-14T19:19:53.041Z",
+    "endDate": null,
+    "reason": "회원 가입",
+    "id": "1045",
+    "createdAt": "2026-09-14T19:19:53.045Z"
+  },
+  {
+    "memberId": "1022",
+    "roleId": "1003",
+    "startDate": "2026-09-14T19:19:53.461Z",
+    "endDate": null,
+    "reason": "초기데이터",
+    "id": "1046",
+    "createdAt": "2026-09-14T19:19:53.481Z"
+  },
+  {
+    "memberId": "1022",
+    "gradeId": "1001",
+    "startDate": "2026-09-14T19:19:53.688Z",
+    "endDate": null,
+    "reason": "회원 가입",
+    "id": "1047",
+    "createdAt": "2026-09-14T19:19:53.693Z"
+  },
+  {
+    "memberId": "1023",
+    "roleId": "1003",
+    "startDate": "2026-09-14T19:19:54.107Z",
+    "endDate": null,
+    "reason": "초기데이터",
+    "id": "1048",
+    "createdAt": "2026-09-14T19:19:54.142Z"
+  },
+  {
+    "memberId": "1023",
+    "gradeId": "1001",
+    "startDate": "2026-09-14T19:19:54.349Z",
+    "endDate": null,
+    "reason": "회원 가입",
+    "id": "1049",
+    "createdAt": "2026-09-14T19:19:54.353Z"
+  },
+  {
+    "memberId": "1024",
+    "roleId": "1003",
+    "startDate": "2026-09-14T19:19:54.770Z",
+    "endDate": null,
+    "reason": "초기데이터",
+    "id": "1050",
+    "createdAt": "2026-09-14T19:19:54.774Z"
+  },
+  {
+    "memberId": "1024",
+    "gradeId": "1001",
+    "startDate": "2026-09-14T19:19:54.986Z",
+    "endDate": null,
+    "reason": "회원 가입",
+    "id": "1051",
+    "createdAt": "2026-09-14T19:19:54.990Z"
+  },
+  {
+    "memberId": "1025",
+    "roleId": "1003",
+    "startDate": "2026-09-14T19:19:55.413Z",
+    "endDate": null,
+    "reason": "초기데이터",
+    "id": "1052",
+    "createdAt": "2026-09-14T19:19:55.420Z"
+  },
+  {
+    "memberId": "1025",
+    "gradeId": "1001",
+    "startDate": "2026-09-14T19:19:55.629Z",
+    "endDate": null,
+    "reason": "회원 가입",
+    "id": "1053",
+    "createdAt": "2026-09-14T19:19:55.635Z"
+  },
+  {
+    "memberId": "1026",
+    "roleId": "1003",
+    "startDate": "2026-09-14T19:19:56.305Z",
+    "endDate": null,
+    "reason": "초기데이터",
+    "id": "1054",
+    "createdAt": "2026-09-14T19:19:56.348Z"
+  },
+  {
+    "memberId": "1026",
+    "gradeId": "1001",
+    "startDate": "2026-09-14T19:19:56.603Z",
+    "endDate": null,
+    "reason": "회원 가입",
+    "id": "1055",
+    "createdAt": "2026-09-14T19:19:56.628Z"
+  },
+  {
+    "memberId": "1027",
+    "roleId": "1004",
+    "startDate": "2026-09-14T19:19:57.043Z",
+    "endDate": null,
+    "reason": "초기데이터",
+    "id": "1056",
+    "createdAt": "2026-09-14T19:19:57.048Z"
+  },
+  {
+    "memberId": "1027",
+    "gradeId": "1001",
+    "startDate": "2026-09-14T19:19:57.254Z",
+    "endDate": null,
+    "reason": "회원 가입",
+    "id": "1057",
+    "createdAt": "2026-09-14T19:19:57.314Z"
+  },
+  {
+    "memberId": "1028",
+    "roleId": "1004",
+    "startDate": "2026-09-14T19:19:57.728Z",
+    "endDate": null,
+    "reason": "초기데이터",
+    "id": "1058",
+    "createdAt": "2026-09-14T19:19:57.732Z"
+  },
+  {
+    "memberId": "1028",
+    "gradeId": "1001",
+    "startDate": "2026-09-14T19:19:57.935Z",
+    "endDate": null,
+    "reason": "회원 가입",
+    "id": "1059",
+    "createdAt": "2026-09-14T19:19:57.939Z"
+  },
+  {
+    "memberId": "1029",
+    "roleId": "1004",
+    "startDate": "2026-09-14T19:19:58.410Z",
+    "endDate": null,
+    "reason": "초기데이터",
+    "id": "1060",
+    "createdAt": "2026-09-14T19:19:58.424Z"
+  },
+  {
+    "memberId": "1029",
+    "gradeId": "1001",
+    "startDate": "2026-09-14T19:19:58.629Z",
+    "endDate": null,
+    "reason": "회원 가입",
+    "id": "1061",
+    "createdAt": "2026-09-14T19:19:58.635Z"
+  },
+  {
+    "memberId": "1030",
+    "roleId": "1004",
+    "startDate": "2026-09-14T19:19:59.056Z",
+    "endDate": null,
+    "reason": "초기데이터",
+    "id": "1062",
+    "createdAt": "2026-09-14T19:19:59.061Z"
+  },
+  {
+    "memberId": "1030",
+    "gradeId": "1001",
+    "startDate": "2026-09-14T19:19:59.265Z",
+    "endDate": null,
+    "reason": "회원 가입",
+    "id": "1063",
+    "createdAt": "2026-09-14T19:19:59.276Z"
+  },
+  {
+    "memberId": "1031",
+    "roleId": "1004",
+    "startDate": "2026-09-14T19:19:59.699Z",
+    "endDate": null,
+    "reason": "초기데이터",
+    "id": "1064",
+    "createdAt": "2026-09-14T19:19:59.704Z"
+  },
+  {
+    "memberId": "1031",
+    "gradeId": "1001",
+    "startDate": "2026-09-14T19:19:59.915Z",
+    "endDate": null,
+    "reason": "회원 가입",
+    "id": "1065",
+    "createdAt": "2026-09-14T19:19:59.930Z"
+  },
+  {
+    "memberId": "1032",
+    "roleId": "1004",
+    "startDate": "2026-09-14T19:20:00.746Z",
+    "endDate": null,
+    "reason": "초기데이터",
+    "id": "1066",
+    "createdAt": "2026-09-14T19:20:00.826Z"
+  },
+  {
+    "memberId": "1032",
+    "gradeId": "1001",
+    "startDate": "2026-09-14T19:20:01.032Z",
+    "endDate": null,
+    "reason": "회원 가입",
+    "id": "1067",
+    "createdAt": "2026-09-14T19:20:01.039Z"
+  },
+  {
+    "memberId": "1033",
+    "roleId": "1004",
+    "startDate": "2026-09-14T19:20:01.940Z",
+    "endDate": null,
+    "reason": "초기데이터",
+    "id": "1068",
+    "createdAt": "2026-09-14T19:20:01.990Z"
+  },
+  {
+    "memberId": "1033",
+    "gradeId": "1001",
+    "startDate": "2026-09-14T19:20:02.247Z",
+    "endDate": null,
+    "reason": "회원 가입",
+    "id": "1069",
+    "createdAt": "2026-09-14T19:20:02.511Z"
+  },
+  {
+    "memberId": "1034",
+    "roleId": "1004",
+    "startDate": "2026-09-14T19:20:03.700Z",
+    "endDate": null,
+    "reason": "초기데이터",
+    "id": "1070",
+    "createdAt": "2026-09-14T19:20:03.782Z"
+  },
+  {
+    "memberId": "1034",
+    "gradeId": "1001",
+    "startDate": "2026-09-14T19:20:04.072Z",
+    "endDate": null,
+    "reason": "회원 가입",
+    "id": "1071",
+    "createdAt": "2026-09-14T19:20:04.286Z"
+  },
+  {
+    "memberId": "1035",
+    "roleId": "1004",
+    "startDate": "2026-09-14T19:20:04.934Z",
+    "endDate": null,
+    "reason": "초기데이터",
+    "id": "1072",
+    "createdAt": "2026-09-14T19:20:05.023Z"
+  },
+  {
+    "memberId": "1035",
+    "gradeId": "1001",
+    "startDate": "2026-09-14T19:20:05.239Z",
+    "endDate": null,
+    "reason": "회원 가입",
+    "id": "1073",
+    "createdAt": "2026-09-14T19:20:05.321Z"
+  },
+  {
+    "memberId": "1036",
+    "roleId": "1004",
+    "startDate": "2026-09-14T19:20:05.898Z",
+    "endDate": null,
+    "reason": "초기데이터",
+    "id": "1074",
+    "createdAt": "2026-09-14T19:20:05.938Z"
+  },
+  {
+    "memberId": "1036",
+    "gradeId": "1001",
+    "startDate": "2026-09-14T19:20:06.156Z",
+    "endDate": null,
+    "reason": "회원 가입",
+    "id": "1075",
+    "createdAt": "2026-09-14T19:20:06.191Z"
+  },
+  {
+    "memberId": "1037",
+    "roleId": "1004",
+    "startDate": "2026-09-14T19:20:06.643Z",
+    "endDate": null,
+    "reason": "초기데이터",
+    "id": "1076",
+    "createdAt": "2026-09-14T19:20:06.877Z"
+  },
+  {
+    "memberId": "1037",
+    "gradeId": "1001",
+    "startDate": "2026-09-14T19:20:07.165Z",
+    "endDate": null,
+    "reason": "회원 가입",
+    "id": "1077",
+    "createdAt": "2026-09-14T19:20:07.324Z"
+  },
+  {
+    "memberId": "1038",
+    "roleId": "1004",
+    "startDate": "2026-09-14T19:20:07.808Z",
+    "endDate": null,
+    "reason": "초기데이터",
+    "id": "1078",
+    "createdAt": "2026-09-14T19:20:07.826Z"
+  },
+  {
+    "memberId": "1038",
+    "gradeId": "1001",
+    "startDate": "2026-09-14T19:20:08.035Z",
+    "endDate": null,
+    "reason": "회원 가입",
+    "id": "1079",
+    "createdAt": "2026-09-14T19:20:08.279Z"
+  }
+]

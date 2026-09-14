@@ -1,0 +1,24 @@
+[
+  {
+    "noCondition": true,
+    "gradeId": "1002",
+    "id": "1001",
+    "createdAt": "2026-09-14T19:19:38.633Z"
+  },
+  {
+    "noCondition": false,
+    "requiredTrainingHoursCut": 100,
+    "requiredWrittenTimeCut": 60,
+    "gradeId": "1003",
+    "id": "1002",
+    "createdAt": "2026-09-14T19:19:38.633Z"
+  },
+  {
+    "noCondition": false,
+    "requiredTrainingHoursCut": 150,
+    "requiredWrittenTimeCut": 65,
+    "gradeId": "1004",
+    "id": "1003",
+    "createdAt": "2026-09-14T19:19:38.633Z"
+  }
+]

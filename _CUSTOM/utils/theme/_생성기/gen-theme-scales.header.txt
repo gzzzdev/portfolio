@@ -1,0 +1,9 @@
+/* eslint-disable */
+/**
+ * 자동 생성 — 손으로 고치지 말 것. `bun _CUSTOM/utils/theme/_생성기/gen-theme-scales.mjs`
+ *
+ * 선별 팔레트의 각 색을 11단계 OKLCH 스케일로 편 것. 고른 색이 `500` 자리에 앉는다.
+ * 이 값들은 `--ui-color-{alias}-{shade}` 로 나가고, Nuxt UI 컴포넌트 테마
+ * (`bg-primary-50`, `ring-secondary/50`, subtle variant …)가 전부 그 위에서 돈다.
+ */
+

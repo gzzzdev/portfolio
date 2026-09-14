@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-label="퀴즈">
+  <rect width="800" height="450" fill="#86868b" fill-opacity=".09"/>
+  <g fill="none" stroke="#86868b" stroke-width="22" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="400" cy="225" r="148"/>
+    <path d="M354 182a46 46 0 1 1 46 46v24"/>
+  </g>
+  <circle cx="400" cy="300" r="15" fill="#86868b"/>
+</svg>

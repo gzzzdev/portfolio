@@ -1,0 +1,130 @@
+[
+  {
+    "id": "1001",
+    "createdAt": "2026-09-05T00:00:00.000Z",
+    "order": 0,
+    "label": "다 채운 것",
+    "memo": "여러 줄이 어떻게 접히는지 보는 칸.\n두 번째 줄.\n세 번째 줄.",
+    "phone": "010-1234-5678",
+    "rich": "## 서식글\n\n- 목록 한 줄\n- **굵게** 와 `코드`",
+    "link": "https://nuxt.com",
+    "icon": "i-lucide-apple",
+    "tags": [
+      "빨강",
+      "동그람",
+      "새로"
+    ],
+    "num": 42,
+    "gauge": 65,
+    "isOn": true,
+    "day": "2026-09-20",
+    "dayTime": "2026-09-20T05:30:00.000Z",
+    "time": "14:30",
+    "month": "2026-09",
+    "range": [
+      "2026-09-01",
+      "2026-09-30"
+    ],
+    "rangeTime": [
+      "2026-09-01T00:00:00.000Z",
+      "2026-09-30T09:00:00.000Z"
+    ],
+    "pick": "하나",
+    "pickRadio": "셋",
+    "picks": [
+      "하나",
+      "셋"
+    ],
+    "cat": "과일",
+    "catSub": "사과",
+    "matrix": {
+      "읽기": {
+        "손님": true,
+        "회원": true,
+        "관리자": true
+      },
+      "쓰기": {
+        "손님": false,
+        "회원": true,
+        "관리자": true
+      },
+      "지우기": {
+        "손님": false,
+        "회원": false,
+        "관리자": true
+      }
+    },
+    "photo": "/img/grades/grade1.jpg",
+    "photo2": "/img/grades/grade2.jpg",
+    "file": {
+      "name": "grade3",
+      "ext": "jpg",
+      "url": "/img/grades/grade3.jpg"
+    },
+    "youtube": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+  },
+  {
+    "id": "1002",
+    "createdAt": "2026-09-05T00:00:00.000Z",
+    "order": 1,
+    "label": "반만 채운 것",
+    "memo": "한 줄만.",
+    "phone": "",
+    "rich": "",
+    "link": "",
+    "icon": "",
+    "tags": [
+      "파랑"
+    ],
+    "num": 7,
+    "gauge": 30,
+    "isOn": false,
+    "day": "2026-10-01",
+    "dayTime": "",
+    "time": "",
+    "month": "",
+    "range": [],
+    "rangeTime": [],
+    "pick": "둘",
+    "pickRadio": "",
+    "picks": [],
+    "cat": "채소",
+    "catSub": "당근",
+    "matrix": {},
+    "photo": "",
+    "photo2": "",
+    "file": null,
+    "youtube": ""
+  },
+  {
+    "id": "1003",
+    "createdAt": "2026-09-05T00:00:00.000Z",
+    "order": 2,
+    "label": "텅 빈 것",
+    "memo": "",
+    "phone": "",
+    "rich": "",
+    "link": "",
+    "icon": "",
+    "tags": [],
+    "num": 0,
+    "gauge": 0,
+    "isOn": false,
+    "day": "",
+    "dayTime": "",
+    "time": "",
+    "month": "",
+    "range": [],
+    "rangeTime": [],
+    "pick": "",
+    "pickRadio": "",
+    "picks": [],
+    "cat": "",
+    "catSub": "",
+    "matrix": {},
+    "photo": "",
+    "photo2": "",
+    "file": null,
+    "youtube": ""
+  }
+]

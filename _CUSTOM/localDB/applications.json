@@ -1,0 +1,58 @@
+[
+  {
+    "recruitId": "1005",
+    "memberId": "1004",
+    "registrationDate": "2026-09-02T09:19:37.263Z",
+    "status": "PREPARING",
+    "id": "1001",
+    "createdAt": "2026-09-02T09:19:37.266Z"
+  },
+  {
+    "recruitId": "1004",
+    "memberId": "1004",
+    "registrationDate": "2026-09-02T10:27:44.837Z",
+    "status": "PREPARING",
+    "id": "1002",
+    "createdAt": "2026-09-02T10:27:44.874Z"
+  },
+  {
+    "recruitId": "1002",
+    "memberId": "1004",
+    "registrationDate": "2026-09-02T10:27:58.665Z",
+    "status": "PREPARING",
+    "id": "1003",
+    "createdAt": "2026-09-02T10:27:58.687Z"
+  },
+  {
+    "recruitId": "1003",
+    "memberId": "1004",
+    "registrationDate": "2026-09-02T10:32:15.943Z",
+    "status": "PREPARING",
+    "id": "1004",
+    "createdAt": "2026-09-02T10:32:15.947Z"
+  },
+  {
+    "recruitId": "1008",
+    "memberId": "1002",
+    "registrationDate": "2026-09-02T14:07:14.759Z",
+    "status": "PREPARING",
+    "id": "1005",
+    "createdAt": "2026-09-02T14:07:14.773Z"
+  },
+  {
+    "recruitId": "1006",
+    "memberId": "1002",
+    "registrationDate": "2026-09-02T14:07:40.083Z",
+    "status": "PREPARING",
+    "id": "1006",
+    "createdAt": "2026-09-02T14:07:40.124Z"
+  },
+  {
+    "recruitId": "1004",
+    "memberId": "1002",
+    "registrationDate": "2026-09-05T06:33:02.719Z",
+    "status": "PREPARING",
+    "id": "1007",
+    "createdAt": "2026-09-05T06:33:02.742Z"
+  }
+]

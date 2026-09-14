@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-label="설문">
+  <rect width="800" height="450" fill="#86868b" fill-opacity=".09"/>
+  <g fill="none" stroke="#86868b" stroke-width="22" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M348 94h-50a30 30 0 0 0-30 30v212a30 30 0 0 0 30 30h204a30 30 0 0 0 30-30V124a30 30 0 0 0-30-30h-50"/>
+    <rect x="348" y="66" width="104" height="56" rx="20"/>
+    <path d="M312 174h20M312 234h20M312 294h20"/>
+    <path d="M382 174h108M382 234h84M382 294h108"/>
+  </g>
+</svg>

@@ -1,0 +1,206 @@
+[
+  {
+    "name": "양혜선",
+    "id": "1001",
+    "createdAt": "2026-08-29T10:30:24.590Z",
+    "idPhoto": null,
+    "birthdate": "1994-02-23",
+    "gender": "FEMALE",
+    "appearance": [
+      "짧은 머리",
+      "각진 턱"
+    ]
+  },
+  {
+    "name": "손유진",
+    "id": "1002",
+    "createdAt": "2026-08-29T10:30:33.272Z",
+    "idPhoto": null,
+    "birthdate": "1983-08-01",
+    "gender": "FEMALE",
+    "appearance": [
+      "긴 생머리",
+      "온화한 인상"
+    ]
+  },
+  {
+    "name": "안유지",
+    "idPhoto": null,
+    "gender": "FEMALE",
+    "birthdate": "1993-12-01",
+    "id": "1003",
+    "createdAt": "2026-08-29T11:27:08.754Z",
+    "appearance": [
+      "숱이 많은 머리",
+      "주근깨",
+      "뿔테 안경"
+    ]
+  },
+  {
+    "name": "조현수",
+    "idPhoto": null,
+    "appearance": [],
+    "gender": "MALE",
+    "birthdate": "1989-12-19",
+    "id": "1004",
+    "createdAt": "2026-08-29T12:25:59.836Z"
+  },
+  {
+    "name": "남재우",
+    "idPhoto": null,
+    "appearance": [],
+    "gender": "MALE",
+    "birthdate": "1997-12-28",
+    "id": "1005",
+    "createdAt": "2026-08-29T12:26:00.574Z"
+  },
+  {
+    "name": "김민준",
+    "idPhoto": null,
+    "appearance": [
+      "숱이 많은 머리",
+      "둥근 얼굴",
+      "동그란 안경"
+    ],
+    "gender": "MALE",
+    "birthdate": "2005-06-28",
+    "id": "1006",
+    "createdAt": "2026-08-30T08:16:46.910Z"
+  },
+  {
+    "name": "유재준",
+    "idPhoto": null,
+    "appearance": [
+      "짧은 머리",
+      "온화한 인상",
+      "안경"
+    ],
+    "gender": "MALE",
+    "birthdate": "1980-02-16",
+    "id": "1007",
+    "createdAt": "2026-08-30T10:04:48.643Z"
+  },
+  {
+    "name": "황규영",
+    "idPhoto": null,
+    "appearance": [
+      "파마머리",
+      "볼에 점",
+      "동그란 안경"
+    ],
+    "gender": "MALE",
+    "birthdate": "1996-02-06",
+    "id": "1008",
+    "createdAt": "2026-08-30T10:10:47.628Z"
+  },
+  {
+    "name": "손정준",
+    "idPhoto": null,
+    "appearance": [
+      "가르마 머리",
+      "잔주름",
+      "동그란 안경"
+    ],
+    "gender": "MALE",
+    "birthdate": "1984-02-04",
+    "id": "1009",
+    "createdAt": "2026-08-30T10:18:55.234Z"
+  },
+  {
+    "name": "강수현",
+    "idPhoto": null,
+    "appearance": [
+      "긴 생머리",
+      "갸름한 얼굴"
+    ],
+    "gender": "FEMALE",
+    "birthdate": "1998-05-04",
+    "id": "1010",
+    "createdAt": "2026-08-31T10:27:54.500Z"
+  },
+  {
+    "name": "손채빈",
+    "idPhoto": null,
+    "appearance": [
+      "묶은 머리",
+      "온화한 인상",
+      "안경"
+    ],
+    "gender": "FEMALE",
+    "birthdate": "2000-10-11",
+    "id": "1011",
+    "createdAt": "2026-08-31T12:04:24.316Z"
+  },
+  {
+    "name": "고은지",
+    "idPhoto": null,
+    "appearance": [
+      "파마머리",
+      "갸름한 얼굴",
+      "안경"
+    ],
+    "gender": "FEMALE",
+    "birthdate": "2005-05-12",
+    "id": "1012",
+    "createdAt": "2026-08-31T12:35:46.274Z"
+  },
+  {
+    "name": "홍선영",
+    "idPhoto": null,
+    "appearance": [
+      "파마머리",
+      "잔주름"
+    ],
+    "gender": "FEMALE",
+    "birthdate": "1982-10-09",
+    "id": "1013",
+    "createdAt": "2026-09-01T06:39:44.457Z"
+  },
+  {
+    "name": "송지혜",
+    "idPhoto": null,
+    "appearance": [
+      "숱이 많은 머리",
+      "무뚝뚝한 표정"
+    ],
+    "gender": "FEMALE",
+    "birthdate": "1981-03-23",
+    "id": "1014",
+    "createdAt": "2026-09-01T06:39:46.363Z"
+  },
+  {
+    "name": "정민빈",
+    "idPhoto": null,
+    "appearance": [
+      "묶은 머리",
+      "앳된 얼굴",
+      "안경"
+    ],
+    "gender": "FEMALE",
+    "birthdate": "2001-09-29",
+    "id": "1015",
+    "createdAt": "2026-09-02T18:31:27.367Z"
+  },
+  {
+    "name": "오채윤",
+    "idPhoto": null,
+    "appearance": [],
+    "gender": "FEMALE",
+    "birthdate": "2002-05-15",
+    "id": "1016",
+    "createdAt": "2026-09-02T18:33:32.163Z"
+  },
+  {
+    "name": "고유정",
+    "idPhoto": "https://eswksuuglpexfhryjqvk.supabase.co/storage/v1/object/sign/bucket0/faces/made-1788978502047-tva1qgwgv1.png?token=eyJraWQiOiI2ZTFjZWVjOC0zNDA4LTRjOWMtYTJhOS00MzZmNjNjZWE2NTAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJidWNrZXQwL2ZhY2VzL21hZGUtMTc4ODk3ODUwMjA0Ny10dmExcWd3Z3YxLnBuZyIsInNjb3BlIjoiZG93bmxvYWQiLCJpYXQiOjE3ODg5Nzg1MDIsImV4cCI6NDk0MjU3ODUwMn0.iz58jZOz1bY6d5MtJUVotiVXijto5V2qWeqjHwMDJ1I",
+    "appearance": [
+      "단발머리",
+      "주근깨",
+      "안경"
+    ],
+    "gender": "FEMALE",
+    "birthdate": "1993-08-01",
+    "id": "1017",
+    "createdAt": "2026-09-09T18:28:22.533Z"
+  }
+]

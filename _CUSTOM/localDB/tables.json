@@ -1,0 +1,320 @@
+[
+  {
+    "name": "theme",
+    "version": 29,
+    "id": "1001",
+    "createdAt": "2026-09-08T14:00:13.477Z"
+  },
+  {
+    "name": "characters",
+    "version": 2,
+    "id": "1002",
+    "createdAt": "2026-09-09T18:28:22.739Z"
+  },
+  {
+    "name": "eras",
+    "version": 1,
+    "id": "1003",
+    "createdAt": "2026-09-11T15:19:49.084Z"
+  },
+  {
+    "name": "places",
+    "version": 2,
+    "id": "1004",
+    "createdAt": "2026-09-12T06:00:00.383Z",
+    "unit": "곳",
+    "isHierarchy": false
+  },
+  {
+    "name": "animals",
+    "unit": "개",
+    "isHierarchy": false,
+    "id": "1005",
+    "createdAt": "2026-09-14T19:15:22.740Z"
+  },
+  {
+    "name": "assets",
+    "unit": "개",
+    "isHierarchy": false,
+    "id": "1006",
+    "createdAt": "2026-09-14T19:15:22.740Z"
+  },
+  {
+    "name": "basics",
+    "unit": "개",
+    "isHierarchy": false,
+    "id": "1007",
+    "createdAt": "2026-09-14T19:15:22.740Z"
+  },
+  {
+    "name": "boards",
+    "unit": "개",
+    "isHierarchy": false,
+    "id": "1008",
+    "createdAt": "2026-09-14T19:15:22.740Z",
+    "version": 2
+  },
+  {
+    "name": "classes",
+    "unit": "개",
+    "isHierarchy": false,
+    "id": "1010",
+    "createdAt": "2026-09-14T19:15:22.740Z",
+    "version": 4
+  },
+  {
+    "name": "design-templates",
+    "unit": "개",
+    "isHierarchy": false,
+    "id": "1011",
+    "createdAt": "2026-09-14T19:15:22.740Z"
+  },
+  {
+    "name": "docs",
+    "unit": "개",
+    "isHierarchy": false,
+    "id": "1012",
+    "createdAt": "2026-09-14T19:15:22.740Z"
+  },
+  {
+    "name": "enrollables",
+    "unit": "개",
+    "isHierarchy": false,
+    "id": "1013",
+    "createdAt": "2026-09-14T19:15:22.740Z",
+    "version": 2
+  },
+  {
+    "name": "enrolls",
+    "unit": "건",
+    "isHierarchy": false,
+    "id": "1014",
+    "createdAt": "2026-09-14T19:15:22.740Z",
+    "version": 3
+  },
+  {
+    "name": "events",
+    "unit": "개",
+    "isHierarchy": false,
+    "id": "1015",
+    "createdAt": "2026-09-14T19:15:22.740Z"
+  },
+  {
+    "name": "fees",
+    "unit": "개",
+    "isHierarchy": false,
+    "id": "1016",
+    "createdAt": "2026-09-14T19:15:22.740Z"
+  },
+  {
+    "name": "fruits",
+    "unit": "개",
+    "isHierarchy": false,
+    "id": "1017",
+    "createdAt": "2026-09-14T19:15:22.740Z"
+  },
+  {
+    "name": "grade-conditions",
+    "unit": "개",
+    "isHierarchy": false,
+    "id": "1018",
+    "createdAt": "2026-09-14T19:15:22.740Z",
+    "version": 2
+  },
+  {
+    "name": "grades",
+    "unit": "개",
+    "isHierarchy": false,
+    "id": "1019",
+    "createdAt": "2026-09-14T19:15:22.740Z",
+    "version": 2
+  },
+  {
+    "name": "gradings",
+    "unit": "개 심사",
+    "isHierarchy": false,
+    "id": "1020",
+    "createdAt": "2026-09-14T19:15:22.740Z"
+  },
+  {
+    "name": "member-comments",
+    "unit": "개",
+    "isHierarchy": false,
+    "id": "1022",
+    "createdAt": "2026-09-14T19:15:22.740Z",
+    "version": 3
+  },
+  {
+    "name": "member-entity-historys",
+    "unit": "개",
+    "isHierarchy": false,
+    "id": "1023",
+    "createdAt": "2026-09-14T19:15:22.740Z",
+    "version": 152
+  },
+  {
+    "name": "member-fees",
+    "unit": "개",
+    "isHierarchy": false,
+    "id": "1024",
+    "createdAt": "2026-09-14T19:15:22.740Z"
+  },
+  {
+    "name": "member-gradings",
+    "unit": "개",
+    "isHierarchy": false,
+    "id": "1025",
+    "createdAt": "2026-09-14T19:15:22.740Z"
+  },
+  {
+    "name": "member-posts",
+    "unit": "개",
+    "isHierarchy": false,
+    "id": "1026",
+    "createdAt": "2026-09-14T19:15:22.740Z",
+    "version": 5
+  },
+  {
+    "name": "member-status-historys",
+    "unit": "개",
+    "isHierarchy": false,
+    "id": "1027",
+    "createdAt": "2026-09-14T19:15:22.740Z",
+    "version": 76
+  },
+  {
+    "name": "members",
+    "unit": "명",
+    "isHierarchy": false,
+    "id": "1028",
+    "createdAt": "2026-09-14T19:15:22.740Z",
+    "version": 2
+  },
+  {
+    "name": "memos",
+    "unit": "개",
+    "isHierarchy": false,
+    "id": "1029",
+    "createdAt": "2026-09-14T19:15:22.740Z"
+  },
+  {
+    "name": "menus",
+    "unit": "개",
+    "isHierarchy": true,
+    "id": "1030",
+    "createdAt": "2026-09-14T19:15:22.740Z",
+    "version": 2
+  },
+  {
+    "name": "occasions",
+    "unit": "개",
+    "isHierarchy": false,
+    "id": "1031",
+    "createdAt": "2026-09-14T19:15:22.740Z",
+    "version": 4
+  },
+  {
+    "name": "payments",
+    "unit": "개",
+    "isHierarchy": false,
+    "id": "1032",
+    "createdAt": "2026-09-14T19:15:22.740Z"
+  },
+  {
+    "name": "per-gradings",
+    "unit": "개",
+    "isHierarchy": false,
+    "id": "1033",
+    "createdAt": "2026-09-14T19:15:22.740Z"
+  },
+  {
+    "name": "polls",
+    "unit": "개",
+    "isHierarchy": false,
+    "id": "1034",
+    "createdAt": "2026-09-14T19:15:22.740Z",
+    "version": 2
+  },
+  {
+    "name": "quizzes",
+    "unit": "개",
+    "isHierarchy": false,
+    "id": "1035",
+    "createdAt": "2026-09-14T19:15:22.740Z",
+    "version": 2
+  },
+  {
+    "name": "records",
+    "unit": "개",
+    "isHierarchy": false,
+    "id": "1036",
+    "createdAt": "2026-09-14T19:15:22.740Z"
+  },
+  {
+    "name": "resources",
+    "unit": "건",
+    "isHierarchy": false,
+    "id": "1037",
+    "createdAt": "2026-09-14T19:15:22.740Z",
+    "version": 2
+  },
+  {
+    "name": "roles",
+    "unit": "개",
+    "isHierarchy": false,
+    "id": "1038",
+    "createdAt": "2026-09-14T19:15:22.740Z",
+    "version": 2
+  },
+  {
+    "name": "samples",
+    "unit": "개",
+    "isHierarchy": false,
+    "id": "1039",
+    "createdAt": "2026-09-14T19:15:22.740Z"
+  },
+  {
+    "name": "surveys",
+    "unit": "개",
+    "isHierarchy": false,
+    "id": "1040",
+    "createdAt": "2026-09-14T19:15:22.740Z",
+    "version": 2
+  },
+  {
+    "name": "tables",
+    "unit": "개",
+    "isHierarchy": false,
+    "id": "1041",
+    "createdAt": "2026-09-14T19:15:22.740Z"
+  },
+  {
+    "name": "tag-links",
+    "unit": "개",
+    "isHierarchy": false,
+    "id": "1042",
+    "createdAt": "2026-09-14T19:15:22.740Z"
+  },
+  {
+    "name": "tags",
+    "unit": "개",
+    "isHierarchy": false,
+    "id": "1043",
+    "createdAt": "2026-09-14T19:15:22.740Z"
+  },
+  {
+    "name": "users",
+    "unit": "개",
+    "isHierarchy": false,
+    "id": "1044",
+    "createdAt": "2026-09-14T19:15:22.740Z",
+    "version": 2
+  },
+  {
+    "name": "vegetables",
+    "unit": "개",
+    "isHierarchy": false,
+    "id": "1045",
+    "createdAt": "2026-09-14T19:15:22.740Z"
+  }
+]

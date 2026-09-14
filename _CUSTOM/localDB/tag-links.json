@@ -1,0 +1,495 @@
+[
+  {
+    "tagId": "1001",
+    "startDate": "2026-08-06T10:57:31.416Z",
+    "endDate": null,
+    "reason": "태그에서 메모 생성",
+    "id": "1001",
+    "createdAt": "2026-08-06T10:57:31.423Z",
+    "eventId": "",
+    "memoId": "1020"
+  },
+  {
+    "tagId": "1001",
+    "startDate": "2026-08-06T10:57:32.912Z",
+    "endDate": null,
+    "reason": "태그에서 메모 생성",
+    "id": "1002",
+    "createdAt": "2026-08-06T10:57:32.919Z",
+    "eventId": "",
+    "memoId": "1021"
+  },
+  {
+    "tagId": "1002",
+    "startDate": "2026-08-06T10:59:16.342Z",
+    "endDate": "2026-08-07T04:32:51.237Z",
+    "reason": "태그에서 메모 생성",
+    "id": "1003",
+    "createdAt": "2026-08-06T10:59:16.353Z",
+    "eventId": "",
+    "memoId": "1022"
+  },
+  {
+    "tagId": "1004",
+    "startDate": "2026-08-06T10:59:17.514Z",
+    "endDate": "2026-08-07T04:32:55.629Z",
+    "reason": "태그에서 메모 생성",
+    "id": "1004",
+    "createdAt": "2026-08-06T10:59:17.522Z",
+    "eventId": "",
+    "memoId": "1023"
+  },
+  {
+    "tagId": "1003",
+    "startDate": "2026-08-06T10:59:18.584Z",
+    "endDate": null,
+    "reason": "태그에서 메모 생성",
+    "id": "1005",
+    "createdAt": "2026-08-06T10:59:18.590Z",
+    "eventId": "",
+    "memoId": "1024"
+  },
+  {
+    "tagId": "1007",
+    "startDate": "2026-08-06T11:13:06.145Z",
+    "endDate": null,
+    "reason": "담당→태그 마이그레이션",
+    "id": "1006",
+    "createdAt": "2026-08-06T11:13:06.145Z",
+    "eventId": "",
+    "memoId": "1001"
+  },
+  {
+    "tagId": "1007",
+    "startDate": "2026-08-06T11:13:06.145Z",
+    "endDate": null,
+    "reason": "담당→태그 마이그레이션",
+    "id": "1007",
+    "createdAt": "2026-08-06T11:13:06.145Z",
+    "eventId": "",
+    "memoId": "1002"
+  },
+  {
+    "tagId": "1007",
+    "startDate": "2026-08-06T11:13:06.145Z",
+    "endDate": null,
+    "reason": "담당→태그 마이그레이션",
+    "id": "1008",
+    "createdAt": "2026-08-06T11:13:06.145Z",
+    "eventId": "",
+    "memoId": "1003"
+  },
+  {
+    "tagId": "1007",
+    "startDate": "2026-08-06T11:13:06.145Z",
+    "endDate": "2026-09-02T07:23:07.119Z",
+    "reason": "담당→태그 마이그레이션",
+    "id": "1009",
+    "createdAt": "2026-08-06T11:13:06.145Z",
+    "eventId": "",
+    "memoId": "1004"
+  },
+  {
+    "tagId": "1007",
+    "startDate": "2026-08-06T11:13:06.145Z",
+    "endDate": null,
+    "reason": "담당→태그 마이그레이션",
+    "id": "1010",
+    "createdAt": "2026-08-06T11:13:06.145Z",
+    "eventId": "",
+    "memoId": "1005"
+  },
+  {
+    "tagId": "1007",
+    "startDate": "2026-08-06T11:13:06.145Z",
+    "endDate": null,
+    "reason": "담당→태그 마이그레이션",
+    "id": "1011",
+    "createdAt": "2026-08-06T11:13:06.145Z",
+    "eventId": "",
+    "memoId": "1006"
+  },
+  {
+    "tagId": "1011",
+    "startDate": "2026-08-06T11:13:06.145Z",
+    "endDate": null,
+    "reason": "담당→태그 마이그레이션",
+    "id": "1012",
+    "createdAt": "2026-08-06T11:13:06.145Z",
+    "eventId": "",
+    "memoId": "1007"
+  },
+  {
+    "tagId": "1010",
+    "startDate": "2026-08-06T11:13:06.145Z",
+    "endDate": null,
+    "reason": "담당→태그 마이그레이션",
+    "id": "1013",
+    "createdAt": "2026-08-06T11:13:06.145Z",
+    "eventId": "",
+    "memoId": "1008"
+  },
+  {
+    "tagId": "1010",
+    "startDate": "2026-08-06T11:13:06.145Z",
+    "endDate": null,
+    "reason": "담당→태그 마이그레이션",
+    "id": "1014",
+    "createdAt": "2026-08-06T11:13:06.145Z",
+    "eventId": "",
+    "memoId": "1009"
+  },
+  {
+    "tagId": "1008",
+    "startDate": "2026-08-06T11:13:06.145Z",
+    "endDate": null,
+    "reason": "담당→태그 마이그레이션",
+    "id": "1015",
+    "createdAt": "2026-08-06T11:13:06.145Z",
+    "eventId": "",
+    "memoId": "1010"
+  },
+  {
+    "tagId": "1012",
+    "startDate": "2026-08-06T11:13:06.145Z",
+    "endDate": null,
+    "reason": "담당→태그 마이그레이션",
+    "id": "1016",
+    "createdAt": "2026-08-06T11:13:06.145Z",
+    "eventId": "",
+    "memoId": "1011"
+  },
+  {
+    "tagId": "1012",
+    "startDate": "2026-08-06T11:13:06.145Z",
+    "endDate": null,
+    "reason": "담당→태그 마이그레이션",
+    "id": "1017",
+    "createdAt": "2026-08-06T11:13:06.145Z",
+    "eventId": "",
+    "memoId": "1012"
+  },
+  {
+    "tagId": "1012",
+    "startDate": "2026-08-06T11:13:06.145Z",
+    "endDate": null,
+    "reason": "담당→태그 마이그레이션",
+    "id": "1018",
+    "createdAt": "2026-08-06T11:13:06.145Z",
+    "eventId": "",
+    "memoId": "1013"
+  },
+  {
+    "tagId": "1012",
+    "startDate": "2026-08-06T11:13:06.145Z",
+    "endDate": null,
+    "reason": "담당→태그 마이그레이션",
+    "id": "1019",
+    "createdAt": "2026-08-06T11:13:06.145Z",
+    "eventId": "",
+    "memoId": "1014"
+  },
+  {
+    "tagId": "1011",
+    "startDate": "2026-08-06T11:13:06.145Z",
+    "endDate": "2026-08-06T17:00:22.799Z",
+    "reason": "담당→태그 마이그레이션",
+    "id": "1020",
+    "createdAt": "2026-08-06T11:13:06.145Z",
+    "eventId": "",
+    "memoId": "1015"
+  },
+  {
+    "tagId": "1011",
+    "startDate": "2026-08-06T11:13:06.145Z",
+    "endDate": null,
+    "reason": "담당→태그 마이그레이션",
+    "id": "1021",
+    "createdAt": "2026-08-06T11:13:06.145Z",
+    "eventId": "",
+    "memoId": "1016"
+  },
+  {
+    "tagId": "1008",
+    "startDate": "2026-08-06T11:13:06.145Z",
+    "endDate": null,
+    "reason": "담당→태그 마이그레이션",
+    "id": "1022",
+    "createdAt": "2026-08-06T11:13:06.145Z",
+    "eventId": "",
+    "memoId": "1017"
+  },
+  {
+    "tagId": "1007",
+    "startDate": "2026-08-06T11:13:06.145Z",
+    "endDate": null,
+    "reason": "담당→태그 마이그레이션",
+    "id": "1023",
+    "createdAt": "2026-08-06T11:13:06.145Z",
+    "eventId": "",
+    "memoId": "1018"
+  },
+  {
+    "tagId": "1007",
+    "startDate": "2026-08-06T11:13:06.145Z",
+    "endDate": null,
+    "reason": "담당→태그 마이그레이션",
+    "id": "1024",
+    "createdAt": "2026-08-06T11:13:06.145Z",
+    "eventId": "",
+    "memoId": "1019"
+  },
+  {
+    "tagId": "1012",
+    "startDate": "2026-08-06T11:29:28.556Z",
+    "endDate": null,
+    "reason": "태그에서 메모 생성",
+    "id": "1025",
+    "createdAt": "2026-08-06T11:29:28.568Z",
+    "eventId": "",
+    "memoId": "1020"
+  },
+  {
+    "tagId": "1001",
+    "startDate": "2026-08-06T14:09:22.387Z",
+    "endDate": null,
+    "reason": "태그에서 메모 생성",
+    "id": "1026",
+    "createdAt": "2026-08-06T14:09:22.397Z",
+    "eventId": "",
+    "memoId": "1021"
+  },
+  {
+    "tagId": "1009",
+    "startDate": "2026-08-06T17:00:22.325Z",
+    "endDate": "2026-08-06T17:00:30.490Z",
+    "reason": "메모 태그 변경",
+    "id": "1027",
+    "createdAt": "2026-08-06T17:00:22.563Z",
+    "eventId": "",
+    "memoId": "1015"
+  },
+  {
+    "tagId": "1011",
+    "startDate": "2026-08-06T17:00:30.260Z",
+    "endDate": null,
+    "reason": "메모 태그 변경",
+    "id": "1028",
+    "createdAt": "2026-08-06T17:00:30.272Z",
+    "eventId": "",
+    "memoId": "1015"
+  },
+  {
+    "tagId": "1002",
+    "memoId": "1022",
+    "eventId": "",
+    "startDate": "2026-08-06T17:39:17.785Z",
+    "endDate": "2026-08-07T04:32:51.237Z",
+    "reason": "태그에서 메모 생성",
+    "id": "1031",
+    "createdAt": "2026-08-06T17:39:17.793Z"
+  },
+  {
+    "tagId": "1006",
+    "memoId": "",
+    "eventId": "1001",
+    "startDate": "2026-08-07T00:00:00.000Z",
+    "endDate": null,
+    "reason": "일정→태그 시드",
+    "id": "1032",
+    "createdAt": "2026-08-07T00:00:00.000Z"
+  },
+  {
+    "tagId": "1001",
+    "memoId": "",
+    "eventId": "1002",
+    "startDate": "2026-08-07T00:00:00.000Z",
+    "endDate": null,
+    "reason": "일정→태그 시드",
+    "id": "1033",
+    "createdAt": "2026-08-07T00:00:00.000Z"
+  },
+  {
+    "tagId": "1004",
+    "memoId": "",
+    "eventId": "1003",
+    "startDate": "2026-08-07T00:00:00.000Z",
+    "endDate": null,
+    "reason": "일정→태그 시드",
+    "id": "1034",
+    "createdAt": "2026-08-07T00:00:00.000Z"
+  },
+  {
+    "tagId": "1003",
+    "memoId": "",
+    "eventId": "1004",
+    "startDate": "2026-08-07T00:00:00.000Z",
+    "endDate": null,
+    "reason": "일정→태그 시드",
+    "id": "1035",
+    "createdAt": "2026-08-07T00:00:00.000Z"
+  },
+  {
+    "tagId": "1005",
+    "memoId": "",
+    "eventId": "1005",
+    "startDate": "2026-08-07T00:00:00.000Z",
+    "endDate": null,
+    "reason": "일정→태그 시드",
+    "id": "1036",
+    "createdAt": "2026-08-07T00:00:00.000Z"
+  },
+  {
+    "tagId": "1004",
+    "memoId": "",
+    "eventId": "1006",
+    "startDate": "2026-08-07T00:00:00.000Z",
+    "endDate": null,
+    "reason": "일정→태그 시드",
+    "id": "1037",
+    "createdAt": "2026-08-07T00:00:00.000Z"
+  },
+  {
+    "tagId": "1010",
+    "memoId": "",
+    "eventId": "1007",
+    "startDate": "2026-08-07T00:00:00.000Z",
+    "endDate": null,
+    "reason": "일정→태그 시드",
+    "id": "1038",
+    "createdAt": "2026-08-07T00:00:00.000Z"
+  },
+  {
+    "tagId": "1011",
+    "memoId": "",
+    "eventId": "1008",
+    "startDate": "2026-08-07T00:00:00.000Z",
+    "endDate": null,
+    "reason": "일정→태그 시드",
+    "id": "1039",
+    "createdAt": "2026-08-07T00:00:00.000Z"
+  },
+  {
+    "tagId": "1001",
+    "memoId": "",
+    "eventId": "1009",
+    "startDate": "2026-08-07T00:00:00.000Z",
+    "endDate": null,
+    "reason": "일정→태그 시드",
+    "id": "1040",
+    "createdAt": "2026-08-07T00:00:00.000Z"
+  },
+  {
+    "tagId": "1009",
+    "memoId": "",
+    "eventId": "1010",
+    "startDate": "2026-08-07T00:00:00.000Z",
+    "endDate": null,
+    "reason": "일정→태그 시드",
+    "id": "1041",
+    "createdAt": "2026-08-07T00:00:00.000Z"
+  },
+  {
+    "tagId": "1012",
+    "memoId": "",
+    "eventId": "1011",
+    "startDate": "2026-08-07T00:00:00.000Z",
+    "endDate": null,
+    "reason": "일정→태그 시드",
+    "id": "1042",
+    "createdAt": "2026-08-07T00:00:00.000Z"
+  },
+  {
+    "tagId": "1007",
+    "memoId": "",
+    "eventId": "1012",
+    "startDate": "2026-08-07T00:00:00.000Z",
+    "endDate": null,
+    "reason": "일정→태그 시드",
+    "id": "1043",
+    "createdAt": "2026-08-07T00:00:00.000Z"
+  },
+  {
+    "tagId": "1008",
+    "memoId": "",
+    "eventId": "1013",
+    "startDate": "2026-08-07T00:00:00.000Z",
+    "endDate": null,
+    "reason": "일정→태그 시드",
+    "id": "1044",
+    "createdAt": "2026-08-07T00:00:00.000Z"
+  },
+  {
+    "tagId": "1013",
+    "memoId": "1020",
+    "eventId": "",
+    "startDate": "2026-08-06T18:27:41.224Z",
+    "endDate": null,
+    "reason": "태그에서 메모 생성",
+    "id": "1029",
+    "createdAt": "2026-08-06T18:27:41.233Z"
+  },
+  {
+    "tagId": "1007",
+    "memoId": "1021",
+    "eventId": "",
+    "startDate": "2026-08-07T04:29:39.650Z",
+    "endDate": null,
+    "reason": "태그에서 메모 생성",
+    "id": "1030",
+    "createdAt": "2026-08-07T04:29:39.659Z"
+  },
+  {
+    "tagId": "1010",
+    "memoId": "1022",
+    "eventId": "",
+    "startDate": "2026-08-07T04:32:51.002Z",
+    "endDate": null,
+    "reason": "메모 태그 변경",
+    "id": "1045",
+    "createdAt": "2026-08-07T04:32:51.017Z"
+  },
+  {
+    "tagId": "1007",
+    "memoId": "1023",
+    "eventId": "",
+    "startDate": "2026-08-07T04:32:55.397Z",
+    "endDate": null,
+    "reason": "메모 태그 변경",
+    "id": "1046",
+    "createdAt": "2026-08-07T04:32:55.409Z"
+  },
+  {
+    "tagId": "1010",
+    "memoId": "1001",
+    "eventId": "",
+    "resourceId": "",
+    "startDate": "2026-09-02T07:22:13.481Z",
+    "endDate": null,
+    "reason": "태그에서 메모 생성",
+    "id": "1047",
+    "createdAt": "2026-09-02T07:22:13.498Z"
+  },
+  {
+    "tagId": "1010",
+    "memoId": "1002",
+    "eventId": "",
+    "resourceId": "",
+    "startDate": "2026-09-02T07:22:17.817Z",
+    "endDate": null,
+    "reason": "태그에서 메모 생성",
+    "id": "1048",
+    "createdAt": "2026-09-02T07:22:17.827Z"
+  },
+  {
+    "tagId": "1013",
+    "memoId": "1004",
+    "eventId": "",
+    "resourceId": "",
+    "startDate": "2026-09-02T07:23:06.809Z",
+    "endDate": null,
+    "reason": "메모 태그 변경",
+    "id": "1049",
+    "createdAt": "2026-09-02T07:23:06.902Z"
+  }
+]

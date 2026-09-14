@@ -1,0 +1,78 @@
+[
+  {
+    "code": "beginner",
+    "icon": "i-ph:number-square-one-light",
+    "label": "입문자",
+    "labelEn": "Beginner",
+    "description": "기본 회원에게 부여되는 시작 등급.",
+    "isDefault": true,
+    "thumbnail": "/img/grades/grade1.jpg",
+    "duration_type": "FREE",
+    "alertDays": 7,
+    "graceDays": 3,
+    "labelAffix": {
+      "prefix": "",
+      "suffix": "급"
+    },
+    "requiredWrittenTest": 60,
+    "createdAt": "2026-09-14T19:19:37.987Z",
+    "id": "1001"
+  },
+  {
+    "code": "basic",
+    "icon": "i-ph:number-square-two-light",
+    "label": "기초",
+    "labelEn": "Intermediate",
+    "description": "요건 충족 후 승급 가능한 중간 등급.",
+    "isDefault": false,
+    "thumbnail": "/img/grades/grade2.jpg",
+    "duration_type": "ANNUAL",
+    "alertDays": 7,
+    "graceDays": 3,
+    "labelAffix": {
+      "prefix": "",
+      "suffix": "급"
+    },
+    "requiredWrittenTest": 60,
+    "createdAt": "2026-09-14T19:19:37.987Z",
+    "id": "1002"
+  },
+  {
+    "code": "expert",
+    "icon": "i-ph:number-square-three-light",
+    "label": "숙련자",
+    "labelEn": "Beginner",
+    "description": "기본 회원에게 부여되는 시작 등급.",
+    "isDefault": false,
+    "thumbnail": "/img/grades/grade3.jpg",
+    "duration_type": "ANNUAL",
+    "alertDays": 7,
+    "graceDays": 3,
+    "labelAffix": {
+      "prefix": "",
+      "suffix": "급"
+    },
+    "requiredWrittenTest": 70,
+    "createdAt": "2026-09-14T19:19:37.987Z",
+    "id": "1003"
+  },
+  {
+    "code": "leader",
+    "icon": "i-ph:number-square-four-light",
+    "label": "지도자",
+    "labelEn": "Expert",
+    "description": "가장 높은 단계의 최상위 등급.",
+    "isDefault": false,
+    "thumbnail": "/img/grades/grade4.jpg",
+    "duration_type": "ANNUAL",
+    "alertDays": 7,
+    "graceDays": 3,
+    "labelAffix": {
+      "prefix": "",
+      "suffix": "급"
+    },
+    "requiredWrittenTest": 60,
+    "createdAt": "2026-09-14T19:19:37.987Z",
+    "id": "1004"
+  }
+]

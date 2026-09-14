@@ -1,0 +1,698 @@
+[
+  {
+    "title": "요약",
+    "icon": "i-material-symbols-light:team-dashboard-outline",
+    "path": "/admin",
+    "accessRoleCodes": [
+      "admin"
+    ],
+    "target": {
+      "kind": "PAGE"
+    },
+    "createdAt": "2026-09-14T19:19:36.423Z",
+    "id": "1001"
+  },
+  {
+    "title": "메뉴",
+    "icon": "i-quill:hamburger",
+    "path": "/admin/menus",
+    "accessRoleCodes": [
+      "admin"
+    ],
+    "target": {
+      "kind": "TABLE",
+      "dbTable": {
+        "name": "menus",
+        "viewMode": "목록",
+        "isHierarchy": true,
+        "세는단위": "개",
+        "folders": [
+          "1001",
+          "1003",
+          "1004",
+          "1005",
+          "1006",
+          "1002",
+          "1025",
+          "1007",
+          "1008",
+          "1009",
+          "1010",
+          "1011",
+          "1012",
+          "1017",
+          "1018",
+          "1019",
+          {
+            "id": 2,
+            "label": "활동",
+            "children": [
+              "1030",
+              "1031",
+              "1032",
+              "1033",
+              "1034"
+            ]
+          },
+          {
+            "id": 3,
+            "label": "신청",
+            "children": [
+              "1035",
+              "1036"
+            ]
+          },
+          {
+            "id": 1,
+            "label": "커뮤니티",
+            "children": [
+              "1013",
+              "1014",
+              "1015",
+              "1016"
+            ]
+          }
+        ]
+      }
+    },
+    "createdAt": "2026-09-14T19:19:36.423Z",
+    "id": "1002"
+  },
+  {
+    "title": "회원",
+    "icon": "i-ph:users-light",
+    "path": "/admin/members",
+    "accessRoleCodes": [
+      "admin"
+    ],
+    "target": {
+      "kind": "TABLE",
+      "dbTable": {
+        "name": "members",
+        "viewMode": "가로카드",
+        "isHierarchy": false,
+        "세는단위": "명",
+        "folders": [
+          "1015",
+          "1014",
+          "1013",
+          "1012",
+          "1011",
+          "1010",
+          "1009",
+          "1008",
+          "1007",
+          "1006",
+          "1005",
+          "1004",
+          "1003",
+          "1002",
+          "1001",
+          "1016",
+          "1017"
+        ]
+      }
+    },
+    "createdAt": "2026-09-14T19:19:36.423Z",
+    "id": "1003"
+  },
+  {
+    "title": "역할",
+    "icon": "i-clarity:id-badge-line",
+    "path": "/admin/roles",
+    "isSystem": false,
+    "accessRoleCodes": [
+      "admin"
+    ],
+    "target": {
+      "kind": "TABLE",
+      "dbTable": {
+        "name": "roles",
+        "viewMode": "가로카드",
+        "isHierarchy": false,
+        "세는단위": "개",
+        "folders": [
+          "1001",
+          "1002",
+          "1003",
+          "1004",
+          "1005"
+        ]
+      }
+    },
+    "createdAt": "2026-09-14T19:19:36.423Z",
+    "id": "1004"
+  },
+  {
+    "title": "등급",
+    "icon": "i-iconamoon:certificate-badge-thin",
+    "path": "/admin/grades",
+    "accessRoleCodes": [
+      "admin"
+    ],
+    "target": {
+      "kind": "TABLE",
+      "dbTable": {
+        "name": "grades",
+        "viewMode": "가로카드",
+        "isHierarchy": false,
+        "세는단위": "개",
+        "folders": [
+          "1001",
+          "1002",
+          "1003",
+          "1004"
+        ]
+      }
+    },
+    "createdAt": "2026-09-14T19:19:36.423Z",
+    "id": "1005"
+  },
+  {
+    "title": "등급심사",
+    "icon": "i-ph:certificate-light",
+    "path": "/admin/gradings",
+    "status": "HIDDEN",
+    "accessRoleCodes": [
+      "admin"
+    ],
+    "target": {
+      "kind": "TABLE",
+      "dbTable": {
+        "name": "gradings",
+        "viewMode": "목록",
+        "isHierarchy": false,
+        "세는단위": "개 심사",
+        "folders": []
+      }
+    },
+    "createdAt": "2026-09-14T19:19:36.423Z",
+    "id": "1006"
+  },
+  {
+    "title": "담당신청",
+    "icon": "i-ph-hand-pointing-light",
+    "path": "/admin/own-enrolls",
+    "accessRoleCodes": [
+      "manager"
+    ],
+    "target": {
+      "kind": "PAGE"
+    },
+    "createdAt": "2026-09-14T19:19:36.423Z",
+    "id": "1007"
+  },
+  {
+    "title": "담당회원",
+    "icon": "i-ph:users-light",
+    "path": "/admin/own-members",
+    "accessRoleCodes": [
+      "manager"
+    ],
+    "target": {
+      "kind": "PAGE"
+    },
+    "createdAt": "2026-09-14T19:19:36.423Z",
+    "id": "1008"
+  },
+  {
+    "title": "학술대회신청",
+    "icon": "i-material-symbols-light:event-outline-rounded",
+    "path": "/enroll-conferences",
+    "accessRoleCodes": [
+      "learner"
+    ],
+    "target": {
+      "kind": "PAGE"
+    },
+    "createdAt": "2026-09-14T19:19:36.423Z",
+    "id": "1009"
+  },
+  {
+    "title": "학회지신청",
+    "icon": "i-mdi-light:book",
+    "path": "/enroll-journals",
+    "accessRoleCodes": [
+      "learner"
+    ],
+    "target": {
+      "kind": "PAGE"
+    },
+    "createdAt": "2026-09-14T19:19:36.423Z",
+    "id": "1010"
+  },
+  {
+    "title": "등급신청",
+    "icon": "i-lucide-file-check",
+    "path": "/enroll-qualifications",
+    "accessRoleCodes": [
+      "learner"
+    ],
+    "target": {
+      "kind": "PAGE"
+    },
+    "createdAt": "2026-09-14T19:19:36.423Z",
+    "id": "1011"
+  },
+  {
+    "title": "일반행사신청",
+    "icon": "i-material-symbols-light:event-outline-rounded",
+    "path": "/enroll-occasions",
+    "accessRoleCodes": [
+      "learner"
+    ],
+    "target": {
+      "kind": "PAGE"
+    },
+    "createdAt": "2026-09-14T19:19:36.423Z",
+    "id": "1012"
+  },
+  {
+    "title": "나의 정보",
+    "icon": "i-mynaui:user",
+    "path": "/my-info",
+    "accessRoleCodes": [
+      "learner",
+      "manager",
+      "admin"
+    ],
+    "target": {
+      "kind": "PAGE"
+    },
+    "createdAt": "2026-09-14T19:19:36.423Z",
+    "id": "1013"
+  },
+  {
+    "title": "소통",
+    "icon": "i-ph:list-bullets-light",
+    "path": "/boards/notice",
+    "accessRoleCodes": [
+      "admin",
+      "manager",
+      "associate",
+      "guest",
+      "learner"
+    ],
+    "target": {
+      "kind": "BOARD",
+      "boardId": "1001"
+    },
+    "createdAt": "2026-09-14T19:19:36.423Z",
+    "id": "1014"
+  },
+  {
+    "title": "Q&A",
+    "icon": "i-ph:chat-centered-dots-light",
+    "path": "/boards/qna",
+    "accessRoleCodes": [
+      "admin",
+      "manager",
+      "associate",
+      "guest",
+      "learner"
+    ],
+    "target": {
+      "kind": "BOARD",
+      "boardId": "1002"
+    },
+    "createdAt": "2026-09-14T19:19:36.423Z",
+    "id": "1015"
+  },
+  {
+    "title": "자료",
+    "icon": "i-lucide-library-big",
+    "path": "/resources",
+    "accessRoleCodes": [
+      "admin",
+      "manager",
+      "associate",
+      "guest",
+      "learner"
+    ],
+    "target": {
+      "kind": "PAGE"
+    },
+    "createdAt": "2026-09-14T19:19:36.423Z",
+    "id": "1016"
+  },
+  {
+    "title": "소식",
+    "icon": "i-fluent:news-20-regular",
+    "path": "/boards/news",
+    "accessRoleCodes": [
+      "admin",
+      "manager",
+      "associate",
+      "guest",
+      "learner"
+    ],
+    "target": {
+      "kind": "BOARD",
+      "boardId": "1003"
+    },
+    "createdAt": "2026-09-14T19:19:36.423Z",
+    "id": "1017"
+  },
+  {
+    "title": "메모",
+    "icon": "i-lucide-sticky-note",
+    "path": "/v2/memos",
+    "accessRoleCodes": [
+      "admin"
+    ],
+    "target": {
+      "kind": "TABLE",
+      "dbTable": {
+        "name": "memos",
+        "viewMode": "목록",
+        "isHierarchy": false,
+        "세는단위": "개",
+        "folders": []
+      }
+    },
+    "createdAt": "2026-09-14T19:19:36.423Z",
+    "id": "1018"
+  },
+  {
+    "title": "태그",
+    "icon": "i-lucide-tags",
+    "path": "/v2/tags",
+    "accessRoleCodes": [
+      "admin"
+    ],
+    "target": {
+      "kind": "TABLE",
+      "dbTable": {
+        "name": "tags",
+        "viewMode": "목록",
+        "isHierarchy": false,
+        "세는단위": "개",
+        "folders": []
+      }
+    },
+    "createdAt": "2026-09-14T19:19:36.423Z",
+    "id": "1019"
+  },
+  {
+    "title": "일정",
+    "icon": "i-lucide-calendar",
+    "path": "/v2/events",
+    "accessRoleCodes": [
+      "admin"
+    ],
+    "target": {
+      "kind": "TABLE",
+      "dbTable": {
+        "name": "events",
+        "viewMode": "목록",
+        "isHierarchy": false,
+        "세는단위": "개",
+        "folders": []
+      }
+    },
+    "createdAt": "2026-09-14T19:19:36.423Z",
+    "id": "1020"
+  },
+  {
+    "title": "디자인틀 관리",
+    "icon": "i-ph:table-light",
+    "path": "/admin/design-templates",
+    "accessRoleCodes": [
+      "admin"
+    ],
+    "target": {
+      "kind": "TABLE",
+      "dbTable": {
+        "name": "design-templates",
+        "viewMode": "목록",
+        "isHierarchy": false,
+        "세는단위": "개",
+        "folders": []
+      }
+    },
+    "createdAt": "2026-09-14T19:19:36.423Z",
+    "id": "1021"
+  },
+  {
+    "title": "디자인틀 (준비중)",
+    "icon": "i-lucide-layout-template",
+    "path": "/admin/edit/design-templates",
+    "accessRoleCodes": [
+      "admin"
+    ],
+    "target": {
+      "kind": "PAGE"
+    },
+    "createdAt": "2026-09-14T19:19:36.423Z",
+    "id": "1022"
+  },
+  {
+    "title": "자료",
+    "icon": "i-lucide-library-big",
+    "path": "/admin/resources",
+    "accessRoleCodes": [
+      "admin"
+    ],
+    "target": {
+      "kind": "TABLE",
+      "dbTable": {
+        "name": "resources",
+        "viewMode": "목록",
+        "isHierarchy": false,
+        "세는단위": "건",
+        "folders": []
+      }
+    },
+    "createdAt": "2026-09-14T19:19:36.423Z",
+    "id": "1023"
+  },
+  {
+    "title": "게시판",
+    "icon": "i-ph:list-bullets-light",
+    "path": "/admin/boards",
+    "accessRoleCodes": [
+      "admin"
+    ],
+    "target": {
+      "kind": "TABLE",
+      "dbTable": {
+        "name": "boards",
+        "viewMode": "목록",
+        "isHierarchy": false,
+        "세는단위": "개",
+        "folders": [
+          "1001",
+          "1002",
+          "1004"
+        ]
+      }
+    },
+    "createdAt": "2026-09-14T19:19:36.423Z",
+    "id": "1024"
+  },
+  {
+    "title": "설문",
+    "icon": "i-ph:clipboard-text-light",
+    "path": "/admin/surveys",
+    "accessRoleCodes": [
+      "admin"
+    ],
+    "target": {
+      "kind": "TABLE",
+      "dbTable": {
+        "name": "surveys",
+        "viewMode": "가로카드",
+        "isHierarchy": false,
+        "세는단위": "개",
+        "folders": []
+      }
+    },
+    "createdAt": "2026-09-14T19:19:36.423Z",
+    "id": "1025"
+  },
+  {
+    "title": "퀴즈",
+    "icon": "i-ph:exam-light",
+    "path": "/admin/quizzes",
+    "accessRoleCodes": [
+      "admin"
+    ],
+    "target": {
+      "kind": "TABLE",
+      "dbTable": {
+        "name": "quizzes",
+        "viewMode": "가로카드",
+        "isHierarchy": false,
+        "세는단위": "개",
+        "folders": []
+      }
+    },
+    "createdAt": "2026-09-14T19:19:36.423Z",
+    "id": "1026"
+  },
+  {
+    "title": "투표",
+    "icon": "i-ph:list-checks-light",
+    "path": "/admin/polls",
+    "accessRoleCodes": [
+      "admin"
+    ],
+    "target": {
+      "kind": "TABLE",
+      "dbTable": {
+        "name": "polls",
+        "viewMode": "가로카드",
+        "isHierarchy": false,
+        "세는단위": "개",
+        "folders": []
+      }
+    },
+    "createdAt": "2026-09-14T19:19:36.423Z",
+    "id": "1027"
+  },
+  {
+    "title": "수업",
+    "icon": "i-ph:chalkboard-teacher-light",
+    "path": "/admin/classes",
+    "accessRoleCodes": [
+      "admin"
+    ],
+    "target": {
+      "kind": "TABLE",
+      "dbTable": {
+        "name": "classes",
+        "viewMode": "가로카드",
+        "isHierarchy": false,
+        "세는단위": "개",
+        "folders": []
+      }
+    },
+    "createdAt": "2026-09-14T19:19:36.423Z",
+    "id": "1028"
+  },
+  {
+    "title": "행사",
+    "icon": "i-ph:confetti-light",
+    "path": "/admin/occasions",
+    "accessRoleCodes": [
+      "admin"
+    ],
+    "target": {
+      "kind": "TABLE",
+      "dbTable": {
+        "name": "occasions",
+        "viewMode": "가로카드",
+        "isHierarchy": false,
+        "세는단위": "개",
+        "folders": []
+      }
+    },
+    "createdAt": "2026-09-14T19:19:36.423Z",
+    "id": "1029"
+  },
+  {
+    "title": "신청받기",
+    "icon": "i-ph:megaphone-light",
+    "path": "/admin/enrollables",
+    "accessRoleCodes": [
+      "admin"
+    ],
+    "target": {
+      "kind": "TABLE",
+      "dbTable": {
+        "name": "enrollables",
+        "viewMode": "목록",
+        "isHierarchy": false,
+        "세는단위": "개",
+        "folders": []
+      }
+    },
+    "createdAt": "2026-09-14T19:19:36.423Z",
+    "id": "1030"
+  },
+  {
+    "title": "신청",
+    "icon": "i-ph:hand-pointing-light",
+    "path": "/admin/enrolls",
+    "accessRoleCodes": [
+      "admin"
+    ],
+    "target": {
+      "kind": "TABLE",
+      "dbTable": {
+        "name": "enrolls",
+        "viewMode": "목록",
+        "isHierarchy": false,
+        "세는단위": "건",
+        "folders": []
+      }
+    },
+    "createdAt": "2026-09-14T19:19:36.423Z",
+    "id": "1031"
+  },
+  {
+    "title": "신청",
+    "icon": "i-ph:hand-pointing-light",
+    "path": "/official/enrolls",
+    "accessRoleCodes": [
+      "learner",
+      "guest"
+    ],
+    "target": {
+      "kind": "PAGE"
+    },
+    "createdAt": "2026-09-14T19:19:36.423Z",
+    "id": "1032"
+  },
+  {
+    "title": "계정",
+    "icon": "i-ph:key-light",
+    "path": "/admin/users",
+    "isSystem": false,
+    "accessRoleCodes": [
+      "admin"
+    ],
+    "target": {
+      "kind": "TABLE",
+      "dbTable": {
+        "name": "users",
+        "viewMode": "목록",
+        "isHierarchy": false,
+        "세는단위": "개",
+        "folders": []
+      }
+    },
+    "createdAt": "2026-09-14T19:19:36.423Z",
+    "id": "1033"
+  },
+  {
+    "title": "홈",
+    "icon": "i-ph:house-light",
+    "path": "/official",
+    "accessRoleCodes": [
+      "admin",
+      "manager",
+      "associate",
+      "guest",
+      "learner"
+    ],
+    "target": {
+      "kind": "PAGE"
+    },
+    "createdAt": "2026-09-14T19:19:36.423Z",
+    "id": "1034"
+  },
+  {
+    "title": "할 일",
+    "icon": "i-ph:tray-light",
+    "path": "/admin/own",
+    "accessRoleCodes": [
+      "manager"
+    ],
+    "target": {
+      "kind": "PAGE"
+    },
+    "createdAt": "2026-09-14T19:19:36.423Z",
+    "id": "1035"
+  }
+]

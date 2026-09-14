@@ -1,0 +1,1944 @@
+[
+  {
+    "surveyId": "1004",
+    "quizId": null,
+    "pollId": null,
+    "classId": null,
+    "occasionId": null,
+    "round": 1,
+    "applicationStartDate": "2026-09-13T15:00:00.000Z",
+    "applicationEndDate": "2026-10-03T15:00:00.000Z",
+    "usageStartDate": "2026-09-13T15:00:00.000Z",
+    "usageEndDate": "2026-10-13T15:00:00.000Z",
+    "priceType": "FREE",
+    "price": 0,
+    "maxParticipants": 0,
+    "status": "PUBLISHED",
+    "questions": [
+      {
+        "id": "2fe3hq",
+        "label": "들을 예정인 수업을 모두 골라주세요.",
+        "type": "MULTI",
+        "options": [
+          {
+            "label": "개인정보 취급자 교육",
+            "value": "개인정보 취급자 교육"
+          },
+          {
+            "label": "회비·기부금 영수증 실무",
+            "value": "회비·기부금 영수증 실무"
+          },
+          {
+            "label": "회원 명부 정비 워크숍",
+            "value": "회원 명부 정비 워크숍"
+          },
+          {
+            "label": "회의록·기록물 정리",
+            "value": "회의록·기록물 정리"
+          },
+          {
+            "label": "총회 전자투표 운영 실습",
+            "value": "총회 전자투표 운영 실습"
+          },
+          {
+            "label": "AI로 사무 자동화 입문",
+            "value": "AI로 사무 자동화 입문"
+          },
+          {
+            "label": "협회 홈페이지 최소 구성 실습",
+            "value": "협회 홈페이지 최소 구성 실습"
+          }
+        ],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": true
+      },
+      {
+        "id": "pzjm6x",
+        "label": "엑셀로 여러 파일을 합치거나 중복을 찾아 본 경험이 있다.",
+        "type": "SCALE",
+        "options": [
+          {
+            "label": "매우 그렇다",
+            "value": "매우 그렇다"
+          },
+          {
+            "label": "그렇다",
+            "value": "그렇다"
+          },
+          {
+            "label": "보통",
+            "value": "보통"
+          },
+          {
+            "label": "아니다",
+            "value": "아니다"
+          },
+          {
+            "label": "전혀 아니다",
+            "value": "전혀 아니다"
+          }
+        ],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": true
+      },
+      {
+        "id": "ejdrlx",
+        "label": "개인정보 수집·이용 동의서를 직접 만들어 받아 본 적이 있다.",
+        "type": "SCALE",
+        "options": [
+          {
+            "label": "매우 그렇다",
+            "value": "매우 그렇다"
+          },
+          {
+            "label": "그렇다",
+            "value": "그렇다"
+          },
+          {
+            "label": "보통",
+            "value": "보통"
+          },
+          {
+            "label": "아니다",
+            "value": "아니다"
+          },
+          {
+            "label": "전혀 아니다",
+            "value": "전혀 아니다"
+          }
+        ],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": true
+      },
+      {
+        "id": "3ks3ts",
+        "label": "어떤 자격으로 듣습니까?",
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "모임 회원",
+            "value": "모임 회원"
+          },
+          {
+            "label": "협회 사무국 담당자",
+            "value": "협회 사무국 담당자"
+          }
+        ],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": true
+      },
+      {
+        "id": "rz45nv",
+        "label": "수업 전에 꼭 묻고 싶은 것을 적어주세요.",
+        "type": "LONG",
+        "options": [],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": false
+      }
+    ],
+    "allowGuest": false,
+    "id": "1001",
+    "createdAt": "2026-09-14T19:20:22.461Z"
+  },
+  {
+    "surveyId": "1003",
+    "quizId": null,
+    "pollId": null,
+    "classId": null,
+    "occasionId": null,
+    "round": 1,
+    "applicationStartDate": "2026-09-14T15:00:00.000Z",
+    "applicationEndDate": "2026-11-13T15:00:00.000Z",
+    "usageStartDate": "2026-09-14T15:00:00.000Z",
+    "usageEndDate": "2026-12-13T15:00:00.000Z",
+    "priceType": "FREE",
+    "price": 0,
+    "maxParticipants": 0,
+    "status": "PUBLISHED",
+    "questions": [
+      {
+        "id": "qqwmn9",
+        "label": "내년에 필요한 교육 주제를 모두 골라주세요.",
+        "type": "MULTI",
+        "options": [
+          {
+            "label": "개인정보보호법 실무",
+            "value": "개인정보보호법 실무"
+          },
+          {
+            "label": "회원 명부 정비",
+            "value": "회원 명부 정비"
+          },
+          {
+            "label": "총회 전자투표",
+            "value": "총회 전자투표"
+          },
+          {
+            "label": "회비·기부금 영수증",
+            "value": "회비·기부금 영수증"
+          },
+          {
+            "label": "협회 홈페이지 만들기",
+            "value": "협회 홈페이지 만들기"
+          },
+          {
+            "label": "AI로 사무 자동화",
+            "value": "AI로 사무 자동화"
+          }
+        ],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": true
+      },
+      {
+        "id": "shl64d",
+        "label": "지원 프로젝트에서 맡고 싶은 일은?",
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "명부 정리·동의서",
+            "value": "명부 정리·동의서"
+          },
+          {
+            "label": "사무국 인터뷰·문서",
+            "value": "사무국 인터뷰·문서"
+          },
+          {
+            "label": "화면·디자인",
+            "value": "화면·디자인"
+          },
+          {
+            "label": "개발·설정",
+            "value": "개발·설정"
+          },
+          {
+            "label": "아직 모름",
+            "value": "아직 모름"
+          }
+        ],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": true
+      },
+      {
+        "id": "q7bbcu",
+        "label": "한 달에 쓸 수 있는 시간은?",
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "4시간 미만",
+            "value": "4시간 미만"
+          },
+          {
+            "label": "4~8시간",
+            "value": "4~8시간"
+          },
+          {
+            "label": "8~16시간",
+            "value": "8~16시간"
+          },
+          {
+            "label": "16시간 이상",
+            "value": "16시간 이상"
+          }
+        ],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": true
+      }
+    ],
+    "allowGuest": false,
+    "id": "1002",
+    "createdAt": "2026-09-14T19:20:22.461Z"
+  },
+  {
+    "surveyId": "1002",
+    "quizId": null,
+    "pollId": null,
+    "classId": null,
+    "occasionId": null,
+    "round": 1,
+    "applicationStartDate": "2026-09-11T15:00:00.000Z",
+    "applicationEndDate": "2026-10-11T15:00:00.000Z",
+    "usageStartDate": "2026-09-11T15:00:00.000Z",
+    "usageEndDate": "2026-10-11T15:00:00.000Z",
+    "priceType": "FREE",
+    "price": 0,
+    "maxParticipants": 0,
+    "status": "PUBLISHED",
+    "questions": [
+      {
+        "id": "019a1v",
+        "label": "지원 활동 전반에 만족하십니까?",
+        "type": "SCALE",
+        "options": [
+          {
+            "label": "매우 그렇다",
+            "value": "매우 그렇다"
+          },
+          {
+            "label": "그렇다",
+            "value": "그렇다"
+          },
+          {
+            "label": "보통",
+            "value": "보통"
+          },
+          {
+            "label": "아니다",
+            "value": "아니다"
+          },
+          {
+            "label": "전혀 아니다",
+            "value": "전혀 아니다"
+          }
+        ],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": true
+      },
+      {
+        "id": "u0ctmb",
+        "label": "착수 회의에서 정한 범위가 끝까지 지켜졌습니까?",
+        "type": "SCALE",
+        "options": [
+          {
+            "label": "매우 그렇다",
+            "value": "매우 그렇다"
+          },
+          {
+            "label": "그렇다",
+            "value": "그렇다"
+          },
+          {
+            "label": "보통",
+            "value": "보통"
+          },
+          {
+            "label": "아니다",
+            "value": "아니다"
+          },
+          {
+            "label": "전혀 아니다",
+            "value": "전혀 아니다"
+          }
+        ],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": true
+      },
+      {
+        "id": "li056o",
+        "label": "사무국이 지금 혼자서 명부와 회비를 관리할 수 있습니까?",
+        "type": "SCALE",
+        "options": [
+          {
+            "label": "매우 그렇다",
+            "value": "매우 그렇다"
+          },
+          {
+            "label": "그렇다",
+            "value": "그렇다"
+          },
+          {
+            "label": "보통",
+            "value": "보통"
+          },
+          {
+            "label": "아니다",
+            "value": "아니다"
+          },
+          {
+            "label": "전혀 아니다",
+            "value": "전혀 아니다"
+          }
+        ],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": true
+      },
+      {
+        "id": "3lpmsj",
+        "label": "다음 기수 협회에 해 주고 싶은 말이 있다면?",
+        "type": "LONG",
+        "options": [],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": false
+      }
+    ],
+    "allowGuest": false,
+    "id": "1003",
+    "createdAt": "2026-09-14T19:20:22.461Z"
+  },
+  {
+    "surveyId": "1001",
+    "quizId": null,
+    "pollId": null,
+    "classId": null,
+    "occasionId": null,
+    "round": 1,
+    "applicationStartDate": "2026-09-04T15:00:00.000Z",
+    "applicationEndDate": "2026-10-14T15:00:00.000Z",
+    "usageStartDate": "2026-09-04T15:00:00.000Z",
+    "usageEndDate": "2026-11-03T15:00:00.000Z",
+    "priceType": "FREE",
+    "price": 0,
+    "maxParticipants": 0,
+    "status": "PUBLISHED",
+    "questions": [
+      {
+        "id": "oo9xvs",
+        "label": "회원 명부는 지금 어떤 형태로 관리하고 있습니까?",
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "엑셀·스프레드시트",
+            "value": "엑셀·스프레드시트"
+          },
+          {
+            "label": "카페·밴드 회원 목록",
+            "value": "카페·밴드 회원 목록"
+          },
+          {
+            "label": "수기 장부",
+            "value": "수기 장부"
+          },
+          {
+            "label": "회원관리 프로그램",
+            "value": "회원관리 프로그램"
+          },
+          {
+            "label": "모름",
+            "value": "모름"
+          }
+        ],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": true
+      },
+      {
+        "id": "j4e0oe",
+        "label": "명부를 마지막으로 정리(퇴회자·중복 삭제)한 것은 언제입니까?",
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "1년 안",
+            "value": "1년 안"
+          },
+          {
+            "label": "1~3년 전",
+            "value": "1~3년 전"
+          },
+          {
+            "label": "3년 넘음",
+            "value": "3년 넘음"
+          },
+          {
+            "label": "정리한 적 없음",
+            "value": "정리한 적 없음"
+          }
+        ],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": true
+      },
+      {
+        "id": "gmqoc8",
+        "label": "회비 미납자를 파악하는 데 얼마나 걸립니까?",
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "바로 안다",
+            "value": "바로 안다"
+          },
+          {
+            "label": "반나절",
+            "value": "반나절"
+          },
+          {
+            "label": "며칠",
+            "value": "며칠"
+          },
+          {
+            "label": "사실상 못 한다",
+            "value": "사실상 못 한다"
+          }
+        ],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": true
+      },
+      {
+        "id": "o4cexm",
+        "label": "회원에게 받아 둔 것을 모두 골라주세요.",
+        "type": "MULTI",
+        "options": [
+          {
+            "label": "개인정보 수집·이용 동의서",
+            "value": "개인정보 수집·이용 동의서"
+          },
+          {
+            "label": "회원 가입 신청서",
+            "value": "회원 가입 신청서"
+          },
+          {
+            "label": "회비 자동이체 동의",
+            "value": "회비 자동이체 동의"
+          },
+          {
+            "label": "없음",
+            "value": "없음"
+          }
+        ],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": false
+      },
+      {
+        "id": "x7njwo",
+        "label": "사무국에서 가장 번거로운 일 하나를 적어주세요.",
+        "type": "LONG",
+        "options": [],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": false
+      }
+    ],
+    "allowGuest": false,
+    "id": "1004",
+    "createdAt": "2026-09-14T19:20:22.461Z"
+  },
+  {
+    "surveyId": null,
+    "quizId": "1003",
+    "pollId": null,
+    "classId": null,
+    "occasionId": null,
+    "round": 1,
+    "applicationStartDate": "2026-09-13T15:00:00.000Z",
+    "applicationEndDate": "2026-10-28T15:00:00.000Z",
+    "usageStartDate": "2026-09-13T15:00:00.000Z",
+    "usageEndDate": "2026-11-12T15:00:00.000Z",
+    "priceType": "FREE",
+    "price": 0,
+    "maxParticipants": 0,
+    "status": "PUBLISHED",
+    "questions": [
+      {
+        "id": "0czvfw",
+        "label": "협회 사무국이 명부 파일을 메신저로 보내겠다고 합니다. 가장 알맞은 대응은?",
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "받아서 바로 작업한다",
+            "value": "받아서 바로 작업한다"
+          },
+          {
+            "label": "암호를 건 파일로 정해진 공유 폴더에 올려 달라고 한다",
+            "value": "암호를 건 파일로 정해진 공유 폴더에 올려 달라고 한다"
+          },
+          {
+            "label": "개인 메일로 다시 보내 달라고 한다",
+            "value": "개인 메일로 다시 보내 달라고 한다"
+          },
+          {
+            "label": "출력해서 우편으로 받는다",
+            "value": "출력해서 우편으로 받는다"
+          }
+        ],
+        "answerKey": [
+          "암호를 건 파일로 정해진 공유 폴더에 올려 달라고 한다"
+        ],
+        "score": 20,
+        "isRequired": true
+      },
+      {
+        "id": "59oqyi",
+        "label": "가명 처리한 실습용 명부라도 원본과의 대조표를 같은 폴더에 두어도 된다.",
+        "type": "OX",
+        "options": [],
+        "answerKey": [
+          "X"
+        ],
+        "score": 20,
+        "isRequired": true
+      },
+      {
+        "id": "uv7ko9",
+        "label": "동의를 받지 못한 회원의 정보는 새 회원 DB로 옮기지 않고, 정한 동의 기간이 끝나면 처리한다.",
+        "type": "OX",
+        "options": [],
+        "answerKey": [
+          "O"
+        ],
+        "score": 20,
+        "isRequired": true
+      },
+      {
+        "id": "9tp5po",
+        "label": "이관을 마친 뒤 모임 회원이 해야 하는 일을 모두 고르시오.",
+        "type": "MULTI",
+        "options": [
+          {
+            "label": "작업용 사본 파기",
+            "value": "작업용 사본 파기"
+          },
+          {
+            "label": "파기 기록 남기기",
+            "value": "파기 기록 남기기"
+          },
+          {
+            "label": "관리자 계정을 협회에 넘기기",
+            "value": "관리자 계정을 협회에 넘기기"
+          },
+          {
+            "label": "다음 기수를 위해 원본 사본 보관",
+            "value": "다음 기수를 위해 원본 사본 보관"
+          }
+        ],
+        "answerKey": [
+          "작업용 사본 파기",
+          "파기 기록 남기기",
+          "관리자 계정을 협회에 넘기기"
+        ],
+        "score": 20,
+        "isRequired": true
+      },
+      {
+        "id": "bxdupn",
+        "label": "협회 회원 명부에 수집하지 말아야 할 항목으로 가장 알맞은 것은?",
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "이름",
+            "value": "이름"
+          },
+          {
+            "label": "연락처",
+            "value": "연락처"
+          },
+          {
+            "label": "주민등록번호",
+            "value": "주민등록번호"
+          },
+          {
+            "label": "가입일",
+            "value": "가입일"
+          }
+        ],
+        "answerKey": [
+          "주민등록번호"
+        ],
+        "score": 20,
+        "isRequired": true
+      }
+    ],
+    "allowGuest": false,
+    "id": "1005",
+    "createdAt": "2026-09-14T19:20:22.461Z"
+  },
+  {
+    "surveyId": null,
+    "quizId": "1002",
+    "pollId": null,
+    "classId": null,
+    "occasionId": null,
+    "round": 1,
+    "applicationStartDate": "2026-09-09T15:00:00.000Z",
+    "applicationEndDate": "2026-11-08T15:00:00.000Z",
+    "usageStartDate": "2026-09-09T15:00:00.000Z",
+    "usageEndDate": "2026-12-08T15:00:00.000Z",
+    "priceType": "FREE",
+    "price": 0,
+    "maxParticipants": 0,
+    "status": "PUBLISHED",
+    "questions": [
+      {
+        "id": "juavc8",
+        "label": "정기총회 성립에 보통 필요한 것은?",
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "정회원 과반 참석(위임 포함)",
+            "value": "정회원 과반 참석(위임 포함)"
+          },
+          {
+            "label": "운영진 전원 참석",
+            "value": "운영진 전원 참석"
+          },
+          {
+            "label": "회원 3분의 1 참석",
+            "value": "회원 3분의 1 참석"
+          },
+          {
+            "label": "정해진 것 없음",
+            "value": "정해진 것 없음"
+          }
+        ],
+        "answerKey": [
+          "정회원 과반 참석(위임 포함)"
+        ],
+        "score": 50,
+        "isRequired": true
+      },
+      {
+        "id": "i244od",
+        "label": "연회비를 안 낸 회원은 자동으로 자격을 잃는다.",
+        "type": "OX",
+        "options": [],
+        "answerKey": [
+          "X"
+        ],
+        "score": 50,
+        "isRequired": true
+      }
+    ],
+    "allowGuest": false,
+    "id": "1006",
+    "createdAt": "2026-09-14T19:20:22.461Z"
+  },
+  {
+    "surveyId": null,
+    "quizId": "1001",
+    "pollId": null,
+    "classId": null,
+    "occasionId": null,
+    "round": 1,
+    "applicationStartDate": "2026-08-25T15:00:00.000Z",
+    "applicationEndDate": "2026-11-23T15:00:00.000Z",
+    "usageStartDate": "2026-08-25T15:00:00.000Z",
+    "usageEndDate": "2026-12-23T15:00:00.000Z",
+    "priceType": "FREE",
+    "price": 0,
+    "maxParticipants": 0,
+    "status": "PUBLISHED",
+    "questions": [
+      {
+        "id": "tot4vq",
+        "label": "개인정보 수집·이용 동의서에 반드시 들어가야 하는 것이 아닌 것은?",
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "수집 항목",
+            "value": "수집 항목"
+          },
+          {
+            "label": "이용 목적",
+            "value": "이용 목적"
+          },
+          {
+            "label": "보유 기간",
+            "value": "보유 기간"
+          },
+          {
+            "label": "협회 설립 연도",
+            "value": "협회 설립 연도"
+          }
+        ],
+        "answerKey": [
+          "협회 설립 연도"
+        ],
+        "score": 25,
+        "isRequired": true
+      },
+      {
+        "id": "aolghe",
+        "label": "회원 명부 파일을 개인 메일로 보내 집에서 작업해도 된다.",
+        "type": "OX",
+        "options": [],
+        "answerKey": [
+          "X"
+        ],
+        "score": 25,
+        "isRequired": true
+      },
+      {
+        "id": "kqbh0t",
+        "label": "퇴회한 회원의 정보는 보유 기간이 지나면 지워야 한다.",
+        "type": "OX",
+        "options": [],
+        "answerKey": [
+          "O"
+        ],
+        "score": 25,
+        "isRequired": true
+      },
+      {
+        "id": "w4k87q",
+        "label": "명부 이관 전에 협회가 해야 하는 일을 모두 고르시오.",
+        "type": "MULTI",
+        "options": [
+          {
+            "label": "회원에게 동의 받기",
+            "value": "회원에게 동의 받기"
+          },
+          {
+            "label": "관리자 계정 정하기",
+            "value": "관리자 계정 정하기"
+          },
+          {
+            "label": "회원 전원에게 명부 공개",
+            "value": "회원 전원에게 명부 공개"
+          },
+          {
+            "label": "보유 기간 정하기",
+            "value": "보유 기간 정하기"
+          }
+        ],
+        "answerKey": [
+          "회원에게 동의 받기",
+          "관리자 계정 정하기",
+          "보유 기간 정하기"
+        ],
+        "score": 25,
+        "isRequired": true
+      }
+    ],
+    "allowGuest": false,
+    "id": "1007",
+    "createdAt": "2026-09-14T19:20:22.461Z"
+  },
+  {
+    "surveyId": null,
+    "quizId": null,
+    "pollId": "1003",
+    "classId": null,
+    "occasionId": null,
+    "round": 1,
+    "applicationStartDate": "2026-11-06T15:00:00.000Z",
+    "applicationEndDate": "2026-11-19T15:00:00.000Z",
+    "usageStartDate": "2026-11-06T15:00:00.000Z",
+    "usageEndDate": "2026-11-20T15:00:00.000Z",
+    "priceType": "FREE",
+    "price": 0,
+    "maxParticipants": 0,
+    "status": "PREPARING",
+    "questions": [
+      {
+        "id": "sjp74q",
+        "label": "제1호 안건 — 2026년 결산 승인",
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "찬성",
+            "value": "찬성"
+          },
+          {
+            "label": "반대",
+            "value": "반대"
+          },
+          {
+            "label": "기권",
+            "value": "기권"
+          }
+        ],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": true
+      },
+      {
+        "id": "7zccf9",
+        "label": "제2호 안건 — 2027년 사업계획 및 예산 승인",
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "찬성",
+            "value": "찬성"
+          },
+          {
+            "label": "반대",
+            "value": "반대"
+          },
+          {
+            "label": "기권",
+            "value": "기권"
+          }
+        ],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": true
+      },
+      {
+        "id": "1jvkli",
+        "label": "제3호 안건 — 정관 일부 개정(전자 의결 조항 신설)",
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "찬성",
+            "value": "찬성"
+          },
+          {
+            "label": "반대",
+            "value": "반대"
+          },
+          {
+            "label": "기권",
+            "value": "기권"
+          }
+        ],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": true
+      },
+      {
+        "id": "rihdqj",
+        "label": "안건에 대한 의견이 있으면 적어주세요. 총회에서 읽습니다.",
+        "type": "LONG",
+        "options": [],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": false
+      }
+    ],
+    "allowGuest": false,
+    "id": "1008",
+    "createdAt": "2026-09-14T19:20:22.461Z"
+  },
+  {
+    "surveyId": null,
+    "quizId": null,
+    "pollId": "1002",
+    "classId": null,
+    "occasionId": null,
+    "round": 1,
+    "applicationStartDate": "2026-09-13T15:00:00.000Z",
+    "applicationEndDate": "2026-10-04T15:00:00.000Z",
+    "usageStartDate": "2026-09-13T15:00:00.000Z",
+    "usageEndDate": "2026-10-04T15:00:00.000Z",
+    "priceType": "FREE",
+    "price": 0,
+    "maxParticipants": 0,
+    "status": "PUBLISHED",
+    "questions": [
+      {
+        "id": "l833ec",
+        "label": "함께할 협회 세 곳을 골라주세요.",
+        "type": "MULTI",
+        "options": [
+          {
+            "label": "경기북부공예인협회 (수기 명부 400명)",
+            "value": "경기북부공예인협회 (수기 명부 400명)"
+          },
+          {
+            "label": "한국청소년독서문화학회 (엑셀 2파일, 회원 180명)",
+            "value": "한국청소년독서문화학회 (엑셀 2파일, 회원 180명)"
+          },
+          {
+            "label": "전국시니어합창단연합회 (카페 명부, 회원 260명)",
+            "value": "전국시니어합창단연합회 (카페 명부, 회원 260명)"
+          },
+          {
+            "label": "대한도시양봉협회 (회원관리 프로그램 이전, 회원 90명)",
+            "value": "대한도시양봉협회 (회원관리 프로그램 이전, 회원 90명)"
+          },
+          {
+            "label": "한국생활사연구회 (수기 명부 150명)",
+            "value": "한국생활사연구회 (수기 명부 150명)"
+          }
+        ],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": true
+      },
+      {
+        "id": "z2k5ot",
+        "label": "그렇게 고른 이유가 있다면 적어주세요.",
+        "type": "LONG",
+        "options": [],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": false
+      }
+    ],
+    "allowGuest": false,
+    "id": "1009",
+    "createdAt": "2026-09-14T19:20:22.461Z"
+  },
+  {
+    "surveyId": null,
+    "quizId": null,
+    "pollId": "1001",
+    "classId": null,
+    "occasionId": null,
+    "round": 1,
+    "applicationStartDate": "2026-11-13T15:00:00.000Z",
+    "applicationEndDate": "2026-11-20T15:00:00.000Z",
+    "usageStartDate": "2026-11-13T15:00:00.000Z",
+    "usageEndDate": "2026-11-20T15:00:00.000Z",
+    "priceType": "FREE",
+    "price": 0,
+    "maxParticipants": 0,
+    "status": "PREPARING",
+    "questions": [
+      {
+        "id": "tl5hkf",
+        "label": "2027년 대표 후보 중 한 명을 선택해주세요.",
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "기호 1번 후보",
+            "value": "기호 1번 후보"
+          },
+          {
+            "label": "기호 2번 후보",
+            "value": "기호 2번 후보"
+          },
+          {
+            "label": "기권",
+            "value": "기권"
+          }
+        ],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": true
+      },
+      {
+        "id": "4j7us1",
+        "label": "총무 후보 중 한 명을 선택해주세요.",
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "기호 1번 후보",
+            "value": "기호 1번 후보"
+          },
+          {
+            "label": "기호 2번 후보",
+            "value": "기호 2번 후보"
+          },
+          {
+            "label": "기권",
+            "value": "기권"
+          }
+        ],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": true
+      }
+    ],
+    "allowGuest": false,
+    "id": "1010",
+    "createdAt": "2026-09-14T19:20:22.461Z"
+  },
+  {
+    "surveyId": null,
+    "quizId": null,
+    "pollId": null,
+    "classId": "1007",
+    "occasionId": null,
+    "round": 1,
+    "applicationStartDate": "2026-09-13T15:00:00.000Z",
+    "applicationEndDate": "2026-10-28T15:00:00.000Z",
+    "usageStartDate": "2026-09-13T15:00:00.000Z",
+    "usageEndDate": "2026-09-14T15:00:00.000Z",
+    "priceType": "FREE",
+    "price": 0,
+    "maxParticipants": 12,
+    "status": "PUBLISHED",
+    "questions": [
+      {
+        "id": "a9x7hq",
+        "label": "협회 홈페이지가 지금 있습니까?",
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "없다",
+            "value": "없다"
+          },
+          {
+            "label": "있지만 방치됐다",
+            "value": "있지만 방치됐다"
+          },
+          {
+            "label": "카페·블로그로 대신한다",
+            "value": "카페·블로그로 대신한다"
+          },
+          {
+            "label": "있고 관리한다",
+            "value": "있고 관리한다"
+          }
+        ],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": true
+      },
+      {
+        "id": "5he63b",
+        "label": "실습에 쓸 협회 이름을 적어주세요.",
+        "type": "SHORT",
+        "options": [],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": true
+      },
+      {
+        "id": "pp7kiv",
+        "label": "도메인을 갖고 있습니까?",
+        "type": "OX",
+        "options": [],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": true
+      }
+    ],
+    "allowGuest": true,
+    "id": "1011",
+    "createdAt": "2026-09-14T19:20:22.461Z"
+  },
+  {
+    "surveyId": null,
+    "quizId": null,
+    "pollId": null,
+    "classId": "1006",
+    "occasionId": null,
+    "round": 1,
+    "applicationStartDate": "2026-09-13T15:00:00.000Z",
+    "applicationEndDate": "2026-10-19T15:00:00.000Z",
+    "usageStartDate": "2026-09-13T15:00:00.000Z",
+    "usageEndDate": "2026-09-14T15:00:00.000Z",
+    "priceType": "PAID",
+    "price": 30000,
+    "maxParticipants": 20,
+    "status": "PUBLISHED",
+    "questions": [
+      {
+        "id": "pucub0",
+        "label": "AI 도구(챗봇 등)를 업무에 써 본 적이 있습니까?",
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "써 본 적 없다",
+            "value": "써 본 적 없다"
+          },
+          {
+            "label": "몇 번 써 봤다",
+            "value": "몇 번 써 봤다"
+          },
+          {
+            "label": "자주 쓴다",
+            "value": "자주 쓴다"
+          }
+        ],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": true
+      },
+      {
+        "id": "uocgxx",
+        "label": "가장 줄이고 싶은 업무를 모두 골라주세요.",
+        "type": "MULTI",
+        "options": [
+          {
+            "label": "공문·안내문 작성",
+            "value": "공문·안내문 작성"
+          },
+          {
+            "label": "회의록 정리",
+            "value": "회의록 정리"
+          },
+          {
+            "label": "회비 미납 안내",
+            "value": "회비 미납 안내"
+          },
+          {
+            "label": "행사 신청자 정리",
+            "value": "행사 신청자 정리"
+          },
+          {
+            "label": "회원 문의 답장",
+            "value": "회원 문의 답장"
+          }
+        ],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": true
+      },
+      {
+        "id": "x1vj36",
+        "label": "노트북을 가져오십니까?",
+        "type": "OX",
+        "options": [],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": true
+      }
+    ],
+    "allowGuest": true,
+    "id": "1012",
+    "createdAt": "2026-09-14T19:20:22.461Z"
+  },
+  {
+    "surveyId": null,
+    "quizId": null,
+    "pollId": null,
+    "classId": "1005",
+    "occasionId": null,
+    "round": 1,
+    "applicationStartDate": "2026-09-14T15:00:00.000Z",
+    "applicationEndDate": "2026-10-18T15:00:00.000Z",
+    "usageStartDate": "2026-09-14T15:00:00.000Z",
+    "usageEndDate": "2026-09-15T15:00:00.000Z",
+    "priceType": "FREE",
+    "price": 0,
+    "maxParticipants": 40,
+    "status": "PUBLISHED",
+    "questions": [
+      {
+        "id": "r9woop",
+        "label": "협회에 남아 있는 기록물을 모두 골라주세요.",
+        "type": "MULTI",
+        "options": [
+          {
+            "label": "총회 회의록",
+            "value": "총회 회의록"
+          },
+          {
+            "label": "이사회 회의록",
+            "value": "이사회 회의록"
+          },
+          {
+            "label": "옛 회원 가입서",
+            "value": "옛 회원 가입서"
+          },
+          {
+            "label": "회비 대장",
+            "value": "회비 대장"
+          },
+          {
+            "label": "사진·행사 자료",
+            "value": "사진·행사 자료"
+          },
+          {
+            "label": "거의 없음",
+            "value": "거의 없음"
+          }
+        ],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": true
+      },
+      {
+        "id": "rvjrs8",
+        "label": "기록물은 주로 어디에 보관합니까?",
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "사무실 상자·캐비닛",
+            "value": "사무실 상자·캐비닛"
+          },
+          {
+            "label": "임원 개인 집",
+            "value": "임원 개인 집"
+          },
+          {
+            "label": "컴퓨터 파일",
+            "value": "컴퓨터 파일"
+          },
+          {
+            "label": "흩어져 있어 모름",
+            "value": "흩어져 있어 모름"
+          }
+        ],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": true
+      }
+    ],
+    "allowGuest": true,
+    "id": "1013",
+    "createdAt": "2026-09-14T19:20:22.461Z"
+  },
+  {
+    "surveyId": null,
+    "quizId": null,
+    "pollId": null,
+    "classId": "1004",
+    "occasionId": null,
+    "round": 1,
+    "applicationStartDate": "2026-09-11T15:00:00.000Z",
+    "applicationEndDate": "2026-10-11T15:00:00.000Z",
+    "usageStartDate": "2026-09-11T15:00:00.000Z",
+    "usageEndDate": "2026-09-12T15:00:00.000Z",
+    "priceType": "FREE",
+    "price": 0,
+    "maxParticipants": 50,
+    "status": "PUBLISHED",
+    "questions": [
+      {
+        "id": "xog3sv",
+        "label": "협회가 기부금단체로 지정되어 있습니까?",
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "지정되어 있다",
+            "value": "지정되어 있다"
+          },
+          {
+            "label": "지정되어 있지 않다",
+            "value": "지정되어 있지 않다"
+          },
+          {
+            "label": "모른다",
+            "value": "모른다"
+          }
+        ],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": true
+      },
+      {
+        "id": "ts2yym",
+        "label": "회비를 받는 방법을 모두 골라주세요.",
+        "type": "MULTI",
+        "options": [
+          {
+            "label": "계좌 입금",
+            "value": "계좌 입금"
+          },
+          {
+            "label": "자동이체(CMS)",
+            "value": "자동이체(CMS)"
+          },
+          {
+            "label": "카드 결제",
+            "value": "카드 결제"
+          },
+          {
+            "label": "현장 현금",
+            "value": "현장 현금"
+          }
+        ],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": true
+      },
+      {
+        "id": "lna45f",
+        "label": "수업에서 꼭 다뤘으면 하는 상황이 있다면?",
+        "type": "LONG",
+        "options": [],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": false
+      }
+    ],
+    "allowGuest": true,
+    "id": "1014",
+    "createdAt": "2026-09-14T19:20:22.461Z"
+  },
+  {
+    "surveyId": null,
+    "quizId": null,
+    "pollId": null,
+    "classId": "1003",
+    "occasionId": null,
+    "round": 1,
+    "applicationStartDate": "2026-08-31T15:00:00.000Z",
+    "applicationEndDate": "2026-10-08T15:00:00.000Z",
+    "usageStartDate": "2026-08-31T15:00:00.000Z",
+    "usageEndDate": "2026-09-01T15:00:00.000Z",
+    "priceType": "FREE",
+    "price": 0,
+    "maxParticipants": 16,
+    "status": "PUBLISHED",
+    "questions": [
+      {
+        "id": "m6x80b",
+        "label": "협회 정관에 서면·전자 의결 조항이 있습니까?",
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "있다",
+            "value": "있다"
+          },
+          {
+            "label": "없다",
+            "value": "없다"
+          },
+          {
+            "label": "모른다",
+            "value": "모른다"
+          }
+        ],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": true
+      },
+      {
+        "id": "q6u5mc",
+        "label": "실습에 쓸 협회 이름을 적어주세요.",
+        "type": "SHORT",
+        "options": [],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": true
+      }
+    ],
+    "allowGuest": true,
+    "id": "1015",
+    "createdAt": "2026-09-14T19:20:22.461Z"
+  },
+  {
+    "surveyId": null,
+    "quizId": null,
+    "pollId": null,
+    "classId": "1002",
+    "occasionId": null,
+    "round": 1,
+    "applicationStartDate": "2026-08-31T15:00:00.000Z",
+    "applicationEndDate": "2026-09-24T15:00:00.000Z",
+    "usageStartDate": "2026-08-31T15:00:00.000Z",
+    "usageEndDate": "2026-09-01T15:00:00.000Z",
+    "priceType": "FREE",
+    "price": 0,
+    "maxParticipants": 30,
+    "status": "PUBLISHED",
+    "questions": [
+      {
+        "id": "44e85n",
+        "label": "어떤 자격으로 참석하십니까?",
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "모임 회원",
+            "value": "모임 회원"
+          },
+          {
+            "label": "협회 사무국 담당자",
+            "value": "협회 사무국 담당자"
+          },
+          {
+            "label": "비회원",
+            "value": "비회원"
+          }
+        ],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": true
+      },
+      {
+        "id": "mkelt1",
+        "label": "지금 다루고 있거나 다룰 예정인 명부가 있으면 형태를 적어주세요.",
+        "type": "SHORT",
+        "options": [],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": false
+      }
+    ],
+    "allowGuest": true,
+    "id": "1016",
+    "createdAt": "2026-09-14T19:20:22.461Z"
+  },
+  {
+    "surveyId": null,
+    "quizId": null,
+    "pollId": null,
+    "classId": "1001",
+    "occasionId": null,
+    "round": 1,
+    "applicationStartDate": "2026-09-07T15:00:00.000Z",
+    "applicationEndDate": "2026-10-07T15:00:00.000Z",
+    "usageStartDate": "2026-09-07T15:00:00.000Z",
+    "usageEndDate": "2026-11-06T15:00:00.000Z",
+    "priceType": "FREE",
+    "price": 0,
+    "maxParticipants": 25,
+    "status": "PUBLISHED",
+    "questions": [],
+    "allowGuest": false,
+    "id": "1017",
+    "createdAt": "2026-09-14T19:20:22.461Z"
+  },
+  {
+    "surveyId": null,
+    "quizId": null,
+    "pollId": null,
+    "classId": null,
+    "occasionId": "1009",
+    "round": 1,
+    "applicationStartDate": "2026-10-30T15:00:00.000Z",
+    "applicationEndDate": "2026-12-09T15:00:00.000Z",
+    "usageStartDate": "2026-10-30T15:00:00.000Z",
+    "usageEndDate": "2026-10-31T15:00:00.000Z",
+    "priceType": "FREE",
+    "price": 0,
+    "maxParticipants": 50,
+    "status": "PREPARING",
+    "questions": [
+      {
+        "id": "sjq2a9",
+        "label": "참석 유형을 골라주세요.",
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "모임 회원",
+            "value": "모임 회원"
+          },
+          {
+            "label": "협회 사무국",
+            "value": "협회 사무국"
+          },
+          {
+            "label": "초대받은 분",
+            "value": "초대받은 분"
+          }
+        ],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": true
+      },
+      {
+        "id": "qmktos",
+        "label": "함께 오는 인원(본인 포함)을 적어주세요.",
+        "type": "SHORT",
+        "options": [],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": true
+      },
+      {
+        "id": "lr20ye",
+        "label": "못 드시는 음식이 있으면 적어주세요.",
+        "type": "SHORT",
+        "options": [],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": false
+      }
+    ],
+    "allowGuest": true,
+    "id": "1018",
+    "createdAt": "2026-09-14T19:20:22.461Z"
+  },
+  {
+    "surveyId": null,
+    "quizId": null,
+    "pollId": null,
+    "classId": null,
+    "occasionId": "1008",
+    "round": 1,
+    "applicationStartDate": "2026-09-09T15:00:00.000Z",
+    "applicationEndDate": "2026-11-03T15:00:00.000Z",
+    "usageStartDate": "2026-09-09T15:00:00.000Z",
+    "usageEndDate": "2026-09-10T15:00:00.000Z",
+    "priceType": "FREE",
+    "price": 0,
+    "maxParticipants": 24,
+    "status": "PUBLISHED",
+    "questions": [
+      {
+        "id": "f20hdf",
+        "label": "어떤 자격으로 참석하십니까?",
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "모임 회원",
+            "value": "모임 회원"
+          },
+          {
+            "label": "협회 사무국 담당자",
+            "value": "협회 사무국 담당자"
+          },
+          {
+            "label": "협회 운영진",
+            "value": "협회 운영진"
+          },
+          {
+            "label": "비회원",
+            "value": "비회원"
+          }
+        ],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": true
+      },
+      {
+        "id": "5b9qoq",
+        "label": "심폐소생술 교육을 받아 본 적이 있습니까?",
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "없다",
+            "value": "없다"
+          },
+          {
+            "label": "3년 넘었다",
+            "value": "3년 넘었다"
+          },
+          {
+            "label": "3년 안에 받았다",
+            "value": "3년 안에 받았다"
+          }
+        ],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": true
+      },
+      {
+        "id": "9wlnbp",
+        "label": "무릎·허리 등 실습에서 배려가 필요한 점이 있으면 적어주세요.",
+        "type": "SHORT",
+        "options": [],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": false
+      }
+    ],
+    "allowGuest": true,
+    "id": "1019",
+    "createdAt": "2026-09-14T19:20:22.461Z"
+  },
+  {
+    "surveyId": null,
+    "quizId": null,
+    "pollId": null,
+    "classId": null,
+    "occasionId": "1007",
+    "round": 1,
+    "applicationStartDate": "2026-09-12T15:00:00.000Z",
+    "applicationEndDate": "2026-10-27T15:00:00.000Z",
+    "usageStartDate": "2026-09-12T15:00:00.000Z",
+    "usageEndDate": "2026-09-13T15:00:00.000Z",
+    "priceType": "PAID",
+    "price": 10000,
+    "maxParticipants": 40,
+    "status": "PUBLISHED",
+    "questions": [
+      {
+        "id": "mulmvs",
+        "label": "어떤 자격으로 참석하십니까?",
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "협회 사무국 실무자",
+            "value": "협회 사무국 실무자"
+          },
+          {
+            "label": "모임 회원 (테이블 진행 가능)",
+            "value": "모임 회원 (테이블 진행 가능)"
+          },
+          {
+            "label": "모임 회원 (참석만)",
+            "value": "모임 회원 (참석만)"
+          },
+          {
+            "label": "기타",
+            "value": "기타"
+          }
+        ],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": true
+      },
+      {
+        "id": "rxnq03",
+        "label": "소속 협회와 회원 규모를 적어주세요.",
+        "type": "SHORT",
+        "options": [],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": false
+      },
+      {
+        "id": "pnsh1a",
+        "label": "앉고 싶은 테이블을 모두 골라주세요.",
+        "type": "MULTI",
+        "options": [
+          {
+            "label": "명부",
+            "value": "명부"
+          },
+          {
+            "label": "회비",
+            "value": "회비"
+          },
+          {
+            "label": "총회",
+            "value": "총회"
+          },
+          {
+            "label": "홈페이지",
+            "value": "홈페이지"
+          }
+        ],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": true
+      },
+      {
+        "id": "bsr4za",
+        "label": "다른 협회에 묻고 싶은 것이 있다면 적어주세요.",
+        "type": "LONG",
+        "options": [],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": false
+      }
+    ],
+    "allowGuest": true,
+    "id": "1020",
+    "createdAt": "2026-09-14T19:20:22.461Z"
+  },
+  {
+    "surveyId": null,
+    "quizId": null,
+    "pollId": null,
+    "classId": null,
+    "occasionId": "1006",
+    "round": 1,
+    "applicationStartDate": "2026-09-02T15:00:00.000Z",
+    "applicationEndDate": "2026-09-10T15:00:00.000Z",
+    "usageStartDate": "2026-09-02T15:00:00.000Z",
+    "usageEndDate": "2026-09-03T15:00:00.000Z",
+    "priceType": "FREE",
+    "price": 0,
+    "maxParticipants": 4,
+    "status": "PUBLISHED",
+    "questions": [
+      {
+        "id": "a2v2l8",
+        "label": "개인정보 취급자 교육 이수 평가를 통과하셨습니까?",
+        "type": "OX",
+        "options": [],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": true
+      },
+      {
+        "id": "qj8li3",
+        "label": "현장에서 맡고 싶은 일을 골라주세요.",
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "장부 항목 기록",
+            "value": "장부 항목 기록"
+          },
+          {
+            "label": "사무국 인터뷰 기록",
+            "value": "사무국 인터뷰 기록"
+          },
+          {
+            "label": "어느 쪽이든",
+            "value": "어느 쪽이든"
+          }
+        ],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": true
+      },
+      {
+        "id": "hq9mcp",
+        "label": "의정부역 집결 차량에 동승하십니까?",
+        "type": "OX",
+        "options": [],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": true
+      }
+    ],
+    "allowGuest": false,
+    "id": "1021",
+    "createdAt": "2026-09-14T19:20:22.461Z"
+  },
+  {
+    "surveyId": null,
+    "quizId": null,
+    "pollId": null,
+    "classId": null,
+    "occasionId": "1005",
+    "round": 1,
+    "applicationStartDate": "2026-08-30T15:00:00.000Z",
+    "applicationEndDate": "2026-09-19T15:00:00.000Z",
+    "usageStartDate": "2026-08-30T15:00:00.000Z",
+    "usageEndDate": "2026-08-31T15:00:00.000Z",
+    "priceType": "FREE",
+    "price": 0,
+    "maxParticipants": 26,
+    "status": "PUBLISHED",
+    "questions": [
+      {
+        "id": "ra27j9",
+        "label": "가입 경로를 알려주세요.",
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "지인 소개",
+            "value": "지인 소개"
+          },
+          {
+            "label": "모임 홈페이지",
+            "value": "모임 홈페이지"
+          },
+          {
+            "label": "지원받은 협회",
+            "value": "지원받은 협회"
+          },
+          {
+            "label": "정기 모임 참석",
+            "value": "정기 모임 참석"
+          },
+          {
+            "label": "기타",
+            "value": "기타"
+          }
+        ],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": true
+      }
+    ],
+    "allowGuest": false,
+    "id": "1022",
+    "createdAt": "2026-09-14T19:20:22.461Z"
+  },
+  {
+    "surveyId": null,
+    "quizId": null,
+    "pollId": null,
+    "classId": null,
+    "occasionId": "1004",
+    "round": 1,
+    "applicationStartDate": "2026-08-31T15:00:00.000Z",
+    "applicationEndDate": "2026-09-29T15:00:00.000Z",
+    "usageStartDate": "2026-08-31T15:00:00.000Z",
+    "usageEndDate": "2026-09-01T15:00:00.000Z",
+    "priceType": "FREE",
+    "price": 0,
+    "maxParticipants": 24,
+    "status": "PUBLISHED",
+    "questions": [
+      {
+        "id": "dpumqv",
+        "label": "어떤 자격으로 참석하십니까?",
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "모임 회원",
+            "value": "모임 회원"
+          },
+          {
+            "label": "협회 사무국 담당자",
+            "value": "협회 사무국 담당자"
+          },
+          {
+            "label": "비회원",
+            "value": "비회원"
+          }
+        ],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": true
+      }
+    ],
+    "allowGuest": true,
+    "id": "1023",
+    "createdAt": "2026-09-14T19:20:22.461Z"
+  },
+  {
+    "surveyId": null,
+    "quizId": null,
+    "pollId": null,
+    "classId": null,
+    "occasionId": "1003",
+    "round": 1,
+    "applicationStartDate": "2026-09-07T15:00:00.000Z",
+    "applicationEndDate": "2026-10-07T15:00:00.000Z",
+    "usageStartDate": "2026-09-07T15:00:00.000Z",
+    "usageEndDate": "2026-11-06T15:00:00.000Z",
+    "priceType": "FREE",
+    "price": 0,
+    "maxParticipants": 25,
+    "status": "PUBLISHED",
+    "questions": [],
+    "allowGuest": false,
+    "id": "1024",
+    "createdAt": "2026-09-14T19:20:22.461Z"
+  },
+  {
+    "surveyId": null,
+    "quizId": null,
+    "pollId": null,
+    "classId": null,
+    "occasionId": "1002",
+    "round": 1,
+    "applicationStartDate": "2026-09-07T15:00:00.000Z",
+    "applicationEndDate": "2026-10-07T15:00:00.000Z",
+    "usageStartDate": "2026-09-07T15:00:00.000Z",
+    "usageEndDate": "2026-11-06T15:00:00.000Z",
+    "priceType": "FREE",
+    "price": 0,
+    "maxParticipants": 25,
+    "status": "PUBLISHED",
+    "questions": [],
+    "allowGuest": false,
+    "id": "1025",
+    "createdAt": "2026-09-14T19:20:22.461Z"
+  },
+  {
+    "surveyId": null,
+    "quizId": null,
+    "pollId": null,
+    "classId": null,
+    "occasionId": "1001",
+    "round": 1,
+    "applicationStartDate": "2026-09-07T15:00:00.000Z",
+    "applicationEndDate": "2026-11-26T15:00:00.000Z",
+    "usageStartDate": "2026-09-07T15:00:00.000Z",
+    "usageEndDate": "2026-09-08T15:00:00.000Z",
+    "priceType": "FREE",
+    "price": 0,
+    "maxParticipants": 80,
+    "status": "PUBLISHED",
+    "questions": [
+      {
+        "id": "qkk6bk",
+        "label": "참석 유형을 골라주세요.",
+        "type": "SINGLE",
+        "options": [
+          {
+            "label": "정회원 (총회 의결)",
+            "value": "정회원 (총회 의결)"
+          },
+          {
+            "label": "준회원",
+            "value": "준회원"
+          },
+          {
+            "label": "협회 담당자 (오후 발표부터)",
+            "value": "협회 담당자 (오후 발표부터)"
+          }
+        ],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": true
+      },
+      {
+        "id": "z0qlfn",
+        "label": "소속 협회가 있으면 적어주세요.",
+        "type": "SHORT",
+        "options": [],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": false
+      },
+      {
+        "id": "q2s8qj",
+        "label": "저녁 식사에 참석하십니까?",
+        "type": "OX",
+        "options": [],
+        "answerKey": null,
+        "score": 0,
+        "isRequired": true
+      }
+    ],
+    "allowGuest": true,
+    "id": "1026",
+    "createdAt": "2026-09-14T19:20:22.461Z"
+  }
+]

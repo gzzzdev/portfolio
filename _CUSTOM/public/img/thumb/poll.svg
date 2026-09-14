@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-label="투표">
+  <rect width="800" height="450" fill="#86868b" fill-opacity=".09"/>
+  <g fill="none" stroke="#86868b" stroke-width="22" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="rotate(-10 400 152)">
+      <rect x="338" y="82" width="124" height="128" rx="18"/>
+      <path d="M366 142l22 24 46-52"/>
+    </g>
+    <rect x="272" y="226" width="256" height="140" rx="28"/>
+    <path d="M344 262h112"/>
+  </g>
+</svg>
